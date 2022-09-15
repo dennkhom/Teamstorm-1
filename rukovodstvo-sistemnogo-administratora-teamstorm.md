@@ -51,12 +51,12 @@ firewall-cmd --reload
 
 #### **Автономная установка**
 
-Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker образы с публичных репозиториев. Распакуйте содержимое архива автономной установки, например, в папку `~/testit`.
+Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker образы с публичных репозиториев. Распакуйте содержимое архива автономной установки, например, в папку `~/teamstorm`.
 
 Если вы используете версию Docker Compose 1.20.0 и выше, выполните следующие команды:
 
 ```
-cd ~/testit
+cd ~/teamstorm
 docker load -i images.tar.gz
 docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120
 ```
@@ -64,7 +64,7 @@ docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 1
 Если вы используете версию Docker Compose 1.17.0-1.19.0, выполните следующие команды:
 
 ```
-cd ~/testit
+cd ~/teamstorm
 docker load -i images.tar.gz
 docker-compose -f docker-compose.yml --project-name prod up -d
 ```
@@ -101,27 +101,26 @@ docker-compose -f docker-compose.yml --project-name prod down --volumes --timeou
 
 ### Описание .env файла
 
-Репозиторий для скачивания образов установки Test IT:
+Репозиторий для скачивания образов установки Teamstorm:
 
-DOCKER\_REGISTRY=registry.testit.software/testit
+`DOCKER_REGISTRY=registry.testit.software/teamstorm`
 
 Текущая версия программы:
 
-CONTAINER\_VERSION=3.0.0
+`CONTAINER_VERSION=3.0.0`
 
-Адрес Test IT, используется в качестве обратной ссылки. Вам необходимо задать эту переменную, если вы разворачиваете Frontend и Backend на разных серверах
+Адрес TeamStorm используется в качестве обратной ссылки. Вам необходимо задать эту переменную, если вы разворачиваете Frontend и Backend на разных серверах
 
-FRONTEND\_URL=http://localhost
+`FRONTEND_URL=http://localhost`
 
 Сертификат для настройки HTTPS, ключ для настройки HTTPS, true - редирект HTTP на HTTPS:
 
-\## internal certificate path
-
-\#SSL\_CERTIFICATE=/etc/nginx/ssl/testit.crt
-
-\#SSL\_CERTIFICATE\_KEY=/etc/nginx/ssl/testit.key
-
-\#REDIRECT\_TO\_HTTPS=true
+```
+## internal certificate path
+#SSL_CERTIFICATE=/etc/nginx/ssl/testit.crt
+#SSL_CERTIFICATE_KEY=/etc/nginx/ssl/testit.key
+#REDIRECT_TO_HTTPS=true
+```
 
 Принудительное отключение проверки сертификата для внешнего сервиса через ";" можно указывать несколько сервисов:
 
