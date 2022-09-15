@@ -356,7 +356,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
     CREATE EXTENSION if not exists "uuid-ossp" SCHEMA public;
     ```
 
-Для остальных БД (authdb, avatarsdb) нужно выполнить скрипт, приведенный ниже, подставив название БД вместо testitdb:  
+1. Для остальных БД (authdb, avatarsdb) нужно выполнить скрипт, приведенный ниже, подставив название БД вместо testitdb:  
 
     ```
     create database authdb;
