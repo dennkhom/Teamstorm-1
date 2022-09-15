@@ -73,29 +73,31 @@ docker-compose -f docker-compose.yml --project-name prod up -d
 
 Скачайте файлы online-установки. Распакуйте содержимое архива online-установки, например, в папку `~/teamstorm`. Если вы используете версию Docker Compose 1.20.0 и выше, выполните следующие команды:
 
-cd \~/testit
-
+```
+cd ~/teamstorm
 docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120
-
 Если вы используете версию Docker Compose 1.17.0-1.19.0, выполните следующие команды:
-
-cd \~/testit
-
+cd ~/teamstorm
 docker-compose -f docker-compose.yml --project-name prod up -d
+```
 
 #### **Перезапуск системы**
 
 Для перезапуска системы воспользуйтесь следующей командой:
 
+```
 docker-compose -f docker-compose.yml --project-name prod restart --timeout 120
+```
 
 #### **Полная очистка данных**
 
 Для полного удаления системы и ее данных необходимо выполнить следующую команду:
 
+```
 docker-compose -f docker-compose.yml --project-name prod down --volumes --timeout 120
+```
 
-Чтобы сохранить информацию из Test IT для последующего использования, выполните команду без флага --volumes.
+Чтобы сохранить информацию  для последующего использования, выполните команду без флага `--volumes`.
 
 ### Описание .env файла
 
