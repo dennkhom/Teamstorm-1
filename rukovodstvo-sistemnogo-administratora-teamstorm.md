@@ -28,7 +28,7 @@ Docker Compose 1.17.0 и выше
 #### **Подготовка**
 
 1. Измените дефолтные значения переменных в .env-файле.
-2. Задайте параметры `vm.max_map_count=262144` и `vm.overcommit_memory=1`:  
+2.  Задайте параметры `vm.max_map_count=262144` и `vm.overcommit_memory=1`:
 
     ```
     echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
@@ -36,7 +36,7 @@ Docker Compose 1.17.0 и выше
     sysctl -p
     ```
 3. Заблокируйте все порты, кроме порта 80, необходимого для доступа к пользовательскому интерфейсу.
-4. **Опционально:** для обслуживания системы посредством протокола SSH, необходимо открыть порт 22 (может быть переназначено на конкретной конфигурации). Для работы по HTTPS необходимо открыть порт 443. Пример открытия доступа к портам для CentOS 7:  
+4.  **Опционально:** для обслуживания системы посредством протокола SSH, необходимо открыть порт 22 (может быть переназначено на конкретной конфигурации). Для работы по HTTPS необходимо открыть порт 443. Пример открытия доступа к портам для CentOS 7:
 
     ```
     firewall-cmd --zone=public --add-port=80/tcp --permanent
@@ -94,7 +94,7 @@ docker-compose -f docker-compose.yml --project-name prod restart --timeout 120
 docker-compose -f docker-compose.yml --project-name prod down --volumes --timeout 120
 ```
 
-Чтобы сохранить информацию  для последующего использования, выполните команду без флага `--volumes`.
+Чтобы сохранить информацию для последующего использования, выполните команду без флага `--volumes`.
 
 ### Описание .env файла
 
@@ -130,7 +130,7 @@ AWS_ACCESS_KEY=testitAccessKey
 AWS_SECRET_KEY=testitSecretKey
 ```
 
-Ключи доступа к хранилищу "avatars" в Test IT (minio):
+Ключи доступа к хранилищу "avatars" в TeamStorm (minio):
 
 ```
 AVATARS_AWS_ACCESS_KEY=avatarsAccessKey
@@ -156,7 +156,7 @@ RABBITMQ_CLIENT_CERT_PATH=/etc/rabbitmq/ssl/client/testit.pfx
 DB_CONNECTION_STRING=Host=db;Port=5432;Database=testitdb;Username=postgres;Password=F1rstL0g0N!;Pooling=true;Maximum Pool Size=130
 ```
 
-Данные для создания базы данных, пользователя и пароля в  поставке по умолчанию:
+Данные для создания базы данных, пользователя и пароля в поставке по умолчанию:
 
 ```
 DB_CONNECTION_STRING=Host=db;Port=5432;Database=testitdb;Username=postgres;Password=F1rstL0g0N!;Pooling=true;Maximum Pool Size=130
@@ -226,7 +226,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 
 Версия внешнего сервиса должна совпадать с версией, указанной в файле `docker-compose.yml`.
 
-1. Укажите в файле .env для следующих параметров значения, установленные вами при настройке RabbitMQ (ниже указаны значения по умолчанию):  
+1.  Укажите в файле `.env` для следующих параметров значения, установленные вами при настройке RabbitMQ (ниже указаны значения по умолчанию):
 
     ```
     RABBITMQ_DEFAULT_USER=testit
@@ -238,9 +238,8 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
     RABBITMQ_CLIENT_CERT_PATH=/etc/rabbitmq/ssl/client/testit.pfx
     #RABBITMQ_CLIENT_CERT_PASSPHRASE=
     ```
-    
 2. В файле `docker-compose.yml` закомментируйте секцию с сервисом rabbitmq зависимости от него других контейнеров (все упоминания rabbitmq в блоках `depends_on`) и `rabbit-volume`, `rabbitmq-configuration-volume`, `rabbitmq-certificates-volume` в списке `volumes`.
-3. Перезапустите систему:
+3.  Перезапустите систему:
 
     `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
@@ -250,16 +249,15 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 Версия внешнего сервиса должна совпадать с версией, указанной в файле `docker-compose.yml`.
 {% endhint %}
 
-1. При настройке стека ELK укажите в .env файле следующие параметры соответственно вашей конфигурации:  
+1.  При настройке стека ELK укажите в .env файле следующие параметры соответственно вашей конфигурации:
 
     ```
     ELASTICSEARCH_CONNECTION_STRING=http://external-server:9200 (где external-server - ip-адрес или DNS-имя вашего сервера с Elasticsearch)
     ELASTICSEARCH_INDEX= (заданное вами имя индекса для TeamStorm)
     ELASTICSEARCH_LOGS_INDEX= (заданное вами имя индекса логов)
     ```
-    
 2. В файле `docker-compose.yml` закомментируйте секции с сервисами Elasticsearch, Logstash, Kibana зависимости от него других контейнеров (все упоминания elasticsearch, logstash, kibana в блоках depends\_on) и elastic-volume в списке volumes.
-3. Перезапустите систему:
+3.  Перезапустите систему:
 
     `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
@@ -271,7 +269,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 
 1. Создайте два бакета. Например, bucket1 на замену сервису minio и bucket2 на замену сервису avatars.minio.
 2. Для каждого из бакетов создайте пару Access Key и Secret Key.
-3. В .env файле:  
+3.  В .env файле:
 
     * Для сервиса minio установите следующие значения переменных:
 
@@ -289,17 +287,14 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
     AVATARS_AWS_SECRET_KEY: (Secret Key, установленный для bucket2)
     AVATARS_AWS_CONNECTION_STRING: http://external-server:9000
     ```
-
-1. Добавьте для сервиса avatars.minio следующую переменную: 
+4.  Добавьте для сервиса avatars.minio следующую переменную:
 
     `AVATARS_FILE_BUCKET_NAME: (в данном примере, bucket2)`
-
-1. Добавьте в файл `docker-compose.yml` в секции `avatars.api` в разделе `environment` следующую строку:  
+5.  Добавьте в файл `docker-compose.yml` в секции `avatars.api` в разделе `environment` следующую строку:
 
     `AWSS3Server__FileBucketName: “${AVATARS_FILE_BUCKET_NAME}”`
-
-1. В файле `docker-compose.yml` закомментируйте секцию с сервисами minio и avatars.minio, зависимости от них других контейнеров (все упоминания сервисов в блоках `depends_on`), и их вольюмы (`minio-export-volume` и `minio-data-volume`) в списке volumes.
-2. Перезапустите систему:
+6. В файле `docker-compose.yml` закомментируйте секцию с сервисами minio и avatars.minio, зависимости от них других контейнеров (все упоминания сервисов в блоках `depends_on`), и их вольюмы (`minio-export-volume` и `minio-data-volume`) в списке volumes.
+7.  Перезапустите систему:
 
     `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
@@ -310,9 +305,9 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 {% endhint %}
 
 1. При настройке внешней базы данных Redis установите параметр `appendonly yes`
-1. В файле `docker-compose.yml` закомментируйте или удалите секцию с сервисом БД (auth\_cache), который будет заменен на внешний сервис, зависимости от него других контейнеров (все упоминания сервиса БД в блоках `depends_on`), и его вольюм (`auth-cache-volume`) в списке `volumes` в файле `docker-compose.yml`.
-2. В `.env` файле укажите данные для подключения к внешней БД, где external-server - IP или DNS-имя хоста, на котором установлен Redis (без указания протокола и порта): `AUTH_CACHE_CONNECTION_STRING=external-server`
-4. Перезапустите систему:
+2. В файле `docker-compose.yml` закомментируйте или удалите секцию с сервисом БД (auth\_cache), который будет заменен на внешний сервис, зависимости от него других контейнеров (все упоминания сервиса БД в блоках `depends_on`), и его вольюм (`auth-cache-volume`) в списке `volumes` в файле `docker-compose.yml`.
+3. В `.env` файле укажите данные для подключения к внешней БД, где external-server - IP или DNS-имя хоста, на котором установлен Redis (без указания протокола и порта): `AUTH_CACHE_CONNECTION_STRING=external-server`
+4.  Перезапустите систему:
 
     `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
@@ -322,19 +317,17 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 Версия внешнего сервиса должна совпадать с версией, указанной в файле `docker-compose.yml`.
 {% endhint %}
 
-1. При настройке внешней базы данных InfluxDB установите следующие параметры:  
+1.  При настройке внешней базы данных InfluxDB установите следующие параметры:
 
     ```
     max-series-per-database = 0
     max-values-per-tag = 0
     ```
-
-1. Закомментируйте или удалите секцию с сервисом БД (influxdb), который будет заменен на внешний сервис, зависимости от него других контейнеров (все упоминания сервиса БД в блоках `depends_on`), и его вольюм (`influx-volume`) в списке volumes в файле `docker-compose.yml`.
-2. В .env файле укажите данные для подключения к внешней БД, где external-server - IP-адрес или DNS-имя вашего сервера с InfluxDB.  
+2. Закомментируйте или удалите секцию с сервисом БД (influxdb), который будет заменен на внешний сервис, зависимости от него других контейнеров (все упоминания сервиса БД в блоках `depends_on`), и его вольюм (`influx-volume`) в списке volumes в файле `docker-compose.yml`.
+3.  В .env файле укажите данные для подключения к внешней БД, где external-server - IP-адрес или DNS-имя вашего сервера с InfluxDB.
 
     `INFLUX_CONNECTION_STRING=http://external-server:8086`
-
-1. Перезапустите систему:
+4.  Перезапустите систему:
 
     `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
@@ -344,7 +337,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 Версия внешнего сервиса должна совпадать с версией, указанной в файле `docker-compose.yml`.
 {% endhint %}
 
-1. Подготовьте внешнюю БД (PostgreSQL) для каждого сервиса (имена баз данных: testitdb, authdb, avatarsdb):  
+1.  Подготовьте внешнюю БД (PostgreSQL) для каждого сервиса (имена баз данных: testitdb, authdb, avatarsdb):
 
     ```
     yum install postgresql-contrib
@@ -355,8 +348,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
     \connect testitdb;
     CREATE EXTENSION if not exists "uuid-ossp" SCHEMA public;
     ```
-
-1. Для остальных БД (authdb, avatarsdb) нужно выполнить скрипт, приведенный ниже, подставив название БД вместо testitdb:  
+2.  Для остальных БД (authdb, avatarsdb) нужно выполнить скрипт, приведенный ниже, подставив название БД вместо testitdb:
 
     ```
     create database authdb;
@@ -368,10 +360,8 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
     \connect avatarsdb;
     CREATE EXTENSION if not exists "uuid-ossp" SCHEMA public;
     ```
-
-1. Закомментируйте или удалите секцию с сервисом БД (authdb, avatars.db, db), который будет заменен на внешний сервис, зависимости от него других контейнеров (все упоминания сервиса БД в блоках `depends_on`), и его вольюмы (`authdb-volume`, `db-volume`, `avatars.db-volume`) в списке volumes в файле `docker-compose.yml`.
-
-1. В `.env` файле укажите данные для подключения к внешней БД. (ip-external server/dns-name, port, login, password). В Host можно указать отдельные СУБД или одну и ту же СУБД для каждой БД.  
+3. Закомментируйте или удалите секцию с сервисом БД (authdb, avatars.db, db), который будет заменен на внешний сервис, зависимости от него других контейнеров (все упоминания сервиса БД в блоках `depends_on`), и его вольюмы (`authdb-volume`, `db-volume`, `avatars.db-volume`) в списке volumes в файле `docker-compose.yml`.
+4.  В `.env` файле укажите данные для подключения к внешней БД. (ip-external server/dns-name, port, login, password). В Host можно указать отдельные СУБД или одну и ту же СУБД для каждой БД.
 
     ```
     DB_CONNECTION_STRING=Host=external_server1;Port=5432;Database=testitdb;Username=tester;Password=tester;Pooling=true;Maximum Pool Size=130
@@ -389,8 +379,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
     #POSTGRES_AVATARS_USER=postgres
     #POSTGRES_AVATARS_PASSWORD=F1rstL0g0N!
     ```
-
-1. Выполните установку TeamStorm:
+5.  Выполните установку TeamStorm:
 
     `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120`
 
@@ -493,7 +482,7 @@ cp docker-compose.yml docker-compose.yml.bak # резервная копия
 cp docker-compose.elk.yml docker-compose.yml
 ```
 
-&#x20;2\. Выполните шаги из разделов "Установка, перезапуск и удаление в Docker Compose" или "Обновление ПО".
+2\. Выполните шаги из разделов "Установка, перезапуск и удаление в Docker Compose" или "Обновление ПО".
 
 ## Настройка HTTPS
 
