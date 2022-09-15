@@ -285,18 +285,18 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
     * Для сервиса avatars.minio установите следующие значения переменных:
 
     ```
-AVATARS_AWS_ACCESS_KEY: (Access key, установленный для bucket2)
-AVATARS_AWS_SECRET_KEY: (Secret Key, установленный для bucket2)
-AVATARS_AWS_CONNECTION_STRING: http://external-server:9000
+    AVATARS_AWS_ACCESS_KEY: (Access key, установленный для bucket2)
+    AVATARS_AWS_SECRET_KEY: (Secret Key, установленный для bucket2)
+    AVATARS_AWS_CONNECTION_STRING: http://external-server:9000
     ```
 
-1. Добавьте для сервиса avatars.minio следующую переменную:
+1. Добавьте для сервиса avatars.minio следующую переменную: 
 
-`AVATARS_FILE_BUCKET_NAME: (в данном примере, bucket2)`
+    `AVATARS_FILE_BUCKET_NAME: (в данном примере, bucket2)`
 
-1. Добавьте в файл `docker-compose.yml` в секции `avatars.api` в разделе `environment` следующую строку:
+1. Добавьте в файл `docker-compose.yml` в секции `avatars.api` в разделе `environment` следующую строку:  
 
-`AWSS3Server__FileBucketName: “${AVATARS_FILE_BUCKET_NAME}”`
+    `AWSS3Server__FileBucketName: “${AVATARS_FILE_BUCKET_NAME}”`
 
 1. В файле `docker-compose.yml` закомментируйте секцию с сервисами minio и avatars.minio, зависимости от них других контейнеров (все упоминания сервисов в блоках `depends_on`), и их вольюмы (`minio-export-volume` и `minio-data-volume`) в списке volumes.
 2. Перезапустите систему:
