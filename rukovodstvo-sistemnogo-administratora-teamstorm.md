@@ -309,13 +309,10 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 Версия внешнего сервиса должна совпадать с версией, указанной в файле `docker-compose.yml`.
 {% endhint %}
 
-1. При настройке внешней базы данных Redis установите следующий параметр:
-
-`appendonly yes`
-
+1. При настройке внешней базы данных Redis установите параметр `appendonly yes`
 1. В файле `docker-compose.yml` закомментируйте или удалите секцию с сервисом БД (auth\_cache), который будет заменен на внешний сервис, зависимости от него других контейнеров (все упоминания сервиса БД в блоках `depends_on`), и его вольюм (`auth-cache-volume`) в списке `volumes` в файле `docker-compose.yml`.
-2. В `.env` файле укажите данные для подключения к внешней БД, где external-server - IP или DNS-имя хоста, на котором установлен Redis (без указания протокола и порта). `AUTH_CACHE_CONNECTION_STRING=external-server`
-3. Перезапустите систему:
+2. В `.env` файле укажите данные для подключения к внешней БД, где external-server - IP или DNS-имя хоста, на котором установлен Redis (без указания протокола и порта): `AUTH_CACHE_CONNECTION_STRING=external-server`
+4. Перезапустите систему:
 
 `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
