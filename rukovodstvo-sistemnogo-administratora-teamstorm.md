@@ -29,11 +29,11 @@ Docker Compose 1.17.0 и выше
 
 1. Измените дефолтные значения переменных в .env-файле
 2. Задайте параметры `vm.max_map_count=262144` и `vm.overcommit_memory=1`:
-
-     ```echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
-        echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
-        sysctl -p```
-   
+```
+echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
+echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
+sysctl -p
+```
 4. Заблокируйте все порты, кроме порта 80, необходимого для доступа к пользовательскому интерфейсу.
 
 **Опционально:** для обслуживания системы посредством протокола SSH, необходимо открыть порт 22 (может быть переназначено на конкретной конфигурации). Для работы по HTTPS необходимо открыть порт 443. Пример открытия доступа к портам для CentOS 7:
