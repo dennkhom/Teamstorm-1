@@ -257,6 +257,7 @@ ELASTICSEARCH_CONNECTION_STRING=http://external-server:9200 (где external-ser
 ELASTICSEARCH_INDEX= (заданное вами имя индекса для TeamStorm)
 ELASTICSEARCH_LOGS_INDEX= (заданное вами имя индекса логов)
     ```
+    
 2. В файле `docker-compose.yml` закомментируйте секции с сервисами Elasticsearch, Logstash, Kibana зависимости от него других контейнеров (все упоминания elasticsearch, logstash, kibana в блоках depends\_on) и elastic-volume в списке volumes.
 3. Перезапустите систему:
 
