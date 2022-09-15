@@ -31,8 +31,8 @@ Docker Compose 1.17.0 и выше
 2. Задайте параметры `vm.max_map_count=262144` и `vm.overcommit_memory=1`:
 
      ```echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
-    echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
-   sysctl -p```
+        echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
+        sysctl -p```
    
 4. Заблокируйте все порты, кроме порта 80, необходимого для доступа к пользовательскому интерфейсу.
 
