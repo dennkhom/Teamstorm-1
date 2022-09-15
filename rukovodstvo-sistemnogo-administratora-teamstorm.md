@@ -51,23 +51,23 @@ firewall-cmd --reload
 
 #### **Автономная установка**
 
-Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker образы с публичных репозиториев. Распакуйте содержимое архива автономной установки, например, в папку \~/testit.
+Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker образы с публичных репозиториев. Распакуйте содержимое архива автономной установки, например, в папку `~/testit`.
 
 Если вы используете версию Docker Compose 1.20.0 и выше, выполните следующие команды:
 
-cd \~/testit
-
+```
+cd ~/testit
 docker load -i images.tar.gz
-
 docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120
+```
 
 Если вы используете версию Docker Compose 1.17.0-1.19.0, выполните следующие команды:
 
-cd \~/testit
-
+```
+cd ~/testit
 docker load -i images.tar.gz
-
 docker-compose -f docker-compose.yml --project-name prod up -d
+```
 
 #### **Online-установка**
 
