@@ -322,17 +322,17 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 Версия внешнего сервиса должна совпадать с версией, указанной в файле `docker-compose.yml`.
 {% endhint %}
 
-1. При настройке внешней базы данных InfluxDB установите следующие параметры:
+1. При настройке внешней базы данных InfluxDB установите следующие параметры:  
 
-```
-max-series-per-database = 0
-max-values-per-tag = 0
-```
+    ```
+    max-series-per-database = 0
+    max-values-per-tag = 0
+    ```
 
 1. Закомментируйте или удалите секцию с сервисом БД (influxdb), который будет заменен на внешний сервис, зависимости от него других контейнеров (все упоминания сервиса БД в блоках `depends_on`), и его вольюм (`influx-volume`) в списке volumes в файле `docker-compose.yml`.
-2. В .env файле укажите данные для подключения к внешней БД, где external-server - IP-адрес или DNS-имя вашего сервера с InfluxDB.
+2. В .env файле укажите данные для подключения к внешней БД, где external-server - IP-адрес или DNS-имя вашего сервера с InfluxDB.  
 
-`INFLUX_CONNECTION_STRING=http://external-server:8086`
+    `INFLUX_CONNECTION_STRING=http://external-server:8086`
 
 1. Перезапустите систему:
 
