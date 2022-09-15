@@ -344,53 +344,53 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 Версия внешнего сервиса должна совпадать с версией, указанной в файле `docker-compose.yml`.
 {% endhint %}
 
-Подготовьте внешнюю БД (PostgreSQL) для каждого сервиса (имена баз данных: testitdb, authdb, avatarsdb):
+1. Подготовьте внешнюю БД (PostgreSQL) для каждого сервиса (имена баз данных: testitdb, authdb, avatarsdb):  
 
-```
-yum install postgresql-contrib
-psql -U postgres
-create database testitdb;
-create user tester with encrypted password 'tester';
-grant all privileges on database testitdb to tester;
-\connect testitdb;
-CREATE EXTENSION if not exists "uuid-ossp" SCHEMA public;
-```
+    ```
+    yum install postgresql-contrib
+    psql -U postgres
+    create database testitdb;
+    create user tester with encrypted password 'tester';
+    grant all privileges on database testitdb to tester;
+    \connect testitdb;
+    CREATE EXTENSION if not exists "uuid-ossp" SCHEMA public;
+    ```
 
-Для остальных БД (authdb, avatarsdb) нужно выполнить скрипт ниже подставив название БД вместо testitdb:
+Для остальных БД (authdb, avatarsdb) нужно выполнить скрипт, приведенный ниже, подставив название БД вместо testitdb:  
 
-```
-create database authdb;
-grant all privileges on database authdb to tester;
-\connect authdb;
-CREATE EXTENSION if not exists "uuid-ossp" SCHEMA public;
-create database avatarsdb;
-grant all privileges on database avatarsdb to tester;
-\connect avatarsdb;
-CREATE EXTENSION if not exists "uuid-ossp" SCHEMA public;
-```
+    ```
+    create database authdb;
+    grant all privileges on database authdb to tester;
+    \connect authdb;
+    CREATE EXTENSION if not exists "uuid-ossp" SCHEMA public;
+    create database avatarsdb;
+    grant all privileges on database avatarsdb to tester;
+    \connect avatarsdb;
+    CREATE EXTENSION if not exists "uuid-ossp" SCHEMA public;
+    ```
 
-Закомментируйте или удалите секцию с сервисом БД (authdb, avatars.db, db), который будет заменен на внешний сервис, зависимости от него других контейнеров (все упоминания сервиса БД в блоках `depends_on`), и его вольюмы (`authdb-volume`, `db-volume`, `avatars.db-volume`) в списке volumes в файле `docker-compose.yml`.
+1. Закомментируйте или удалите секцию с сервисом БД (authdb, avatars.db, db), который будет заменен на внешний сервис, зависимости от него других контейнеров (все упоминания сервиса БД в блоках `depends_on`), и его вольюмы (`authdb-volume`, `db-volume`, `avatars.db-volume`) в списке volumes в файле `docker-compose.yml`.
 
-В `.env` файле укажите данные для подключения к внешней БД. (ip-external server/dns-name, port, login, password). В Host можно указать отдельные СУБД или одну и ту же СУБД для каждой БД.
+1. В `.env` файле укажите данные для подключения к внешней БД. (ip-external server/dns-name, port, login, password). В Host можно указать отдельные СУБД или одну и ту же СУБД для каждой БД.  
 
-```
-DB_CONNECTION_STRING=Host=external_server1;Port=5432;Database=testitdb;Username=tester;Password=tester;Pooling=true;Maximum Pool Size=130
-#POSTGRES_DB=testitdb
-#POSTGRES_USER=postgres
-#POSTGRES_PASSWORD=F1rstL0g0N!
-...
-AUTH_CONNECTION_STRING=Host=external_server2;Port=5432;Database=authdb;Username=tester;Password=tester;Pooling=true;Maximum Pool Size=130
-#POSTGRES_AUTH_DB=authdb
-#POSTGRES_AUTH_USER=postgres
-#POSTGRES_AUTH_PASSWORD=F1rstL0g0N!
-...
-AVATARS_CONNECTION_STRING=Host=external_server3;Port=5432;Database=avatarsdb;Username=tester;Password=tester
-#POSTGRES_AVATARS_DB=avatarsdb
-#POSTGRES_AVATARS_USER=postgres
-#POSTGRES_AVATARS_PASSWORD=F1rstL0g0N!
-```
+    ```
+    DB_CONNECTION_STRING=Host=external_server1;Port=5432;Database=testitdb;Username=tester;Password=tester;Pooling=true;Maximum Pool Size=130
+    #POSTGRES_DB=testitdb
+    #POSTGRES_USER=postgres
+    #POSTGRES_PASSWORD=F1rstL0g0N!
+    ...
+    AUTH_CONNECTION_STRING=Host=external_server2;Port=5432;Database=authdb;Username=tester;Password=tester;Pooling=true;Maximum Pool Size=130
+    #POSTGRES_AUTH_DB=authdb
+    #POSTGRES_AUTH_USER=postgres
+    #POSTGRES_AUTH_PASSWORD=F1rstL0g0N!
+    ...
+    AVATARS_CONNECTION_STRING=Host=external_server3;Port=5432;Database=avatarsdb;Username=tester;Password=tester
+    #POSTGRES_AVATARS_DB=avatarsdb
+    #POSTGRES_AVATARS_USER=postgres
+    #POSTGRES_AVATARS_PASSWORD=F1rstL0g0N!
+    ```
 
-Выполните установку TeamStorm:
+1. Выполните установку TeamStorm:
 
 `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120`
 
