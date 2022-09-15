@@ -124,9 +124,9 @@ docker-compose -f docker-compose.yml --project-name prod down --volumes --timeou
 
 Принудительное отключение проверки сертификата для внешнего сервиса через ";" можно указывать несколько сервисов:
 
-\#INSECURE\_REMOTES=example.com:443
+`#INSECURE_REMOTES=example.com:443`
 
-Ключи доступа к хранилищу прикрепляемых файлов в Test IT (minio):
+Ключи доступа к хранилищу прикрепляемых файлов в TeamStorm (minio):
 
 AWS\_ACCESS\_KEY=testitAccessKey
 
@@ -134,13 +134,13 @@ AWS\_SECRET\_KEY=testitSecretKey
 
 Ключи доступа к хранилищу "avatars" в Test IT (minio):
 
-AVATARS\_AWS\_ACCESS\_KEY=avatarsAccessKey
+`AVATARS_AWS_ACCESS_KEY=avatarsAccessKey`
 
-AVATARS\_AWS\_SECRET\_KEY=avatarsSecretKey
+`AVATARS_AWS_SECRET_KEY=avatarsSecretKey`
 
 Параметры подключения к RabbitMQ:
 
-RABBITMQ\_DEFAULT\_USER=testit
+`RABBITMQ_DEFAULT_USER=testit`
 
 RABBITMQ\_DEFAULT\_PASS=F1rstL0g0N!
 
@@ -261,11 +261,11 @@ docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 1
 
 1. При настройке стека ELK укажите в .env файле следующие параметры соответственно вашей конфигурации:
 
-ELASTICSEARCH\_CONNECTION\_STRING=http://external-server:9200 (где external-server - ip-адрес или DNS-имя вашего сервера с Elasticsearch)
-
-ELASTICSEARCH\_INDEX= (заданное вами имя индекса для TestIT)
-
-ELASTICSEARCH\_LOGS\_INDEX= (заданное вами имя индекса логов)
+```
+ELASTICSEARCH_CONNECTION_STRING=http://external-server:9200 (где external-server - ip-адрес или DNS-имя вашего сервера с Elasticsearch)
+ELASTICSEARCH_INDEX= (заданное вами имя индекса для TestIT)
+ELASTICSEARCH_LOGS_INDEX= (заданное вами имя индекса логов)
+```
 
 1. В файле docker-compose.yml закомментируйте секции с сервисами Elasticsearch, Logstash, Kibana, зависимости от него других контейнеров (все упоминания elasticsearch, logstash, kibana в блоках depends\_on) и elastic-volume в списке volumes.
 2. Перезапустите систему Test IT:
