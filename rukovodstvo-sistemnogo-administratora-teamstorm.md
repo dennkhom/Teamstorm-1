@@ -224,7 +224,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 
 #### Настройка внешнего подключения RabbitMQ
 
-Версия внешнего сервиса должна совпадать с версией, указанной в файле docker-compose.yml.
+Версия внешнего сервиса должна совпадать с версией, указанной в файле `docker-compose.yml`.
 
 1. Укажите в файле .env для следующих параметров значения, установленные вами при настройке RabbitMQ (ниже указаны значения по умолчанию):  
 
@@ -238,6 +238,7 @@ RABBITMQ_AUTH_MODE=plain
 RABBITMQ_CLIENT_CERT_PATH=/etc/rabbitmq/ssl/client/testit.pfx
 #RABBITMQ_CLIENT_CERT_PASSPHRASE=
     ```
+    
 2. В файле `docker-compose.yml` закомментируйте секцию с сервисом rabbitmq зависимости от него других контейнеров (все упоминания rabbitmq в блоках `depends_on`) и `rabbit-volume`, `rabbitmq-configuration-volume`, `rabbitmq-certificates-volume` в списке `volumes`.
 3. Перезапустите систему:
 
