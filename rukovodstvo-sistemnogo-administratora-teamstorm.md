@@ -128,87 +128,84 @@ docker-compose -f docker-compose.yml --project-name prod down --volumes --timeou
 
 Ключи доступа к хранилищу прикрепляемых файлов в TeamStorm (minio):
 
-AWS\_ACCESS\_KEY=testitAccessKey
-
-AWS\_SECRET\_KEY=testitSecretKey
+```
+AWS_ACCESS_KEY=testitAccessKey
+AWS_SECRET_KEY=testitSecretKey
+```
 
 Ключи доступа к хранилищу "avatars" в Test IT (minio):
 
-`AVATARS_AWS_ACCESS_KEY=avatarsAccessKey`
-
-`AVATARS_AWS_SECRET_KEY=avatarsSecretKey`
+```
+AVATARS_AWS_ACCESS_KEY=avatarsAccessKey
+AVATARS_AWS_SECRET_KEY=avatarsSecretKey
+```
 
 Параметры подключения к RabbitMQ:
 
-`RABBITMQ_DEFAULT_USER=testit`
-
-RABBITMQ\_DEFAULT\_PASS=F1rstL0g0N!
-
-RABBITMQ\_DEFAULT\_VHOST=testitrabbit
-
-RABBITMQ\_DEFAULT\_HOST=rabbitmq
-
-RABBITMQ\_DEFAULT\_PORT=5672
-
-RABBITMQ\_AUTH\_MODE=plain
-
-RABBITMQ\_CLIENT\_CERT\_PATH=/etc/rabbitmq/ssl/client/testit.pfx
-
-\#RABBITMQ\_CLIENT\_CERT\_PASSPHRASE=
+```
+RABBITMQ_DEFAULT_USER=testit
+RABBITMQ_DEFAULT_PASS=F1rstL0g0N!
+RABBITMQ_DEFAULT_VHOST=testitrabbit
+RABBITMQ_DEFAULT_HOST=rabbitmq
+RABBITMQ_DEFAULT_PORT=5672
+RABBITMQ_AUTH_MODE=plain
+RABBITMQ_CLIENT_CERT_PATH=/etc/rabbitmq/ssl/client/testit.pfx
+#RABBITMQ_CLIENT_CERT_PASSPHRASE=
+```
 
 Параметры подключения к БД, при установке внешней БД, поменять на свои значения:
 
-DB\_CONNECTION\_STRING=Host=db;Port=5432;Database=testitdb;Username=postgres;Password=F1rstL0g0N!;Pooling=true;Maximum Pool Size=130
+```
+DB_CONNECTION_STRING=Host=db;Port=5432;Database=testitdb;Username=postgres;Password=F1rstL0g0N!;Pooling=true;Maximum Pool Size=130
+```
 
-Данные для создания БД, пользователя и пароля в дефолтной поставке:
+Данные для создания базы данных, пользователя и пароля в  поставке по умолчанию:
 
-POSTGRES\_DB=testitdb
-
-POSTGRES\_USER=postgres
-
-POSTGRES\_PASSWORD=F1rstL0g0N!
+```
+DB_CONNECTION_STRING=Host=db;Port=5432;Database=testitdb;Username=postgres;Password=F1rstL0g0N!;Pooling=true;Maximum Pool Size=130
+POSTGRES_DB=testitdb
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=F1rstL0g0N!
+```
 
 Аналогично с Auth DB:
 
-AUTH\_CONNECTION\_STRING=Host=authdb;Port=5432;Database=authdb;Username=postgres;Password=F1rstL0g0N!;Pooling=true;Maximum Pool Size=130
-
-POSTGRES\_AUTH\_DB=authdb
-
-POSTGRES\_AUTH\_USER=postgres
-
-POSTGRES\_AUTH\_PASSWORD=F1rstL0g0N!
+```
+AUTH_CONNECTION_STRING=Host=authdb;Port=5432;Database=authdb;Username=postgres;Password=F1rstL0g0N!;Pooling=true;Maximum Pool Size=130
+POSTGRES_AUTH_DB=authdb
+POSTGRES_AUTH_USER=postgres
+POSTGRES_AUTH_PASSWORD=F1rstL0g0N!
+```
 
 Аналогично с Avatar DB:
 
-AVATARS\_CONNECTION\_STRING=Host=avatars-db;Port=5432;Database=avatarsdb;Username=postgres;Password=F1rstL0g0N!
-
-POSTGRES\_AVATARS\_DB=avatarsdb
-
-POSTGRES\_AVATARS\_USER=postgres
-
-POSTGRES\_AVATARS\_PASSWORD=F1rstL0g0N!
+```
+AVATARS_CONNECTION_STRING=Host=avatars-db;Port=5432;Database=avatarsdb;Username=postgres;Password=F1rstL0g0N!
+POSTGRES_AVATARS_DB=avatarsdb
+POSTGRES_AVATARS_USER=postgres
+POSTGRES_AVATARS_PASSWORD=F1rstL0g0N!
+```
 
 Системные параметры, оставить без изменений:
 
-ASPNETCORE\_ENVIRONMENT=Production
-
-ASPNETCORE\_ACCESS\_TOKEN\_EXPIRATION\_MINUTES=8000
-
-ASPNETCORE\_REFRESH\_TOKEN\_EXPIRATION\_MINUTES=88000
-
-FILE\_BUCKET\_NAME=testit
+```
+ASPNETCORE_ENVIRONMENT=Production
+ASPNETCORE_ACCESS_TOKEN_EXPIRATION_MINUTES=8000
+ASPNETCORE_REFRESH_TOKEN_EXPIRATION_MINUTES=88000
+FILE_BUCKET_NAME=testit
+```
 
 Уровень логирования. Можно изменить Warning на Information для более детального логирования, что повысит нагрузку на систему:
 
-API\_LOG\_LEVEL=Warning
+`API_LOG_LEVEL=Warning`
 
-Минимальный пул рабочих потоков на процессор. Используется для Webapi. Чем выше значение, тем большее количество пользователей будут одновременно обслуживаться, что равномерно повысит нагрузку:
+Минимальный пул рабочих потоков на процессор. Используется для WebAPI. Чем выше значение, тем большее количество пользователей будут одновременно обслуживаться, что равномерно повысит нагрузку:
 
-THREAD\_PER\_PROCESSOR=10
+`THREAD_PER_PROCESSOR=10`
 
 "false" - если OpenId провайдер не поддерживает PKCE:
 
-USE\_PKCE=true
+`USE_PKCE=true`
 
 Необходимый параметр, если внешний сервис Jira заблокирован для исходящих подключений. Указанное значение в секундах, время через которое Test IT инициирует входящее подключение к Jira для синхронизации данных:
 
@@ -234,26 +231,21 @@ WEBAPI\_URL=http://webapi
 
 1. Укажите в файле .env для следующих параметров значения, установленные вами при настройке RabbitMQ (ниже указаны значения по умолчанию):
 
-RABBITMQ\_DEFAULT\_USER=testit
+```
+RABBITMQ_DEFAULT_USER=testit
+RABBITMQ_DEFAULT_PASS=password
+RABBITMQ_DEFAULT_VHOST=testitrabbit
+RABBITMQ_DEFAULT_HOST=external-server (где external-server - ip-адрес или DNS-имя вашего сервера с RabbitMQ)
+RABBITMQ_DEFAULT_PORT=5672
+RABBITMQ_AUTH_MODE=plain
+RABBITMQ_CLIENT_CERT_PATH=/etc/rabbitmq/ssl/client/testit.pfx
+#RABBITMQ_CLIENT_CERT_PASSPHRASE=
+```
 
-RABBITMQ\_DEFAULT\_PASS=password
+1. В файле `docker-compose.yml` закомментируйте секцию с сервисом rabbitmq, зависимости от него других контейнеров (все упоминания rabbitmq в блоках `depends_on`) и `rabbit-volume`, `rabbitmq-configuration-volume`, `rabbitmq-certificates-volume` в списке `volumes`.
+2. Перезапустите систему:
 
-RABBITMQ\_DEFAULT\_VHOST=testitrabbit
-
-RABBITMQ\_DEFAULT\_HOST=external-server (где external-server - ip-адрес или DNS-имя вашего сервера с RabbitMQ)
-
-RABBITMQ\_DEFAULT\_PORT=5672
-
-RABBITMQ\_AUTH\_MODE=plain
-
-RABBITMQ\_CLIENT\_CERT\_PATH=/etc/rabbitmq/ssl/client/testit.pfx
-
-\#RABBITMQ\_CLIENT\_CERT\_PASSPHRASE=
-
-1. В файле docker-compose.yml закомментируйте секцию с сервисом rabbitmq, зависимости от него других контейнеров (все упоминания rabbitmq в блоках depends\_on) и rabbit-volume, rabbitmq-configuration-volume, rabbitmq-certificates-volume в списке volumes.
-2. Перезапустите систему Test IT:
-
-docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans
+`docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения стека Logstash и Kibana (ELK)
 
