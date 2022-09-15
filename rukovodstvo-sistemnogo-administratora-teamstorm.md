@@ -229,14 +229,14 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 1. Укажите в файле .env для следующих параметров значения, установленные вами при настройке RabbitMQ (ниже указаны значения по умолчанию):  
 
     ```
-RABBITMQ_DEFAULT_USER=testit
-RABBITMQ_DEFAULT_PASS=password
-RABBITMQ_DEFAULT_VHOST=testitrabbit
-RABBITMQ_DEFAULT_HOST=external-server (где external-server - ip-адрес или DNS-имя вашего сервера с RabbitMQ)
-RABBITMQ_DEFAULT_PORT=5672
-RABBITMQ_AUTH_MODE=plain
-RABBITMQ_CLIENT_CERT_PATH=/etc/rabbitmq/ssl/client/testit.pfx
-#RABBITMQ_CLIENT_CERT_PASSPHRASE=
+    RABBITMQ_DEFAULT_USER=testit
+    RABBITMQ_DEFAULT_PASS=password
+    RABBITMQ_DEFAULT_VHOST=testitrabbit
+    RABBITMQ_DEFAULT_HOST=external-server (где external-server - ip-адрес или DNS-имя вашего сервера с RabbitMQ)
+    RABBITMQ_DEFAULT_PORT=5672
+    RABBITMQ_AUTH_MODE=plain
+    RABBITMQ_CLIENT_CERT_PATH=/etc/rabbitmq/ssl/client/testit.pfx
+    #RABBITMQ_CLIENT_CERT_PASSPHRASE=
     ```
     
 2. В файле `docker-compose.yml` закомментируйте секцию с сервисом rabbitmq зависимости от него других контейнеров (все упоминания rabbitmq в блоках `depends_on`) и `rabbit-volume`, `rabbitmq-configuration-volume`, `rabbitmq-certificates-volume` в списке `volumes`.
@@ -253,9 +253,9 @@ RABBITMQ_CLIENT_CERT_PATH=/etc/rabbitmq/ssl/client/testit.pfx
 1. При настройке стека ELK укажите в .env файле следующие параметры соответственно вашей конфигурации:  
 
     ```
-ELASTICSEARCH_CONNECTION_STRING=http://external-server:9200 (где external-server - ip-адрес или DNS-имя вашего сервера с Elasticsearch)
-ELASTICSEARCH_INDEX= (заданное вами имя индекса для TeamStorm)
-ELASTICSEARCH_LOGS_INDEX= (заданное вами имя индекса логов)
+    ELASTICSEARCH_CONNECTION_STRING=http://external-server:9200 (где external-server - ip-адрес или DNS-имя вашего сервера с Elasticsearch)
+    ELASTICSEARCH_INDEX= (заданное вами имя индекса для TeamStorm)
+    ELASTICSEARCH_LOGS_INDEX= (заданное вами имя индекса логов)
     ```
     
 2. В файле `docker-compose.yml` закомментируйте секции с сервисами Elasticsearch, Logstash, Kibana зависимости от него других контейнеров (все упоминания elasticsearch, logstash, kibana в блоках depends\_on) и elastic-volume в списке volumes.
@@ -276,10 +276,10 @@ ELASTICSEARCH_LOGS_INDEX= (заданное вами имя индекса ло�
     * Для сервиса minio установите следующие значения переменных:
 
     ```
-AWS_ACCESS_KEY: (Access key, установленный для bucket1)
-AWS_SECRET_KEY: (Secret Key, установленный для bucket1)
-AWS_CONNECTION_STRING: http://external-server:9000 (где external-server - ip-адрес или DNS-имя вашего сервера с minio)
-FILE_BUCKET_NAME: (в данном примере, bucket1)
+    AWS_ACCESS_KEY: (Access key, установленный для bucket1)
+    AWS_SECRET_KEY: (Secret Key, установленный для bucket1)
+    AWS_CONNECTION_STRING: http://external-server:9000 (где external-server - ip-адрес или DNS-имя вашего сервера с minio)
+    FILE_BUCKET_NAME: (в данном примере, bucket1)
     ```
 
     * Для сервиса avatars.minio установите следующие значения переменных:
