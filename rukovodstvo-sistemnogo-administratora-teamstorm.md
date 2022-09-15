@@ -241,9 +241,8 @@ RABBITMQ_AUTH_MODE=plain
 RABBITMQ_CLIENT_CERT_PATH=/etc/rabbitmq/ssl/client/testit.pfx
 #RABBITMQ_CLIENT_CERT_PASSPHRASE=
 ```
-
-1. В файле `docker-compose.yml` закомментируйте секцию с сервисом rabbitmq зависимости от него других контейнеров (все упоминания rabbitmq в блоках `depends_on`) и `rabbit-volume`, `rabbitmq-configuration-volume`, `rabbitmq-certificates-volume` в списке `volumes`.
-2. Перезапустите систему:
+2\. В файле `docker-compose.yml` закомментируйте секцию с сервисом rabbitmq зависимости от него других контейнеров (все упоминания rabbitmq в блоках `depends_on`) и `rabbit-volume`, `rabbitmq-configuration-volume`, `rabbitmq-certificates-volume` в списке `volumes`.
+3\. Перезапустите систему:
 
 `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
@@ -261,8 +260,8 @@ ELASTICSEARCH_INDEX= (заданное вами имя индекса для Tea
 ELASTICSEARCH_LOGS_INDEX= (заданное вами имя индекса логов)
 ```
 
-1. В файле `docker-compose.yml` закомментируйте секции с сервисами Elasticsearch, Logstash, Kibana зависимости от него других контейнеров (все упоминания elasticsearch, logstash, kibana в блоках depends\_on) и elastic-volume в списке volumes.
-2. Перезапустите систему:
+2\. В файле `docker-compose.yml` закомментируйте секции с сервисами Elasticsearch, Logstash, Kibana зависимости от него других контейнеров (все упоминания elasticsearch, logstash, kibana в блоках depends\_on) и elastic-volume в списке volumes.
+3\. Перезапустите систему:
 
 `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
