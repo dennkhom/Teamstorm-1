@@ -242,7 +242,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 2. В файле `docker-compose.yml` закомментируйте секцию с сервисом rabbitmq зависимости от него других контейнеров (все упоминания rabbitmq в блоках `depends_on`) и `rabbit-volume`, `rabbitmq-configuration-volume`, `rabbitmq-certificates-volume` в списке `volumes`.
 3. Перезапустите систему:
 
-`docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
+    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения стека Logstash и Kibana (ELK)
 
@@ -261,7 +261,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 2. В файле `docker-compose.yml` закомментируйте секции с сервисами Elasticsearch, Logstash, Kibana зависимости от него других контейнеров (все упоминания elasticsearch, logstash, kibana в блоках depends\_on) и elastic-volume в списке volumes.
 3. Перезапустите систему:
 
-`docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
+    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения minio и avatars.minio
 
@@ -301,7 +301,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 1. В файле `docker-compose.yml` закомментируйте секцию с сервисами minio и avatars.minio, зависимости от них других контейнеров (все упоминания сервисов в блоках `depends_on`), и их вольюмы (`minio-export-volume` и `minio-data-volume`) в списке volumes.
 2. Перезапустите систему:
 
-`docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
+    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения базы данных Redis
 
@@ -314,7 +314,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 2. В `.env` файле укажите данные для подключения к внешней БД, где external-server - IP или DNS-имя хоста, на котором установлен Redis (без указания протокола и порта): `AUTH_CACHE_CONNECTION_STRING=external-server`
 4. Перезапустите систему:
 
-`docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
+    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения базы данных InfluxDB
 
@@ -336,7 +336,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 
 1. Перезапустите систему:
 
-`docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
+    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения базы данных PostgreSQL
 
@@ -392,7 +392,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 
 1. Выполните установку TeamStorm:
 
-`docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120`
+    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120`
 
 ## Обновление ПО
 
