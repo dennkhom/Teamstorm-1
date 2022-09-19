@@ -5,3 +5,4 @@
 * [Сопровождение системы TeamStorm](soprovozhdenie-sistemy-teamstorm.md)
 * [Руководство администратора TeamStorm по добавлению пользователей](rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md)
 * [Руководство системного администратора TeamStorm](rukovodstvo-sistemnogo-administratora-teamstorm.md)
+* [Руководство пользователя TeamStorm](rukovodstvo-polzovatelya-teamstorm.md)
