@@ -14,7 +14,7 @@
 4. **Опционально:** поставьте флажок **Запомнить меня**, чтобы не вводить учетные данные при следующем открытии браузера.
 5. Нажмите **Войти** или клавишу  `Enter`**.**
 
-<figure><img src=".gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Настройка подключений через AD/LDAP <a href="#_toc110777251" id="_toc110777251"></a>
 
