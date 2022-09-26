@@ -68,10 +68,12 @@ chmod +x setup.sh
 
 #### **Перезапуск системы**
 
-Для перезапуска системы воспользуйтесь следующей командой:
+Для перезапуска системы  воспользуйтесь следующей командой:
 
 ```
-docker-compose -f docker-compose.yml --project-name prod restart --timeout 120
+cd teamstorm_v0.16.0
+docker-compose -f docker-compose.yml --project-name teamstorm restart --timeout 120
+
 ```
 
 #### **Полная очистка данных**
@@ -79,7 +81,8 @@ docker-compose -f docker-compose.yml --project-name prod restart --timeout 120
 Для полного удаления системы и ее данных необходимо выполнить следующую команду:
 
 ```
-docker-compose -f docker-compose.yml --project-name prod down --volumes --timeout 120
+cd teamstorm_v0.16.0
+docker-compose -f docker-compose.yml --project-name teamstorm down --volumes --timeout 120
 ```
 
 Чтобы сохранить информацию для последующего использования, выполните команду без флага `--volumes`.
@@ -414,70 +417,13 @@ docker load -i images.tar.gz
 docker-compose -f docker-compose.yml --project-name prod up -d --remove-orphans
 ```
 
-## Резервное копирование
-
-### **Создание резервных копий**
-
-Продукт будет остановлен на время создания резервной копии. Не следует создавать резервные копии из под `sudo`.
-
-Перед выполнением скрипта на создание резервной копии следует перейти в директорию, которая содержит docker-compose.yml файл с настройками текущей версии системы.
-
-Для создания резервной копии необходимо выполнить:
-
-```
-chmod +x scripts/backup.sh
-scripts/backup.sh docker-compose.yml prod
-```
-
-Система будет запущена после окончания процесса. В рабочей директории будет создан архив с резервной копией. Формат имени файла архива: `backup_{день}_{месяц}_{год}.tar`. Например, `backup_21_05_2019.tar`.
-
-### **Восстановление из резервной копии**
-
-Продукт будет остановлен на время восстановления из резервной копии.
-
-Перед выполнением скрипта на восстановление из резервной копии следует перейти в директорию, которая содержит docker-compose.yml и .env файлы с настройками текущей версии системы.
-
-Для восстановления из резервной копии необходимо выполнить:
-
-```
-chmod +x scripts/restore.sh
-scripts/restore.sh docker-compose.yml prod backup_21_05_2019.tar
-```
-
-Система будет запущена после окончания процесса.
-
-При переносе продукта на другой сервер следует предварительно установить TeamStorm на новом сервере с настройками по умолчанию и затем восстановить данные системы из резервной копии. Для наилучшей совместимости на новом сервере рекомендуется устанавливать TeamStorm той же версии, которая содержится в резервной копии, переносимой из исходного сервера.
-
-​
-
-## Логирование пользовательских действий
-
-Необходимо выставить параметры `vm.max_map_count=262144` и `vm.overcommit_memory=1`:
-
-```
-echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
-echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
-sysctl -p
-```
-
-Для включения опции логирования пользовательских действий:
-
-1. Замените `docker-compose.yml` на содержимое `docker-compose.elk.yml`:
-
-```
-cd ~/teamstorm
-cp docker-compose.yml docker-compose.yml.bak # резервная копия
-cp docker-compose.elk.yml docker-compose.yml
-```
-
-2\. Выполните шаги из разделов "Установка, перезапуск и удаление в Docker Compose" или "Обновление ПО".
-
 ## Настройка HTTPS
 
 Перед настройкой https необходимо провести базовую настройку и установку TeamStorm.
 
 1. Откройте 443 порт, подробности смотрите в инструкции по установке.
-2. В `.env` файле раскомментируйте переменные `SSL_CERTIFICATE` и `SSL_CERTIFICATE_KEY`.
+2. Перейти в каталог с папкой TestIT `cd testit_v3.5.3`
+3. В `.env` файле системы TestIT раскомментируйте переменные `SSL_CERTIFICATE` и `SSL_CERTIFICATE_KEY`.
 
 ```
 ## internal certificate path
@@ -507,11 +453,11 @@ ports:
 Cкопируйте подготовленные файлы в хранилище сертификатов:
 
 ```
-certs=$(docker inspect prod_ssl-volume --format '{{ .Mountpoint }}')
+certs=$(docker inspect testit_ssl-volume --format '{{ .Mountpoint }}')
 cp testit.crt ${certs}/
 cp testit.key ${certs}/
 ```
 
 Примените изменения, выполнив команду:
 
-`docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120`
+`docker-compose -f docker-compose.yml --project-name testit up --detach --timeout 120`
