@@ -18,12 +18,15 @@ Docker Compose 1.17.0 и выше
 
 #### **Состав поставки**
 
+images.tar - архив с образами (только в архиве для автономной установки)**.** Установка TeamStorm выполняется вместе с  установкой TestIT.
+
+Состав поставки TestIT указан в [документации на ПО TestIT](https://docs.testit.software/installation-guide/ustanovka-perezapusk-i-udalenie-v-docker-compose#sostav-postavki).&#x20;
+
+* setup.sh - основной скрипт установки
 * .env - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm
 * docker-compose.yml - конфигурационный файл Docker Compose
-* docker-compose.elk.yml - конфигурационный файл Docker Compose с базами данных Elasticsearch, Logstash и Kibana
-* backup.sh - скрипт запуска резервного копирования
-* restore.sh - скрипт восстановления из резервной копии
-* images.tar.gz - архив с образами (только в архиве для автономной установки)
+
+
 
 #### **Подготовка**
 
@@ -48,34 +51,19 @@ Docker Compose 1.17.0 и выше
 
 #### **Автономная установка**
 
-Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker образы с публичных репозиториев. Распакуйте содержимое архива автономной установки, например, в папку `~/teamstorm`.
+Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker образы с публичных репозиториев. Распакуйте содержимое архива автономной установки, например, в папку `~/`teamstorm\_v0.16.0.
 
-Если вы используете версию Docker Compose 1.20.0 и выше, выполните следующие команды:
-
-```
-cd ~/teamstorm
-docker load -i images.tar.gz
-docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120
-```
-
-Если вы используете версию Docker Compose 1.17.0-1.19.0, выполните следующие команды:
+Выполните следующие команды:
 
 ```
-cd ~/teamstorm
-docker load -i images.tar.gz
-docker-compose -f docker-compose.yml --project-name prod up -d
+tar -xzvf ts_distro_v0.16.0.tgz
+chmod +x setup.sh
+./setup.sh
 ```
 
-#### **Online-установка**
 
-Скачайте файлы online-установки. Распакуйте содержимое архива online-установки, например, в папку `~/teamstorm`. Если вы используете версию Docker Compose 1.20.0 и выше, выполните следующие команды:
 
 ```
-cd ~/teamstorm
-docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120
-Если вы используете версию Docker Compose 1.17.0-1.19.0, выполните следующие команды:
-cd ~/teamstorm
-docker-compose -f docker-compose.yml --project-name prod up -d
 ```
 
 #### **Перезапуск системы**
