@@ -12,21 +12,19 @@
 
 ​[https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)​
 
-Docker Engine 17.09.0 и выше
+Docker Engine 20.10.17 и выше
 
 Docker Compose 1.17.0 и выше
 
 #### **Состав поставки**
 
-images.tar - архив с образами (только в архиве для автономной установки)**.** Установка TeamStorm выполняется вместе с  установкой TestIT.
+images.tar - архив с образами (только в архиве для автономной установки)**.** Установка TeamStorm выполняется вместе с установкой TestIT.
 
-Состав поставки TestIT указан в [документации на ПО TestIT](https://docs.testit.software/installation-guide/ustanovka-perezapusk-i-udalenie-v-docker-compose#sostav-postavki).&#x20;
+Состав поставки TestIT указан в [документации на ПО TestIT](https://docs.testit.software/installation-guide/ustanovka-perezapusk-i-udalenie-v-docker-compose#sostav-postavki).
 
 * `setup.sh` - основной скрипт установки
 * `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm
 * `docker-compose.yml` - конфигурационный файл Docker Compose
-
-
 
 #### **Подготовка**
 
@@ -63,12 +61,11 @@ chmod +x setup.sh
 
 #### **Перезапуск системы**
 
-Для перезапуска системы  воспользуйтесь следующей командой:
+Для перезапуска системы воспользуйтесь следующей командой:
 
 ```bash
 cd teamstorm_v0.16.0
 docker-compose -f docker-compose.yml --project-name teamstorm restart --timeout 120
-
 ```
 
 #### **Полная очистка данных**
