@@ -13,12 +13,15 @@
 1. Откройте страницу входа, общую для TeamStorm и TestIT.
 2.  Выберите локальную учетную запись или вход из домена.&#x20;
 
-    <figure><img src=".gitbook/assets/изображение (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
 
 
 3. **Опционально:** поставьте флажок **Запомнить меня**, чтобы не вводить учетные данные при следующем открытии браузера.
 4. Введите учетные данные пользователя и нажмите **Войти**.&#x20;
-5. На открывшейся странице системы TestIT нажмите иконку выбора продукта <img src=".gitbook/assets/изображение (9).png" alt="" data-size="line">
+5. На открывшейся странице системы TestIT нажмите иконку выбора продукта в правом верхнем углу экрана <img src=".gitbook/assets/изображение (3).png" alt="" data-size="line">.
+6.  Нажмите на название продукта TeamStorm&#x20;
+
+    <figure><img src=".gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
 
 ### Без использования TestIT
 
@@ -162,7 +165,7 @@
 
 Для переключения между представлениями нажмите **Доска** или **Таблица** на переключателе в верхней части представления. Выбранный тип представления будет подчеркнут и выделен цветом.
 
-<figure><img src=".gitbook/assets/изображение (9) (4) (1).png" alt=""><figcaption><p>Представление "Доска"</p></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (9) (4).png" alt=""><figcaption><p>Представление "Доска"</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/изображение (9) (2).png" alt=""><figcaption><p>Представление "Таблица"</p></figcaption></figure>
 
@@ -178,7 +181,7 @@
    * Дата выполнения.
 4. Нажмите **Создать**.
 
-<figure><img src=".gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Редактирование задачи
 
@@ -239,7 +242,7 @@
 
     <figure><img src=".gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
 
-    6\. Нажмите ![](<.gitbook/assets/изображение (6).png>)
+    6\. Нажмите ![](<.gitbook/assets/изображение (6) (4).png>)
 
 В  разделе **СВЯЗАННЫЕ ЗАДАЧИ** отобразятся связанные задачи.
 
