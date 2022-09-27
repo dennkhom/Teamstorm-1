@@ -22,9 +22,9 @@ images.tar - архив с образами (только в архиве для
 
 Состав поставки TestIT указан в [документации на ПО TestIT](https://docs.testit.software/installation-guide/ustanovka-perezapusk-i-udalenie-v-docker-compose#sostav-postavki).
 
-* `setup.sh` - основной скрипт установки
-* `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm
-* `docker-compose.yml` - конфигурационный файл Docker Compose
+* `setup.sh` - основной скрипт установки;
+* `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm;
+* `docker-compose.yml` - конфигурационный файл Docker Compose.
 
 #### **Подготовка**
 
@@ -49,7 +49,7 @@ images.tar - архив с образами (только в архиве для
 
 #### **Автономная установка**
 
-Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker образы с публичных репозиториев. Распакуйте содержимое архива автономной установки, например, в папку `~/`teamstorm\_v0.16.0.
+Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker-образы с публичных репозиториев. Распакуйте содержимое архива автономной установки, например, в папку `~/teamstorm_v0.16.0.`
 
 Выполните следующие команды:
 
@@ -161,10 +161,6 @@ ASPNETCORE_REFRESH_TOKEN_EXPIRATION_MINUTES=88000
 FILE_BUCKET_NAME=testit
 ```
 
-Уровень логирования. Можно изменить Warning на Information для более детального логирования, что повысит нагрузку на систему:
-
-`API_LOG_LEVEL=Warning`
-
 Минимальный пул рабочих потоков на процессор. Используется для WebAPI. Чем выше значение, тем большее количество пользователей будут одновременно обслуживаться, что равномерно повысит нагрузку:
 
 `THREAD_PER_PROCESSOR=10`
@@ -177,15 +173,7 @@ FILE_BUCKET_NAME=testit
 
 `SYNC_RESULT_LINKS_EVERY_SEC=120`
 
-Период хранения бизнес логов по действиям пользователей в Elasticsearch, максимальный объем хранения логов (GB), имя индексов логов в elasticsearch:
-
-```
-EVENT_LOG_MAX_AGE=30d
-EVENT_LOG_MAX_SIZE=50gb
-ELASTICSEARCH_LOGS_INDEX=action_logs
-```
-
-Если вы меняли порты по умолчанию для контейнера webAPIто нужно изменить следующий параметр:
+Если вы меняли порты по умолчанию для контейнера webAPI, то нужно изменить следующий параметр:
 
 `WEBAPI_URL=http://webapi`
 
@@ -212,23 +200,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 
     `docker-compose -f docker-compose.yml --project-name teamstorm up --detach --timeout 120 --remove-orphans`
 
-#### Настройка внешнего подключения стека Logstash и Kibana (ELK)
 
-{% hint style="info" %}
-Версия внешнего сервиса должна совпадать с версией, указанной в файле `docker-compose.yml`.
-{% endhint %}
-
-1.  При настройке стека ELK укажите в .env файле следующие параметры соответственно вашей конфигурации:
-
-    ```
-    ELASTICSEARCH_CONNECTION_STRING=http://external-server:9200 (где external-server - ip-адрес или DNS-имя вашего сервера с Elasticsearch)
-    ELASTICSEARCH_INDEX= (заданное вами имя индекса для TeamStorm)
-    ELASTICSEARCH_LOGS_INDEX= (заданное вами имя индекса логов)
-    ```
-2. В файле `docker-compose.yml` закомментируйте секции с сервисами Elasticsearch, Logstash, Kibana зависимости от него других контейнеров (все упоминания elasticsearch, logstash, kibana в блоках depends\_on) и elastic-volume в списке volumes.
-3.  Перезапустите систему:
-
-    `docker-compose -f docker-compose.yml --project-name teamstorm up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения minio и avatars.minio
 
@@ -354,46 +326,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 
 ## Обновление ПО
 
-{% hint style="info" %}
-Если в `.env` и `.yml` файлах используются ваши пользовательские значения, перенесите их в файлы `.env` и `.yml` новой версии TeamStorm. Все значения в файлах `.env` и `.yml` новых версий TeamStorm заменяются на дефолтные при обновлении.
-{% endhint %}
-
-### **Подготовка**
-
-Перед обновлением рекомендуется создать резервную копию установленной системы (файлы `docker-compose.yml` и `backup.sh` должны находиться в одной директории):
-
-```
-# В папке с текущей версией
-chmod +x backup.sh
-./backup.sh docker-compose.yml prod
-```
-
-### **Online обновление**
-
-{% hint style="info" %}
-Чтобы перенести информацию из volumes со старой версии на новую, имена проектов обеих версий должны совпадать. В наших примерах проект называется "prod".
-{% endhint %}
-
-1. Создайте новую директорию, скачайте и распакуйте в ней файл для онлайн установки.
-2. ​В командной строке перейдите в директорию с последней версией и выполните:
-
-```
-docker-compose -f docker-compose.yml --project-name teamstorm up -d --remove-orphans
-```
-
-### **Автономное обновление**
-
-{% hint style="info" %}
-Чтобы перенести информацию из volumes со старой версии на новую, имена проектов обеих версий должны совпадать. В наших примерах проект называется "prod".
-{% endhint %}
-
-1. Создайте новую директорию, скачайте и распакуйте в ней файл для автономной установки.
-2. В командной строке перейдите в директорию с последней версией, распакуйте архив для автономной установки и выполните
-
-```
-docker load -i images.tar.gz
-docker-compose -f docker-compose.yml --project-name teamstorm up -d --remove-orphans
-```
+Обновление TeamStorm осуществляется с помощью установки новой версии.
 
 ## Настройка HTTPS
 
