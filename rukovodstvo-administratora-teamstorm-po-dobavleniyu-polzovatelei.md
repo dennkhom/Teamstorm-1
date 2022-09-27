@@ -101,4 +101,4 @@
 1. Поставьте флажок напротив локального пользователя (пользователей), которого хотите удалить из системы.
 2. Нажмите **Удалить**.
 
-<figure><img src=".gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (2) (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -11,17 +11,17 @@
 Для входа в систему:
 
 1. Откройте страницу входа, общую для TeamStorm и TestIT.
-2.  Выберите локальную учетную запись или вход из домена.&#x20;
+2.  Выберите локальную учетную запись или вход из домена, если настроены подключения к LDAP-серверам, например к Active Directory, для авторизации с помощью пользователя AD.&#x20;
 
-    <figure><img src=".gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
 
 
 3. **Опционально:** поставьте флажок **Запомнить меня**, чтобы не вводить учетные данные при следующем открытии браузера.
 4. Введите учетные данные пользователя и нажмите **Войти**.&#x20;
-5. На открывшейся странице системы TestIT нажмите иконку выбора продукта в правом верхнем углу экрана <img src=".gitbook/assets/изображение (3).png" alt="" data-size="line">.
-6.  Нажмите на название продукта TeamStorm&#x20;
+5. На открывшейся странице системы TestIT нажмите иконку выбора продукта в правом верхнем углу экрана <img src=".gitbook/assets/изображение (16).png" alt="" data-size="line">.
+6.  Нажмите на название продукта TeamStorm.
 
-    <figure><img src=".gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (23).png" alt=""><figcaption></figcaption></figure>
 
 ### Без использования TestIT
 
@@ -194,7 +194,7 @@
 4. При необходимости введите атрибуты и описание задачи.
 5. Закройте панель редактирования, нажав <img src=".gitbook/assets/изображение (1) (4).png" alt="" data-size="line"> в правом верхнем углу панели.
 
-<figure><img src=".gitbook/assets/изображение (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Добавление подзадачи
 
@@ -221,7 +221,7 @@
 1. В открывшемся окне переведите курсор в поле ввода и начните вводить название ранее созданной задачи.
 2. Выберите нужную задачу из раскрывшегося списка и нажмите на неё.
 
-<figure><img src=".gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В  разделе **ПОДЗАДАЧИ** отобразятся добавленные подзадачи.
 
@@ -242,7 +242,7 @@
 
     <figure><img src=".gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
 
-    6\. Нажмите ![](<.gitbook/assets/изображение (6) (4).png>)
+    6\. Нажмите ![](<.gitbook/assets/изображение (6).png>)
 
 В  разделе **СВЯЗАННЫЕ ЗАДАЧИ** отобразятся связанные задачи.
 
@@ -256,7 +256,7 @@
 2. Нажмите на нужную задачу.
 3.  В открывшейся справа панели в разделе **ВЛОЖЕНИЯ** нажмите иконку добавления файлов.
 
-    <figure><img src=".gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 4. В открывшемся системном окне перейдите в папку с нужным файлом, выберите файл и подтвердите выбор.
 
 <figure><img src=".gitbook/assets/изображение (11).png" alt=""><figcaption></figcaption></figure>
