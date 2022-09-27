@@ -46,7 +46,7 @@
 
 На странице подключений AD/LDAP можно создать несколько подключений, а также выбрать подключение по умолчанию.
 
-<figure><img src=".gitbook/assets/изображение (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Выбранное подключение по умолчанию будет отображаться на странице авторизации как основное.
 
