@@ -2,7 +2,7 @@
 
 ## Назначение документа
 
-Документ описывает действия системного администратора по установке, настройке, обновлению и резевному копированию ПО TeamStorm.
+Документ описывает действия системного администратора по установке и настройке ПО TeamStorm.
 
 ## Установка, перезапуск и удаление в Docker Compose
 
@@ -18,15 +18,13 @@ Docker Compose 1.17.0 и выше
 
 #### **Состав поставки**
 
-images.tar - архив с образами (только в архиве для автономной установки)**.** Установка TeamStorm выполняется вместе с  установкой TestIT.
+images.tar - архив с образами (только в архиве для автономной установки)**.** Установка TeamStorm выполняется вместе с установкой TestIT.
 
-Состав поставки TestIT указан в [документации на ПО TestIT](https://docs.testit.software/installation-guide/ustanovka-perezapusk-i-udalenie-v-docker-compose#sostav-postavki).&#x20;
+Состав поставки TestIT указан в [документации на ПО TestIT](https://docs.testit.software/installation-guide/ustanovka-perezapusk-i-udalenie-v-docker-compose#sostav-postavki).
 
 * `setup.sh` - основной скрипт установки
 * `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm
 * `docker-compose.yml` - конфигурационный файл Docker Compose
-
-
 
 #### **Подготовка**
 
@@ -47,7 +45,6 @@ images.tar - архив с образами (только в архиве для
     firewall-cmd --zone=public --add-port=443/tcp --permanent
     firewall-cmd --reload
     ```
-5. **Опционально**: включите логирование пользовательских действий как описано ниже. По умолчанию оно отключено.
 
 #### **Автономная установка**
 
@@ -63,12 +60,11 @@ chmod +x setup.sh
 
 #### **Перезапуск системы**
 
-Для перезапуска системы  воспользуйтесь следующей командой:
+Для перезапуска системы воспользуйтесь следующей командой:
 
 ```bash
 cd teamstorm_v0.16.0
 docker-compose -f docker-compose.yml --project-name teamstorm restart --timeout 120
-
 ```
 
 #### **Полная очистка данных**
@@ -96,14 +92,12 @@ DOCKER_REGISTRY=docker.testit.ru/teamstorm
 CONTAINER_VERSION=0.16.0
 ```
 
-
 Ключи доступа к хранилищу прикрепляемых файлов в TeamStorm (minio):
 
 ```
 AWS_ACCESS_KEY=testitAccessKey
 AWS_SECRET_KEY=testitSecretKey
 ```
-
 
 Параметры подключения к RabbitMQ:
 
