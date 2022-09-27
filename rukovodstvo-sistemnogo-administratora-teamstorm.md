@@ -22,9 +22,9 @@ images.tar - архив с образами (только в архиве для
 
 Состав поставки TestIT указан в [документации на ПО TestIT](https://docs.testit.software/installation-guide/ustanovka-perezapusk-i-udalenie-v-docker-compose#sostav-postavki).&#x20;
 
-* setup.sh - основной скрипт установки
-* .env - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm
-* docker-compose.yml - конфигурационный файл Docker Compose
+* `setup.sh` - основной скрипт установки
+* `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm
+* `docker-compose.yml` - конфигурационный файл Docker Compose
 
 
 
@@ -33,7 +33,7 @@ images.tar - архив с образами (только в архиве для
 1. Измените дефолтные значения переменных в .env-файле.
 2.  Задайте параметры `vm.max_map_count=262144` и `vm.overcommit_memory=1`:
 
-    ```
+    ```bash
     echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
     echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
     sysctl -p
@@ -41,7 +41,7 @@ images.tar - архив с образами (только в архиве для
 3. Заблокируйте все порты, кроме порта 80, необходимого для доступа к пользовательскому интерфейсу.
 4.  **Опционально:** для обслуживания системы посредством протокола SSH, необходимо открыть порт 22 (может быть переназначено на конкретной конфигурации). Для работы по HTTPS необходимо открыть порт 443. Пример открытия доступа к портам для CentOS 7:
 
-    ```
+    ```bash
     firewall-cmd --zone=public --add-port=80/tcp --permanent
     firewall-cmd --zone=public --add-port=22/tcp --permanent
     firewall-cmd --zone=public --add-port=443/tcp --permanent
@@ -55,22 +55,17 @@ images.tar - архив с образами (только в архиве для
 
 Выполните следующие команды:
 
-```
+```bash
 tar -xzvf ts_distro_v0.16.0.tgz
 chmod +x setup.sh
 ./setup.sh
-```
-
-
-
-```
 ```
 
 #### **Перезапуск системы**
 
 Для перезапуска системы  воспользуйтесь следующей командой:
 
-```
+```bash
 cd teamstorm_v0.16.0
 docker-compose -f docker-compose.yml --project-name teamstorm restart --timeout 120
 
@@ -80,7 +75,7 @@ docker-compose -f docker-compose.yml --project-name teamstorm restart --timeout 
 
 Для полного удаления системы и ее данных необходимо выполнить следующую команду:
 
-```
+```bash
 cd teamstorm_v0.16.0
 docker-compose -f docker-compose.yml --project-name teamstorm down --volumes --timeout 120
 ```
@@ -91,11 +86,11 @@ docker-compose -f docker-compose.yml --project-name teamstorm down --volumes --t
 
 Репозиторий для скачивания образов установки Teamstorm:
 
-`DOCKER_REGISTRY=registry.testit.software/teamstorm`
+`DOCKER_REGISTRY=docker.testit.ru/teamstorm`
 
 Текущая версия программы:
 
-`CONTAINER_VERSION=3.0.0`
+`CONTAINER_VERSION=0.16.0`
 
 Адрес TeamStorm используется в качестве обратной ссылки. Вам необходимо задать эту переменную, если вы разворачиваете Frontend и Backend на разных серверах
 
@@ -105,14 +100,14 @@ docker-compose -f docker-compose.yml --project-name teamstorm down --volumes --t
 
 ```
 ## internal certificate path
-#SSL_CERTIFICATE=/etc/nginx/ssl/testit.crt
-#SSL_CERTIFICATE_KEY=/etc/nginx/ssl/testit.key
-#REDIRECT_TO_HTTPS=true
+# SSL_CERTIFICATE=/etc/nginx/ssl/testit.crt
+# SSL_CERTIFICATE_KEY=/etc/nginx/ssl/testit.key
+# REDIRECT_TO_HTTPS=true
 ```
 
 Принудительное отключение проверки сертификата для внешнего сервиса через ";" можно указывать несколько сервисов:
 
-`#INSECURE_REMOTES=example.com:443`
+`# INSECURE_REMOTES=example.com:443`
 
 Ключи доступа к хранилищу прикрепляемых файлов в TeamStorm (minio):
 
@@ -131,47 +126,33 @@ AVATARS_AWS_SECRET_KEY=avatarsSecretKey
 Параметры подключения к RabbitMQ:
 
 ```
-RABBITMQ_DEFAULT_USER=testit
-RABBITMQ_DEFAULT_PASS=F1rstL0g0N!
-RABBITMQ_DEFAULT_VHOST=testitrabbit
-RABBITMQ_DEFAULT_HOST=rabbitmq
-RABBITMQ_DEFAULT_PORT=5672
-RABBITMQ_AUTH_MODE=plain
-RABBITMQ_CLIENT_CERT_PATH=/etc/rabbitmq/ssl/client/testit.pfx
-#RABBITMQ_CLIENT_CERT_PASSPHRASE=
+RABBITMQ_DEFAULT_HOST=teamstorm_rabbitmq
+RABBITMQ_DEFAULT_PASS=password
+RABBITMQ_DEFAULT_USER=teamstorm
+RABBITMQ_DEFAULT_VHOST=teamstorm
 ```
 
 Параметры подключения к БД, при установке внешней БД, поменять на свои значения:
 
 ```
-DB_CONNECTION_STRING=Host=db;Port=5432;Database=testitdb;Username=postgres;Password=F1rstL0g0N!;Pooling=true;Maximum Pool Size=130
-```
-
-Данные для создания базы данных, пользователя и пароля в поставке по умолчанию:
-
-```
-DB_CONNECTION_STRING=Host=db;Port=5432;Database=testitdb;Username=postgres;Password=F1rstL0g0N!;Pooling=true;Maximum Pool Size=130
-POSTGRES_DB=testitdb
+POSTGRES_ATTACHMENT_DB=teamstorm_attachment_db
+POSTGRES_COMMENT_DB=teamstorm_comment_db
+POSTGRES_WORKFLOW_DB=teamstorm_workflow_db
+POSTGRES_WORKITEM_LINK_RULE_DB=teamstorm_linkrule_db
+POSTGRES_DB=teamstormdb
 POSTGRES_USER=postgres
-POSTGRES_PASSWORD=F1rstL0g0N!
+POSTGRES_PASSWORD=password
 ```
 
-Аналогично с Auth DB:
+Для каждой конкретной базы данных значения по умолчанию можно поменять в строке подключения к базе данных:
 
 ```
-AUTH_CONNECTION_STRING=Host=authdb;Port=5432;Database=authdb;Username=postgres;Password=F1rstL0g0N!;Pooling=true;Maximum Pool Size=130
-POSTGRES_AUTH_DB=authdb
-POSTGRES_AUTH_USER=postgres
-POSTGRES_AUTH_PASSWORD=F1rstL0g0N!
-```
-
-Аналогично с Avatar DB:
-
-```
-AVATARS_CONNECTION_STRING=Host=avatars-db;Port=5432;Database=avatarsdb;Username=postgres;Password=F1rstL0g0N!
-POSTGRES_AVATARS_DB=avatarsdb
-POSTGRES_AVATARS_USER=postgres
-POSTGRES_AVATARS_PASSWORD=F1rstL0g0N!
+PG_CONNECTION_STRING="Host=postgres;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD};Pooling=true"
+PG_ATTACHMENT_CONNECTION_STRING="Host=attachmnet_service_postgres;Port=5432;Database=${POSTGRES_ATTACHMENT_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD};"
+PG_COMMENT_CONNECTION_STRING="Host=comment_service_postgres;Port=5432;Database=${POSTGRES_COMMENT_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD};"
+PG_WORKFLOW_CONNECTION_STRING="Host=workflow_service_postgres;Port=5432;Database=${POSTGRES_WORKFLOW_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD};"
+PG_WORKITEM_LINK_RULE_CONNECTION_STRING="Host=workitem_link_rule_service_postgres;Port=5432;Database=${POSTGRES_WORKITEM_LINK_RULE_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD};"
+Pooling=true
 ```
 
 Системные параметры, оставить без изменений:
@@ -232,7 +213,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 2. В файле `docker-compose.yml` закомментируйте секцию с сервисом rabbitmq зависимости от него других контейнеров (все упоминания rabbitmq в блоках `depends_on`) и `rabbit-volume`, `rabbitmq-configuration-volume`, `rabbitmq-certificates-volume` в списке `volumes`.
 3.  Перезапустите систему:
 
-    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
+    `docker-compose -f docker-compose.yml --project-name teamstorm up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения стека Logstash и Kibana (ELK)
 
@@ -250,7 +231,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 2. В файле `docker-compose.yml` закомментируйте секции с сервисами Elasticsearch, Logstash, Kibana зависимости от него других контейнеров (все упоминания elasticsearch, logstash, kibana в блоках depends\_on) и elastic-volume в списке volumes.
 3.  Перезапустите систему:
 
-    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
+    `docker-compose -f docker-compose.yml --project-name teamstorm up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения minio и avatars.minio
 
@@ -287,7 +268,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 6. В файле `docker-compose.yml` закомментируйте секцию с сервисами minio и avatars.minio, зависимости от них других контейнеров (все упоминания сервисов в блоках `depends_on`), и их вольюмы (`minio-export-volume` и `minio-data-volume`) в списке volumes.
 7.  Перезапустите систему:
 
-    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
+    `docker-compose -f docker-compose.yml --project-name teamstorm up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения базы данных Redis
 
@@ -300,7 +281,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
 3. В `.env` файле укажите данные для подключения к внешней БД, где external-server - IP или DNS-имя хоста, на котором установлен Redis (без указания протокола и порта): `AUTH_CACHE_CONNECTION_STRING=external-server`
 4.  Перезапустите систему:
 
-    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
+    `docker-compose -f docker-compose.yml --project-name teamstorm up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения базы данных InfluxDB
 
@@ -320,7 +301,7 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
     `INFLUX_CONNECTION_STRING=http://external-server:8086`
 4.  Перезапустите систему:
 
-    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120 --remove-orphans`
+    `docker-compose -f docker-compose.yml --project-name teamstorm up --detach --timeout 120 --remove-orphans`
 
 #### Настройка внешнего подключения базы данных PostgreSQL
 
@@ -358,21 +339,21 @@ ELASTICSEARCH_LOGS_INDEX=action_logs
     DB_CONNECTION_STRING=Host=external_server1;Port=5432;Database=testitdb;Username=tester;Password=tester;Pooling=true;Maximum Pool Size=130
     #POSTGRES_DB=testitdb
     #POSTGRES_USER=postgres
-    #POSTGRES_PASSWORD=F1rstL0g0N!
+    #POSTGRES_PASSWORD=password
     ...
     AUTH_CONNECTION_STRING=Host=external_server2;Port=5432;Database=authdb;Username=tester;Password=tester;Pooling=true;Maximum Pool Size=130
     #POSTGRES_AUTH_DB=authdb
     #POSTGRES_AUTH_USER=postgres
-    #POSTGRES_AUTH_PASSWORD=F1rstL0g0N!
+    #POSTGRES_AUTH_PASSWORD=password
     ...
     AVATARS_CONNECTION_STRING=Host=external_server3;Port=5432;Database=avatarsdb;Username=tester;Password=tester
     #POSTGRES_AVATARS_DB=avatarsdb
     #POSTGRES_AVATARS_USER=postgres
-    #POSTGRES_AVATARS_PASSWORD=F1rstL0g0N!
+    #POSTGRES_AVATARS_PASSWORD=password
     ```
 5.  Выполните установку TeamStorm:
 
-    `docker-compose -f docker-compose.yml --project-name prod up --detach --timeout 120`
+    `docker-compose -f docker-compose.yml --project-name teamstorm up --detach --timeout 120`
 
 ## Обновление ПО
 
@@ -400,7 +381,7 @@ chmod +x backup.sh
 2. ​В командной строке перейдите в директорию с последней версией и выполните:
 
 ```
-docker-compose -f docker-compose.yml --project-name prod up -d --remove-orphans
+docker-compose -f docker-compose.yml --project-name teamstorm up -d --remove-orphans
 ```
 
 ### **Автономное обновление**
@@ -414,7 +395,7 @@ docker-compose -f docker-compose.yml --project-name prod up -d --remove-orphans
 
 ```
 docker load -i images.tar.gz
-docker-compose -f docker-compose.yml --project-name prod up -d --remove-orphans
+docker-compose -f docker-compose.yml --project-name teamstorm up -d --remove-orphans
 ```
 
 ## Настройка HTTPS
