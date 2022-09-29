@@ -5,4 +5,4 @@
 * [Описание процессов, обеспечивающих поддержание жизненного цикла ПО TeamStorm](soprovozhdenie-sistemy-teamstorm.md)
 * [Руководство администратора TeamStorm по добавлению пользователей](rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md)
 * [Инструкция по установке ПО TeamStorm](rukovodstvo-sistemnogo-administratora-teamstorm.md)
-* [Руководство пользователя TeamStorm](rukovodstvo-polzovatelya-teamstorm.md)
+* [Инструкция по эксплуатации TeamStorm](rukovodstvo-polzovatelya-teamstorm.md)
