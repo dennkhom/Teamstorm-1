@@ -1,4 +1,4 @@
-# Руководство пользователя TeamStorm
+# Инструкция по эксплуатации TeamStorm
 
 ## Назначение документа <a href="#_toc110777249" id="_toc110777249"></a>
 
@@ -11,15 +11,15 @@
 1. Откройте страницу входа, общую для TeamStorm и TestIT.
 2.  Выберите локальную учетную запись или вход из домена, если настроены подключения к LDAP-серверам, например к Active Directory, для авторизации с помощью пользователя AD.&#x20;
 
-    <figure><img src=".gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (25).png" alt=""><figcaption></figcaption></figure>
 
 
 3. **Опционально:** поставьте флажок **Запомнить меня**, чтобы не вводить учетные данные при следующем открытии браузера.
 4. Введите учетные данные пользователя и нажмите **Войти**.&#x20;
-5. На открывшейся странице системы TestIT нажмите иконку выбора продукта в правом верхнем углу экрана <img src=".gitbook/assets/изображение (16).png" alt="" data-size="line">.
+5. На открывшейся странице системы TestIT нажмите иконку выбора продукта в правом верхнем углу экрана <img src=".gitbook/assets/изображение (14).png" alt="" data-size="line">.
 6.  Нажмите на название продукта TeamStorm.
 
-    <figure><img src=".gitbook/assets/изображение (23).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Без использования TestIT
 
@@ -29,7 +29,7 @@
 4. **Опционально:** поставьте флажок **Запомнить меня**, чтобы не вводить учетные данные при следующем открытии браузера.
 5. Нажмите **Войти** или клавишу `Enter`**.**
 
-<figure><img src=".gitbook/assets/изображение (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (38).png" alt=""><figcaption></figcaption></figure>
 
 ## Главная страница
 
@@ -42,7 +42,7 @@
 
 Также **Главная страница** содержит поле для поиска задачи и иконку доступа к профилю пользователя.
 
-<figure><img src=".gitbook/assets/изображение (13) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (42).png" alt=""><figcaption></figcaption></figure>
 
 ## Работа с пространствами
 
@@ -52,10 +52,10 @@
 
 ### Создание пространства
 
-1. На **Главной странице** в блоке пространств нажмите <img src=".gitbook/assets/изображение (15) (1).png" alt="" data-size="line">, затем **Создать**.
+1. На **Главной странице** в блоке пространств нажмите <img src=".gitbook/assets/изображение (37).png" alt="" data-size="line">, затем **Создать**.
 2. В открывшемся окне введите название нового пространства и нажмите **Создать**.
 
-<figure><img src=".gitbook/assets/изображение (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (39).png" alt=""><figcaption></figcaption></figure>
 
 Созданное пространство отобразится в списке пространств на **Главной странице**.
 
@@ -64,7 +64,7 @@
 1. Нажмите на название пространства в списке пространств на **Главной странице.**
 2. В открывшемся окне с надписью "Пространство не содержит папок" перейти к [созданию папки](rukovodstvo-polzovatelya-teamstorm.md#sozdanie-papki) либо к [настройкам пространства](rukovodstvo-polzovatelya-teamstorm.md#nastroika-prostranstva).
 
-<figure><img src=".gitbook/assets/изображение (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (23).png" alt=""><figcaption></figcaption></figure>
 
 ### Переход к пространству
 
@@ -72,16 +72,16 @@
 
 В открывшемся окне отобразятся задачи из первой созданной в данном пространстве папки.
 
-![](<.gitbook/assets/изображение (4) (1).png>)
+![](<.gitbook/assets/изображение (46).png>)
 
 ### Настройки пространства
 
 Доступ к настройкам пространства открывается при
 
 * [первом входе в созданное пространство](rukovodstvo-polzovatelya-teamstorm.md#pervyi-vkhod-v-sozdannoe-prostranstvo) или
-* [переходах к ранее созданному пространству](rukovodstvo-polzovatelya-teamstorm.md#undefined) по нажатию кнопки ![](<.gitbook/assets/изображение (1) (3) (1) (1) (1) (1) (5).png>) .
+* [переходах к ранее созданному пространству](rukovodstvo-polzovatelya-teamstorm.md#undefined) по нажатию кнопки ![](<.gitbook/assets/изображение (10) (1) (2).png>) .
 
-<figure><img src=".gitbook/assets/изображение (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (56).png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся окне вы можете:
 
@@ -95,7 +95,7 @@
 * настройке процессов, которые используются в пространстве;
 * настройке типов и атрибутов, которые используются в пространстве.
 
-<figure><img src=".gitbook/assets/изображение (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (35).png" alt=""><figcaption></figcaption></figure>
 
 ## Работа с папками
 
@@ -108,22 +108,22 @@
 ### Создание папки
 
 1. Перейти в пространство, в котором требуется создать папку.
-2.  Если пространство не содержит папок, то на открывшейся странице нажмите кнопку **Создать папку.** Если пространство содержит ранее созданные папки, нажмите кнопку ![](<.gitbook/assets/изображение (13) (1) (1) (1) (1) (1) (4).png>) рядом с названием пространства.
+2.  Если пространство не содержит папок, то на открывшейся странице нажмите кнопку **Создать папку.** Если пространство содержит ранее созданные папки, нажмите кнопку ![](<.gitbook/assets/изображение (6) (2) (1).png>) рядом с названием пространства.
 
-    <figure><img src=".gitbook/assets/изображение (9) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
 3. В открывшемся окне введите название папки и нажмите **Создать**.
 
-<figure><img src=".gitbook/assets/изображение (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (10).png" alt=""><figcaption></figcaption></figure>
 
 #### Создание вложенной папки
 
-Выполняется аналогично созданию папки в пространстве, но на шаге 2. следует нажать кнопку ![](<.gitbook/assets/изображение (13) (1) (1) (1) (1) (1) (13).png>) напротив названия той папки, в которой вы хотите создать вложенную папку.
+Выполняется аналогично созданию папки в пространстве, но на шаге 2. следует нажать кнопку ![](<.gitbook/assets/изображение (5) (3).png>) напротив названия той папки, в которой вы хотите создать вложенную папку.
 
-<figure><img src=".gitbook/assets/изображение (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (36).png" alt=""><figcaption></figcaption></figure>
 
 ### Изменение папки
 
-1. Нажмите <img src=".gitbook/assets/изображение (1) (3) (1) (1) (1) (1) (3).png" alt="" data-size="line"> рядом с названием папки.
+1. Нажмите <img src=".gitbook/assets/изображение (4) (2).png" alt="" data-size="line"> рядом с названием папки.
 2. В открывшемся окне в блоке **Настройки** введите
    * новое название папки;
    * описание папки.
@@ -131,7 +131,7 @@
 
 ### Удаление папки
 
-1. Нажмите <img src=".gitbook/assets/изображение (1) (3) (1) (1) (1) (1) (3).png" alt="" data-size="line"> рядом с названием папки.
+1. Нажмите <img src=".gitbook/assets/изображение (4) (2).png" alt="" data-size="line"> рядом с названием папки.
 2. В открывшемся окне в блоке **Удаление** введите название удаляемой папки.
 3. Нажмите **Удалить.**
 
@@ -161,9 +161,9 @@
 
 Для переключения между представлениями нажмите **Доска** или **Таблица** на переключателе в верхней части представления. Выбранный тип представления будет подчеркнут и выделен цветом.
 
-<figure><img src=".gitbook/assets/изображение (9) (4).png" alt=""><figcaption><p>Представление "Доска"</p></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (49).png" alt=""><figcaption><p>Представление "Доска"</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/изображение (9) (2).png" alt=""><figcaption><p>Представление "Таблица"</p></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (41).png" alt=""><figcaption><p>Представление "Таблица"</p></figcaption></figure>
 
 ### Добавление задачи
 
@@ -177,7 +177,7 @@
    * Дата выполнения.
 4. Нажмите **Создать**.
 
-<figure><img src=".gitbook/assets/изображение (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (58).png" alt=""><figcaption></figcaption></figure>
 
 ### Редактирование задачи
 
@@ -188,9 +188,9 @@
    * дату выполнения;
    * статус.
 4. При необходимости введите атрибуты и описание задачи.
-5. Закройте панель редактирования, нажав <img src=".gitbook/assets/изображение (1) (4).png" alt="" data-size="line"> в правом верхнем углу панели.
+5. Закройте панель редактирования, нажав <img src=".gitbook/assets/изображение (20).png" alt="" data-size="line"> в правом верхнем углу панели.
 
-<figure><img src=".gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (59).png" alt=""><figcaption></figcaption></figure>
 
 ### Добавление подзадачи
 
@@ -198,7 +198,7 @@
 2. Нажмите на нужную задачу.
 3.  В открывшейся справа панели в разделе П**ОДЗАДАЧИ** нажмите **Добавить.**
 
-    <figure><img src=".gitbook/assets/изображение (6) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (40).png" alt=""><figcaption></figcaption></figure>
 4. В открывшемся окне выберите **Создать** или **Выбрать из существующих**.
 
 Если выбрана вкладка **Создать:**
@@ -210,18 +210,18 @@
    * Дата выполнения.
 2. Нажмите кнопку **Создать.**
 
-<figure><img src=".gitbook/assets/изображение (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (21).png" alt=""><figcaption></figcaption></figure>
 
 Если выбрана вкладка Выбрать из существующих:
 
 1. В открывшемся окне переведите курсор в поле ввода и начните вводить название ранее созданной задачи.
 2. Выберите нужную задачу из раскрывшегося списка и нажмите на неё.
 
-<figure><img src=".gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (27).png" alt=""><figcaption></figcaption></figure>
 
 В  разделе **ПОДЗАДАЧИ** отобразятся добавленные подзадачи.
 
-<figure><img src=".gitbook/assets/изображение (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (54).png" alt=""><figcaption></figcaption></figure>
 
 ### Добавление связанных задач
 
@@ -229,20 +229,20 @@
 2. Нажмите на нужную задачу.
 3.  В открывшейся справа панели в разделе **СВЯЗАННЫЕ ЗАДАЧИ** нажмите **Добавить**.
 
-    <figure><img src=".gitbook/assets/изображение (4) (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (18).png" alt=""><figcaption></figcaption></figure>
 4.  В отобразившемся поле начните вводить название задачи, которую нужно связать с текущей.&#x20;
 
-    <figure><img src=".gitbook/assets/изображение (13).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (55).png" alt=""><figcaption></figcaption></figure>
 
     5\. Выберите тип связи задач (по умолчанию — **Связана**)
 
-    <figure><img src=".gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (61).png" alt=""><figcaption></figcaption></figure>
 
-    6\. Нажмите ![](<.gitbook/assets/изображение (6).png>)
+    6\. Нажмите ![](<.gitbook/assets/изображение (8).png>)
 
 В  разделе **СВЯЗАННЫЕ ЗАДАЧИ** отобразятся связанные задачи.
 
-<figure><img src=".gitbook/assets/изображение (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (52).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -252,14 +252,14 @@
 2. Нажмите на нужную задачу.
 3.  В открывшейся справа панели в разделе **ВЛОЖЕНИЯ** нажмите иконку добавления файлов.
 
-    <figure><img src=".gitbook/assets/изображение (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (31).png" alt=""><figcaption></figcaption></figure>
 4. В открывшемся системном окне перейдите в папку с нужным файлом, выберите файл и подтвердите выбор.
 
-<figure><img src=".gitbook/assets/изображение (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (26).png" alt=""><figcaption></figcaption></figure>
 
 В разделе **ВЛОЖЕНИЯ** отобразится добавленный файл.&#x20;
 
-![](<.gitbook/assets/изображение (22).png>)
+![](<.gitbook/assets/изображение (34).png>)
 
 ## Настройка рабочих процессов
 
@@ -273,37 +273,37 @@
 ### Создание процесса
 
 1. Перейдите в пространство, для которого требуется создать новый процесс.
-2. Нажмите <img src=".gitbook/assets/изображение (1) (3) (1) (1) (1) (1) (9).png" alt="" data-size="line"> напротив названия пространства в левой части экрана, затем нажмите **Настройки**.
+2. Нажмите <img src=".gitbook/assets/изображение (16) (2).png" alt="" data-size="line"> напротив названия пространства в левой части экрана, затем нажмите **Настройки**.
 3.  В открывшемся окне перейдите в раздел **Процессы**.
 
-    <figure><img src=".gitbook/assets/изображение (18).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (32).png" alt=""><figcaption></figcaption></figure>
 4. Нажмите **Создать** в правом верхнем углу экрана.
-5. В открывшемся окне введите название процесса в поле в верхней части экрана и назначьте процессу статусы, нажав ![](<.gitbook/assets/изображение (13) (1) (1) (1) (1) (1) (11).png>) в блоках статусов и выбрав необходимые для данного процесса статусы.
+5. В открывшемся окне введите название процесса в поле в верхней части экрана и назначьте процессу статусы, нажав ![](<.gitbook/assets/изображение (6) (2) (5).png>) в блоках статусов и выбрав необходимые для данного процесса статусы.
 6. Нажмите **Сохранить.**
 
 В случае удачного сохранения процесса в правом нижнем углу экрана отобразится надпись "Процесс сохранен".
 
-<figure><img src=".gitbook/assets/изображение (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (60).png" alt=""><figcaption></figcaption></figure>
 
 ### Просмотр списка процессов
 
 1. Перейдите в пространство, в котором требуется просмотреть процессы.
-2. Нажмите <img src=".gitbook/assets/изображение (1) (3) (1) (1) (1) (1) (7).png" alt="" data-size="line"> напротив названия пространства в левой части экрана, затем нажмите **Настройки**.
+2. Нажмите <img src=".gitbook/assets/изображение (2).png" alt="" data-size="line"> напротив названия пространства в левой части экрана, затем нажмите **Настройки**.
 3. В открывшемся окне перейдите в раздел **Процессы**.
 
 На открывшейся странице будет отображен список процессов, созданных для данного пространства.
 
-<figure><img src=".gitbook/assets/изображение (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (24).png" alt=""><figcaption></figcaption></figure>
 
 ### Создание нового статуса
 
 1. Перейдите в список процессов, как указано в разделе [Просмотр списка процессов](rukovodstvo-polzovatelya-teamstorm.md#undefined).
 2. Нажмите на нужный процесс из списка.
-3. В открывшемся окне нажмите <img src=".gitbook/assets/изображение (13) (1) (1) (1) (1) (10).png" alt="" data-size="line">в том столбце статусов, в котором необходимо создать новый статус.
+3. В открывшемся окне нажмите <img src=".gitbook/assets/изображение (4) (3) (1).png" alt="" data-size="line">в том столбце статусов, в котором необходимо создать новый статус.
 4. Введите отобразившееся поле название статуса, уникальное для того пространства, в котором вы находитесь.
 5. Нажмите **Создать <**_**название статуса**_**>**.
 
-<figure><img src=".gitbook/assets/изображение (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (30).png" alt=""><figcaption></figcaption></figure>
 
 ### Удаление статуса из процесса
 
@@ -312,6 +312,6 @@
 3. В открывшемся окне выберите статус, который хотите удалить и кликните на него правой кнопкой мыши.
 4. Нажмите **Удалить из процесса**.
 
-<figure><img src=".gitbook/assets/изображение (9) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (7).png" alt=""><figcaption></figcaption></figure>
 
 ###
