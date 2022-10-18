@@ -13,7 +13,7 @@
 1. Введите данные служебного пользователя (_admin_/_Qwerty123_).
 2.  Нажмите **Войти** или `Enter`.
 
-    <figure><img src=".gitbook/assets/изображение (1).png" alt=""><figcaption><p>Смена пароля</p></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
