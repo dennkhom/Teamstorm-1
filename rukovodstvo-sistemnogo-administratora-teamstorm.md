@@ -135,5 +135,5 @@ Pooling=true
 
 ```
 ASPNETCORE_ENVIRONMENT=Production
-FILE_BUCKET_NAME=testit
+FILE_BUCKET_NAME=teamstorm
 ```
