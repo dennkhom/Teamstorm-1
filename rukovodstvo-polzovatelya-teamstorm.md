@@ -105,7 +105,7 @@
 * [первом входе в созданное пространство](rukovodstvo-polzovatelya-teamstorm.md#pervyi-vkhod-v-sozdannoe-prostranstvo) или
 * [переходах к ранее созданному пространству](rukovodstvo-polzovatelya-teamstorm.md#undefined) по нажатию кнопки ![](<.gitbook/assets/изображение (10) (1) (2).png>) .
 
-<figure><img src=".gitbook/assets/изображение (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
 
 На открывшейся странице вы можете:
 
@@ -385,7 +385,7 @@
 * количество задач, соответствующее результатам фильтрации или поиска, на всех уровнях вложенности;
 * общее количество задач для данной папки или очереди на всех уровнях вложенности.
 
-<figure><img src=".gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Настройка представления
 
@@ -428,7 +428,7 @@
 
 <div>
 
-<figure><img src=".gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
  
 
@@ -500,7 +500,7 @@
 2. Выберите строку с нужной задачей и столбец с атрибутом, который необходимо отредактировать.
 3. Нажмите на выбранный атрибут и измените его при помощи отобразившегося меню.&#x20;
 
-<figure><img src=".gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -584,7 +584,7 @@
 3. При помощи мыши или другого манипулятора захватите карточку задачи и перетащите ее вверх или вниз в рамках колонки статуса, в которой находится данная задача.
 4. Повторите для остальных задач (если необходимо).
 
-<figure><img src=".gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Ранжирование задач сохраняется для всех пользователей и на всех устройствах.
