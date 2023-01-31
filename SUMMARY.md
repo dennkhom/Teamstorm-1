@@ -9,4 +9,4 @@
 
 ## Changelog
 
-* [Январь 2023](changelog/yanvar-2023.md)
+* [ 2023](changelog/2023.md)
