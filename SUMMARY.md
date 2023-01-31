@@ -6,3 +6,7 @@
 * [Руководство администратора TeamStorm по добавлению пользователей](rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md)
 * [Инструкция по установке  TeamStorm](rukovodstvo-sistemnogo-administratora-teamstorm.md)
 * [Инструкция по эксплуатации TeamStorm](rukovodstvo-polzovatelya-teamstorm.md)
+
+## Changelog
+
+* [Январь 2023](changelog/yanvar-2023.md)
