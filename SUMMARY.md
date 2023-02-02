@@ -9,4 +9,7 @@
 
 ## Changelog
 
-* [ 2023](changelog/2023.md)
+* [2023](changelog/2023/README.md)
+  * [Версия 1.26.0](changelog/2023/versiya-1.26.0.md)
+* [2022](changelog/2022/README.md)
+  * [Версия 1.23.0](changelog/2022/versiya-1.23.0.md)
