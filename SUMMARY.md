@@ -10,6 +10,6 @@
 ## Release Notes
 
 * [2023](release-notes/2023/README.md)
-  * [Версия 1.26.0](release-notes/2023/versiya-1.26.0.md)
+  * [Версия 1.27.0](release-notes/2023/versiya-1.27.0.md)
 * [2022](release-notes/2022/README.md)
   * [Версия 1.23.0](release-notes/2022/versiya-1.23.0.md)
