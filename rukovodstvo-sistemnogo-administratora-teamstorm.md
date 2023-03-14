@@ -22,6 +22,8 @@ images.tar - архив с образами (только в архиве для
 
 Состав поставки TestIT указан в [документации на ПО TestIT](https://docs.testit.software/installation-guide/ustanovka-v-docker-compose.html#%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8).
 
+Состав поставки TeamStorm:
+
 * `setup.sh` - основной скрипт установки
 * `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm
 * `docker-compose.yml` - конфигурационный файл Docker Compose
