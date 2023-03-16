@@ -29,7 +29,7 @@
 Состав поставки TeamStorm:
 
 * `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm;
-* `docker-compose.cwm.yml` - конфигурационный файл Docker Compose;&#x20;
+* `docker-compose.cwm.yml` - конфигурационный файл Docker Compose.
 
 #### **Установка и настройка TestIT**
 
