@@ -36,15 +36,15 @@
 1. Загрузите и установите ПО [TestIT](https://testit.software/versions/) в соответствии с документацией TestIT.
 2. Настройте поддержку TeamStorm  TeamStorm в TestIT, заменив значение переменной `CWM_ENABLED`:
 
-```
-# Отредактируйте файл переменных окружения Testit:
-vi ./testit/.env
-<<<
-CWM_ENABLED="false"
->>>
-CWM_ENABLED="true"
+    ```
+    # Отредактируйте файл переменных окружения Testit:
+    vi ./testit/.env
+    <<<
+    CWM_ENABLED="false"
+    >>>
+    CWM_ENABLED="true"
 
-```
+    ```
 
 #### **Подготовка**
 
