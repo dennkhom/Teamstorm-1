@@ -74,11 +74,11 @@
 1. Распакуйте содержимое архива автономной установки, например, в папку `~/teamstorm_v1.30.0`.
 2. Выполните следующие команды:
 
-```bash
-tar -xzvf ts_distro_v1.30.0.tgz
-chmod +x setup.sh
-./setup.sh
-```
+    ```bash
+    tar -xzvf ts_distro_v1.30.0.tgz
+    chmod +x setup.sh
+    ./setup.sh
+    ```
 
 #### **Перезапуск системы**
 
