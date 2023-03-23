@@ -22,6 +22,12 @@
 
 [TestIT 4.0.1 и выше](https://testit.software/versions/).
 
+{% hint style="warning" %}
+TestIT 4.0.1 и 4.0.2 для версии TeamStorm 1.30.0.
+
+TestIT 4.1 и выше для версии TeamStorm 1.31.
+{% endhint %}
+
 #### **Состав поставки**
 
 `images.tar` - архив с образами (только в архиве для автономной установки)**.**
