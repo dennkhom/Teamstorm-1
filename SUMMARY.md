@@ -7,7 +7,7 @@
 * [Инструкция по установке TeamStorm](rukovodstvo-sistemnogo-administratora-teamstorm.md)
   * [Версия 1.30.0 и более поздние](rukovodstvo-sistemnogo-administratora-teamstorm/versiya-1.30.0-i-bolee-pozdnie.md)
   * [Версия 1.29.0 и более ранние](rukovodstvo-sistemnogo-administratora-teamstorm/versiya-1.29.0-i-bolee-rannie.md)
-* [Инструкция по эксплуатации TeamStorm](rukovodstvo-polzovatelya-teamstorm.md)
+* [Руководство пользователя TeamStorm](rukovodstvo-polzovatelya-teamstorm.md)
 
 ## Release Notes
 
