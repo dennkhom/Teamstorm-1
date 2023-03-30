@@ -40,7 +40,7 @@ TestIT 4.1 и выше для версии TeamStorm 1.31.
 #### **Установка и настройка TestIT**
 
 1. Загрузите и установите ПО [TestIT](https://testit.software/versions/) в соответствии с документацией TestIT.
-2.  Настройте поддержку TeamStorm TeamStorm в TestIT, заменив значение переменной `CWM_ENABLED`:
+2.  Настройте поддержку TeamStorm в TestIT, заменив значение переменной `CWM_ENABLED`:
 
     ```
     # Отредактируйте файл переменных окружения Testit:
