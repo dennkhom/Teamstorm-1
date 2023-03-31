@@ -6,11 +6,11 @@
 
 ## **Установка программного ПО**
 
-Установка ПО TeamStorm осуществляется только после предварительной установки [ПО TestIT](https://testit.software/versions/).
+Установка ПО TeamStorm осуществляется только после предварительной установки [ПО Test  IT](https://testit.software/versions/).
 
-Установка TestIT описана в [документации TestIT](https://docs.testit.software/installation-guide/).
+Установка TestIT описана в [документации Test  IT](https://docs.testit.software/installation-guide/).
 
-ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО TestIT.
+ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО Test  IT.
 
 ### Установка, перезапуск и удаление в Docker Compose
 
@@ -20,12 +20,12 @@
 
 [Docker Compose 2.10.0 и выше.](https://docs.docker.com/compose)
 
-[TestIT 4.0.1 и выше](https://testit.software/versions/).
+[Test IT 4.0.1 и выше](https://testit.software/versions/).
 
 {% hint style="warning" %}
-TestIT 4.0.1 и 4.0.2 для версии TeamStorm 1.30.0.
+Test IT 4.0.1 и 4.0.2 для версии TeamStorm 1.30.0.
 
-TestIT 4.1 и выше для версии TeamStorm 1.31.
+Test IT 4.1 и выше для версии TeamStorm 1.31.
 {% endhint %}
 
 #### **Состав поставки**
@@ -39,9 +39,9 @@ TestIT 4.1 и выше для версии TeamStorm 1.31.
 
 #### **Подготовка TestIT для установки TeamStorm**
 
-1. Если у вас еще не установлено ПО TestIT, загрузите и установите [TestIT](https://testit.software/versions/) в соответствии с документацией TestIT.
-2. Если у вас установлено ПО TestIT с версией ниже рекомендуемой, выполните обновление согласно [требованиям](versiya-1.30.0-i-bolee-pozdnie.md#trebovaniya).
-3.  Настройте поддержку TeamStorm в TestIT, заменив значение переменной `CWM_ENABLED`:
+1. Если у вас еще не установлено ПО TestIT, загрузите и установите [Test IT](https://testit.software/versions/) в соответствии с документацией Test IT.
+2. Если у вас установлено ПО Test IT с версией ниже рекомендуемой, выполните обновление согласно [требованиям](versiya-1.30.0-i-bolee-pozdnie.md#trebovaniya).
+3.  Настройте поддержку TeamStorm в Test IT, заменив значение переменной `CWM_ENABLED`:
 
     ```
     # Отредактируйте файл переменных окружения Testit:
