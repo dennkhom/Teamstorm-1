@@ -65,7 +65,7 @@
 * иконка [меню информации о продукте](rukovodstvo-polzovatelya-teamstorm.md#menyu-informacii-o-produkte);
 * кнопка перехода к профилю пользователя.
 
-<figure><img src=".gitbook/assets/изображение (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 Для перехода на главную страницу с других страниц нажмите надпись **Главная** или **TeamStorm** в левом верхнем углу экрана.
 
@@ -99,9 +99,9 @@
 2. В открывшемся окне введите:
    * название нового пространства;
    * ключ нового пространства (если ключ не ввести, он будет присвоен автоматически);
-3. Нажмите **Создать**.
+3.  Нажмите **Создать**.
 
-<figure><img src=".gitbook/assets/изображение (64).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
 
 Созданное пространство отобразится в списке пространств на **Главной странице**.
 
@@ -967,10 +967,10 @@ TeamStorm позволяет легко перемещать задачи меж
     <figure><img src=".gitbook/assets/изображение (43).png" alt=""><figcaption></figcaption></figure>
 2.  Добавьте фильтры, при помощи которых будет формироваться запрос, нажав кнопку **+** или надпись **Фильтры** на экране формирования запроса.&#x20;
 
-    <figure><img src=".gitbook/assets/изображение (11).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (11) (3).png" alt=""><figcaption></figcaption></figure>
 3.  Настройте  значения фильтров. Подробнее о фильтрах написано в разделе [Фильтрация и поиск](rukovodstvo-polzovatelya-teamstorm.md#filtraciya-i-poisk).&#x20;
 
-    <figure><img src=".gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (29).png" alt=""><figcaption></figcaption></figure>
 4. Нажмите кнопку **Выполнить и сохранить**.&#x20;
 
 &#x20;Отобразится список задач запроса с надписью **Запрос успешно выполнен и сохранен**.
