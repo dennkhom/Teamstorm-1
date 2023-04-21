@@ -1067,7 +1067,7 @@ TeamStorm позволяет легко перемещать задачи меж
 
 Ссылка на задачу будет автоматически скопирована в буфер обмена.&#x20;
 
-По ссылке открывает [полноэкранная карточка задачи](rukovodstvo-polzovatelya-teamstorm.md#polnoekrannaya-kartochka-zadachi).
+По ссылке открывается [полноэкранная карточка задачи](rukovodstvo-polzovatelya-teamstorm.md#polnoekrannaya-kartochka-zadachi).
 
 ## Работа с запросами
 
