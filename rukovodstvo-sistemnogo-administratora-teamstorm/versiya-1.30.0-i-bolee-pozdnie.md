@@ -158,7 +158,7 @@ RABBITMQ_DEFAULT_USER="teamstorm"
 RABBITMQ_DEFAULT_VHOST="teamstorm"
 ```
 
-Параметры подключения к БД, при установке внешней БД, поменять на свои значения:
+Параметры подключения к базе данных (при установке внешней базы данных поменять на свои значения):
 
 ```shell
 POSTGRES_DEFAULT_DB="postgres"
