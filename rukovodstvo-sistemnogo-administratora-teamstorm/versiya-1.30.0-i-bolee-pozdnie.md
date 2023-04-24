@@ -2,17 +2,17 @@
 
 ## Назначение документа
 
-Документ описывает действия системного администратора по установке и настройке ПО TeamStorm версии 1.30.0 и выше.
+Документ описывает действия системного администратора по установке и настройке ПО TeamStorm v. 1.30.0 и выше.
 
 ## **Установка программного ПО**
 
-Установка ПО TeamStorm осуществляется только после предварительной установки [ПО Test IT](https://testit.software/versions/).
+Установка ПО TeamStorm осуществляется только после предварительной установки [ПО TestIT](https://testit.software/versions/).&#x20;
 
-Установка Test IT описана в [документации Test IT](https://docs.testit.software/installation-guide/).
+Установка TestIT описана в [документации TestIT](https://docs.testit.software/installation-guide/).
 
-ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО Test IT.
+ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО TestIT.
 
-### Установка, перезапуск и удаление в Docker Compose
+### Установка, перезапуск и удаление в Docker Compose&#x20;
 
 #### **Требования**
 
@@ -20,51 +20,65 @@
 
 [Docker Compose 2.10.0 и выше.](https://docs.docker.com/compose)
 
-[Test IT 4.0.1 и выше](https://testit.software/versions/).
-
-{% hint style="warning" %}
-Test IT 4.0.1 и 4.0.2 для версии TeamStorm 1.30.0.
-
-Test IT 4.1 и выше для версии TeamStorm 1.31.
-{% endhint %}
+[TestIT 4.0.1 и выше](https://testit.software/versions/).
 
 #### **Состав поставки**
 
-`images.tar` - архив с образами (только в архиве для автономной установки)**.**
+`images.tar` - архив с образами (только в архиве для автономной установки)**.**&#x20;
 
 Состав поставки TeamStorm:
 
-* `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам TeamStorm;
+* `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm;
 * `docker-compose.cwm.yml` - конфигурационный файл Docker Compose.
 
-#### **Подготовка Test IT для установки TeamStorm**
+#### **Установка и настройка TestIT**
 
-1. Если у вас еще не установлено ПО Test IT, загрузите и установите [Test IT](https://testit.software/versions/) в соответствии с документацией Test IT.
-2. Если у вас установлено ПО Test IT с версией ниже рекомендуемой, выполните обновление согласно [требованиям](versiya-1.30.0-i-bolee-pozdnie.md#trebovaniya).
-3.  Настройте поддержку TeamStorm в Test IT, заменив значение переменной `CWM_ENABLED`:
+1. Загрузите и установите ПО [TestIT](https://testit.software/versions/) в соответствии с документацией TestIT.
 
-    ```
-    # Отредактируйте файл переменных окружения Testit:
-    vi ./testit/.env
-    <<<
-    CWM_ENABLED="false"
-    >>>
-    CWM_ENABLED="true"
+2. Настройте поддержку TeamStorm в TestIt заменив значение переменной `CWM_ENABLED`
 
-    ```
+   [//]: #
+
+ ```shell
+# Отредактируйте файл переменных окружения Testit:
+vi ./testit/.env
+<<<
+CWM_ENABLED="false"
+>>>
+CWM_ENABLED="true"
+
+```
+
+3. При обновлении с TestIt 4.0.2 на TestIt 4.1.0 и Teamstorm v1.30.0 на v1.31.0 необходимо выставить переменную для сервиса webapi: `CAN_EDIT_SYSTEM_ROLES: true`.
+
+```shell
+$ vi ./testit/docker-compose.yml
+...
+  webapi:
+  ...
+    environment:
+>>>   CAN_EDIT_SYSTEM_ROLES: true
+```
 
 #### **Подготовка**
 
-1. Измените значения переменных по умолчанию в .env-файле.
-2.  Задайте параметры `vm.max_map_count=262144` и `vm.overcommit_memory=1`:
+[//]: #
+
+1. Измените  значения переменных по умолчанию в .env-файле.
+
+2. Задайте параметры `vm.max_map_count=262144` и `vm.overcommit_memory=1`:
 
     ```bash
     echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
     echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
     sysctl -p
     ```
+
 3. Заблокируйте все порты, кроме порта 80, необходимого для доступа к пользовательскому интерфейсу.
-4.  **Опционально:** для обслуживания системы посредством протокола SSH, необходимо открыть порт 22 (может быть переназначено на конкретной конфигурации). Для работы по HTTPS необходимо открыть порт 443. Пример открытия доступа к портам для CentOS 8:
+
+4. **Опционально:** для обслуживания системы посредством протокола SSH, необходимо открыть порт 22 (может быть переназначено на конкретной конфигурации). Для работы по HTTPS необходимо открыть порт 443. Пример открытия доступа к портам для CentOS 8:
+
+   [//]: #
 
     ```bash
     firewall-cmd --zone=public --add-port=80/tcp --permanent
@@ -75,20 +89,25 @@ Test IT 4.1 и выше для версии TeamStorm 1.31.
 
 #### **Автономная установка**
 
-Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker-образы с публичных репозиториев.
+Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker-образы с публичных репозиториев.&#x20;
+
+[//]: #
 
 1. Распакуйте содержимое архива автономной установки, например, в папку `~/teamstorm_v1.30.0`.
-2.  Выполните следующие команды:
 
-    ```bash
-    tar -xzvf ts_distro_v1.30.0.tgz
-    chmod +x setup.sh
-    ./setup.sh
-    ```
+2. Выполните следующие команды:
+
+```bash
+tar -xzvf ts_distro_v1.30.0.tgz
+chmod +x setup.sh
+./setup.sh
+```
 
 #### **Перезапуск системы**
 
 Для перезапуска системы воспользуйтесь следующей командой:
+
+ [//]: #
 
 ```bash
 cd teamstorm_v1.30.0
@@ -99,6 +118,8 @@ docker-compose -f docker-compose.cwm.yml --project-name teamstorm restart --time
 
 Для полного удаления системы и ее данных необходимо выполнить следующую команду:
 
+ [//]: #
+
 ```bash
 cd teamstorm_v1.30.0
 docker-compose -f docker-compose.cwm.yml --project-name teamstorm down --volumes --timeout 120
@@ -108,6 +129,7 @@ docker-compose -f docker-compose.cwm.yml --project-name teamstorm down --volumes
 
 ## Описание .env файла
 
+ [//]: #
 Репозиторий для скачивания образов установки Teamstorm:
 
 ```shell
