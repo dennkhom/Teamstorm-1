@@ -46,7 +46,7 @@ CWM_ENABLED="true"
 
 ```
 
-3. При обновлении с TestIt 4.0.2 на TestIt 4.1.0 и выше и Teamstorm v1.30.0 на v1.31.0 и выше необходимо выставить переменную для сервиса webapi: `CAN_EDIT_SYSTEM_ROLES: true`.
+3. При обновлении с Test IT 4.0.2 на TestIt 4.1.0 и выше, а Teamstorm с 1.30.0 на 1.31.0 и выше необходимо выставить переменную для сервиса webapi: `CAN_EDIT_SYSTEM_ROLES: true`.
 
 ```shell
 $ vi ./testit/docker-compose.yml
