@@ -13,7 +13,7 @@
 1. Введите данные служебного пользователя (_admin_/_Qwerty123_).
 2.  Нажмите **Войти** или `Enter`.
 
-    <figure><img src=".gitbook/assets/изображение (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (15).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -36,7 +36,7 @@
 4. **Опционально:** поставьте флажок **Запомнить меня**, чтобы не вводить учетные данные при следующем открытии браузера.
 5. Нажмите **Войти** или клавишу  `Enter`**.**
 
-<figure><img src=".gitbook/assets/изображение (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (99).png" alt=""><figcaption></figcaption></figure>
 
 ## Настройка подключений через AD/LDAP <a href="#_toc110777251" id="_toc110777251"></a>
 
@@ -68,7 +68,7 @@
 
 На странице подключений AD/LDAP можно создать несколько подключений, а также выбрать подключение по умолчанию.
 
-<figure><img src=".gitbook/assets/изображение (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (151).png" alt=""><figcaption></figcaption></figure>
 
 Выбранное подключение по умолчанию будет отображаться на странице авторизации как основное.
 
@@ -102,7 +102,7 @@
 3. Если нужный пользователь не отображается, начните вводить его имя или логин в поле **Добавить пользователя**, далее выберите пользователя из результатов поиска.&#x20;
 4. Поставьте флажок роли, которую вы хотите дать определенному пользователю или группе пользователей. Роль применится и сохранится автоматически. При добавлении пользователя через AD/LDAP к группе у которой есть права в системе, синхронизация может занять около 20 минут.
 
-<figure><img src=".gitbook/assets/изображение (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (136).png" alt=""><figcaption></figcaption></figure>
 
 ### Редактирование данных пользователя
 
@@ -123,4 +123,4 @@
 1. Поставьте флажок напротив локального пользователя (пользователей), которого хотите удалить из системы.
 2. Нажмите **Удалить**.
 
-<figure><img src=".gitbook/assets/изображение (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/изображение (118).png" alt=""><figcaption></figcaption></figure>
