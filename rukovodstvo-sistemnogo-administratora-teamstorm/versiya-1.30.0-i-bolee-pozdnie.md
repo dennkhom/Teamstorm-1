@@ -52,7 +52,9 @@ CWM_ENABLED="true"
 $ vi ./testit/docker-compose.yml
 ...
   auth:
-   CAN_EDIT_SYSTEM_ROLES: true
+  ...
+    environment:
+>>>   CAN_EDIT_SYSTEM_ROLES: "${CAN_EDIT_SYSTEM_ROLES:-true}"
 ```
 
 #### **Подготовка**
