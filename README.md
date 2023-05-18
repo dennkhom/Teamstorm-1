@@ -2,8 +2,6 @@
 
 TeamStorm — это cовременная система управления совместной работой, которая помогает компаниям любого размера и любой индустрии достигать стратегических целей, управлять рабочими процессами и выстраивать эффективное взаимодействие всех команд, от разработки до отдела продаж.
 
-**Руководства:**
-
 {% content-ref url="opisanie-funkcionalnykh-i-tekhnicheskikh-kharakteristik-po-teamstorm.md" %}
 [opisanie-funkcionalnykh-i-tekhnicheskikh-kharakteristik-po-teamstorm.md](opisanie-funkcionalnykh-i-tekhnicheskikh-kharakteristik-po-teamstorm.md)
 {% endcontent-ref %}
@@ -11,6 +9,10 @@ TeamStorm — это cовременная система управления �
 {% content-ref url="soprovozhdenie-sistemy-teamstorm.md" %}
 [soprovozhdenie-sistemy-teamstorm.md](soprovozhdenie-sistemy-teamstorm.md)
 {% endcontent-ref %}
+
+
+
+**Руководства:**
 
 {% content-ref url="rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md" %}
 [rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md](rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md)
