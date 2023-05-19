@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/2023-05-19_12-27-15 (2).jpg
-coverY: 415
+cover: .gitbook/assets/2023-05-19_12-27-15 (3).jpg
+coverY: 748
 ---
 
 # Документация на ПО TEAMSTORM
