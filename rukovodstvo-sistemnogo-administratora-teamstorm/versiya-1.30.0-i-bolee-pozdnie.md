@@ -177,7 +177,21 @@ PG_CONNECTION_STRING="Host=${POSTGRES_DEFAULT_HOST};Port=${POSTGRES_DEFAULT_PORT
 
 Настроить параметры почтового сервера для уведомлений:
 
+`CWMFRONTENDURL="${CWM_FRONTEND_URL}"` — указать хост размещения TeamStorm (при необходимости);
 
+`MAILSERVERSETTINGS__HOST="${MAIL_SERVER_HOST}"`  — указать хост почтового сервера. Например, mail.outlook.com;
+
+`MAILSERVERSETTINGS__PORT="${MAIL_SERVER_PORT}"`  — указать порт почтового сервера. Например, 587;
+
+`MAILSERVERSETTINGS__FROM="${MAIL_SERVER_FROM}"` — указать сервисный аккаунт от имени которого будет происходить нотификация. Например, service@emailserver.com;
+
+`MAILSERVERSETTINGS__DISPLAYNAME=`"`${MAIL_SERVER_DISPLAY_NAME}"` — указать имя сервисного аккаунта для отображения . Например, Mail Service;
+
+`MAILSERVERSETTINGS__USESTARTTLS="${MAIL_SERVER_USE_START_TLS}"` — использовать TLS для подключения к почстовому серверу;
+
+`MAILSERVERSETTINGS__USESSL="${MAIL_SERVER_USE_SSL}"` — использовать SSL для подключения к почтовому серверу;&#x20;
+
+`MAIL_SERVER_TZ`=`"Europe/Moscow"` — указать идентификатор часового пояса (по умолчанию установлено московское время). Таблица идентификаторов находится по адресу [https://en.wikipedia.org/wiki/List\_of\_tz\_database\_time\_zones#List](https://en.wikipedia.org/wiki/List\_of\_tz\_database\_time\_zones#List)
 
 Системные параметры, оставить без изменений:
 
