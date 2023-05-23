@@ -8,9 +8,9 @@
 
 Установка ПО TeamStorm осуществляется только после предварительной установки [ПО TestIT](https://testit.software/versions/).
 
-Установка TestIT описана в [документации TestIT](https://docs.testit.software/installation-guide/).
+Установка Test IT описана в [документации TestIT](https://docs.testit.software/installation-guide/).
 
-ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО TestIT.
+ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО Test IT.
 
 ### Установка, перезапуск и удаление в Docker Compose
 
@@ -28,13 +28,13 @@
 
 Состав поставки TeamStorm:
 
-* `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам Teamstorm;
+* `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам TeamStorm;
 * `docker-compose.cwm.yml` - конфигурационный файл Docker Compose.
 
 #### **Установка и настройка TestIT**
 
-1. Загрузите и установите ПО [TestIT](https://testit.software/versions/) в соответствии с документацией TestIT.
-2. Настройте поддержку TeamStorm в TestIt заменив значение переменной `CWM_ENABLED`
+1. Загрузите и установите ПО [TestIT](https://testit.software/versions/) в соответствии с документацией Test IT.
+2. Настройте поддержку TeamStorm в Test IT, заменив значение переменной `CWM_ENABLED`
 
 ```shell
 # Отредактируйте файл переменных окружения Testit:
@@ -46,7 +46,7 @@ CWM_ENABLED="true"
 
 ```
 
-3. При обновлении с Test IT 4.0.2 на TestIt 4.1.0 и выше, а Teamstorm с 1.30.0 на 1.31.0 и выше необходимо выставить переменную для сервиса auth: `CAN_EDIT_SYSTEM_ROLES: true`.
+3. При обновлении с Test IT 4.0.2 на Test IT 4.1.0 и выше, а TeamStorm с 1.30.0 на 1.31.0 и выше необходимо выставить переменную для сервиса auth: `CAN_EDIT_SYSTEM_ROLES: true`.
 
 ```shell
 $ vi ./testit/docker-compose.yml
@@ -112,7 +112,7 @@ docker-compose -f docker-compose.cwm.yml --project-name teamstorm down --volumes
 
 ## Описание .env файла
 
-Репозиторий для скачивания образов установки Teamstorm:
+Репозиторий для скачивания образов установки TeamStorm:
 
 ```shell
 CWM_DOCKER_REGISTRY="docker.testit.ru/teamstorm"
@@ -174,6 +174,10 @@ PG_COMMENT_CONNECTION_STRING="Host=${POSTGRES_DEFAULT_HOST};Port=${POSTGRES_DEFA
 PG_CONNECTION_STRING="Host=${POSTGRES_DEFAULT_HOST};Port=${POSTGRES_DEFAULT_PORT};Database=teamstormdb;Username=${POSTGRES_DB_USER};Password=${POSTGRES_DB_PASSWORD};Pooling=true"
 
 ```
+
+Настроить параметры почтового сервера для уведомлений:
+
+
 
 Системные параметры, оставить без изменений:
 
