@@ -1,16 +1,16 @@
-# Версия 1.30.0 и более поздние
+# Версия 2.0.0 и более поздние
 
 ## Назначение документа
 
-Документ описывает действия системного администратора по установке и настройке ПО TeamStorm v. 1.30.0 и выше.
+Документ описывает действия системного администратора по установке и настройке ПО TeamStorm v. 2.0.0 и выше.
 
 ## **Установка программного ПО**
 
-Установка ПО TeamStorm осуществляется только после предварительной установки [ПО Test IT](https://testit.software/versions/).
+Установка ПО TeamStorm осуществляется только после предварительной установки [ПО TestIT](https://testit.software/versions/).
 
-Установка Test IT описана в [документации Test IT](https://docs.testit.software/installation-guide/).
+Установка TestIT описана в [документации TestIT](https://docs.testit.software/installation-guide/).
 
-ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО Test IT.
+ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО TestIT.
 
 ### Установка, перезапуск и удаление в Docker Compose
 
@@ -20,7 +20,7 @@
 
 [Docker Compose 2.10.0 и выше.](https://docs.docker.com/compose)
 
-[TestIT 4.0.1 и выше](https://testit.software/versions/).
+[Test IT 4.2.4 и выше, рекомендуется последняя версия](https://testit.software/versions/).
 
 #### **Состав поставки**
 
@@ -29,33 +29,50 @@
 Состав поставки TeamStorm:
 
 * `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам TeamStorm;
-* `docker-compose.cwm.yml` - конфигурационный файл Docker Compose.
+* `docker-compose.yml` - конфигурационный файл Docker Compose.
 
 #### **Установка и настройка TestIT**
 
-1. Загрузите и установите ПО [TestIT](https://testit.software/versions/) в соответствии с документацией Test IT.
-2. Настройте поддержку TeamStorm в Test IT, заменив значение переменной `CWM_ENABLED`
+1. Загрузите и установите ПО Test IT в соответствии с документацией Test IT.
+2.  Настройте поддержку TeamStorm в Test IT, заменив значение переменной `CWM_ENABLED`:
 
-```shell
-# Отредактируйте файл переменных окружения Testit:
-vi ./testit/.env
-<<<
-CWM_ENABLED="false"
->>>
-CWM_ENABLED="true"
+    ```shell
+    # Отредактируйте файл переменных окружения Test IT:
+    vi ./testit/.env
+    <<<
+    CWM_ENABLED="false"
+    >>>
+    CWM_ENABLED="true"
+    ```
+3.  Настройте поддержку WIKI в Test IT установив значения переменных `WIKI_ENABLED` и `WIKI_S3_BUCKET_SECRET_KEY`:
 
-```
+    ```shell
+    # Отредактируйте файл переменных окружения Testit:
+    vi ./testit/.env
+    <<<
+    WIKI_ENABLED="false"
+    >>>
+    WIKI_ENABLED='true'
+    ```
+4.  Следующие переменные в конфигурационных файлах `testit` и `teamstorm` должны совпадать:
 
-3. При обновлении с Test IT 4.0.2 на Test IT 4.1.0 и выше, а TeamStorm с 1.30.0 на 1.31.0 и выше необходимо выставить переменную для сервиса auth: `CAN_EDIT_SYSTEM_ROLES: true`.
+    | `testit/.env`                 |        `teamstorm/.env`       | Комментарий                                                                  |
+    | ----------------------------- | :---------------------------: | ---------------------------------------------------------------------------- |
+    | FRONTEND\_URL                 |       CWM\_FRONTEND\_URL      | Например, "[https://teamstorm.mycompany.ru](https://teamstorm.mycompany.ru)" |
+    | CWM\_S3\_BUCKET\_SECRET\_KEY  |  CWM\_S3\_BUCKET\_SECRET\_KEY | Переменная не должна содержать символ `$`                                    |
+    | WIKI\_S3\_BUCKET\_SECRET\_KEY | WIKI\_S3\_BUCKET\_SECRET\_KEY | Переменная не должна содержать символ `$`                                    |
+5.  Убедитесь, что сервис `auth`  имеет настройку для редактирования ролей:
 
-```shell
-$ vi ./testit/docker-compose.yml
-...
-  auth:
-  ...
-    environment:
->>>   CAN_EDIT_SYSTEM_ROLES: "${CAN_EDIT_SYSTEM_ROLES:-true}"
-```
+    ```shell
+    $ vi ./testit/docker-compose.yml
+    ...
+    auth:
+    ...
+        environment:
+    >>>   CAN_EDIT_SYSTEM_ROLES: "${CAN_EDIT_SYSTEM_ROLES:-true}"
+    ```
+
+При обновлении с Test IT 4.2.4 на TestIt 4.3.0 дополнительные действия не требуются.
 
 #### **Подготовка**
 
@@ -81,13 +98,22 @@ $ vi ./testit/docker-compose.yml
 
 Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker-образы с публичных репозиториев.
 
-1. Распакуйте содержимое архива автономной установки, например, в папку `~/teamstorm_v1.30.0`.
-2. Выполните следующие команды:
+1. Распакуйте содержимое архива автономной установки, например, в папку `~/teamstorm_v2.0.0`.
+2. Создайте сеть и кластер вручную или воспользуйтесь скриптом автоматического развертывания из поставки:
 
 ```bash
-tar -xzvf ts_distro_v1.30.0.tgz
+cd ${PROJECT_HOME}/teamstorm
+docker network create yoonion_network
+docker compose -p teamstorm -f docker-compose.yml up -d
+cd ${PROJECT_HOME}/testit
+docker compose -p testit -d docker-compose.yml up -d
+```
+
+```bash
+tar -xzvf teamstorm_v2.0.0.tgz
+cd ${PROJECT_HOME}/teamstorm
 chmod +x setup.sh
-./setup.sh
+./setup_teamstorm.sh
 ```
 
 #### **Перезапуск системы**
@@ -95,8 +121,8 @@ chmod +x setup.sh
 Для перезапуска системы воспользуйтесь следующей командой:
 
 ```bash
-cd teamstorm_v1.30.0
-docker-compose -f docker-compose.cwm.yml --project-name teamstorm restart --timeout 120
+cd ${PROJECT_HOME}/teamstorm
+docker-compose -f docker-compose.yml -p teamstorm restart
 ```
 
 #### Удаление системы
@@ -104,8 +130,8 @@ docker-compose -f docker-compose.cwm.yml --project-name teamstorm restart --time
 Для полного удаления системы и ее данных необходимо выполнить следующую команду:
 
 ```bash
-cd teamstorm_v1.30.0
-docker-compose -f docker-compose.cwm.yml --project-name teamstorm down --volumes --timeout 120
+cd teamstorm_v2.0.0
+docker-compose -f docker-compose.yml --project-name teamstorm down --volumes --timeout 120
 ```
 
 Чтобы сохранить информацию для последующего использования, выполните команду без флага `--volumes`.
@@ -121,7 +147,7 @@ CWM_DOCKER_REGISTRY="docker.testit.ru/teamstorm"
 Текущая версия программы:
 
 ```shell
-CWM_CONTAINER_VERSION="1.30.0"
+CWM_CONTAINER_VERSION="2.0.0"
 ```
 
 Ключи доступа к хранилищу прикрепляемых файлов в TeamStorm (minio):
@@ -174,8 +200,6 @@ PG_COMMENT_CONNECTION_STRING="Host=${POSTGRES_DEFAULT_HOST};Port=${POSTGRES_DEFA
 PG_CONNECTION_STRING="Host=${POSTGRES_DEFAULT_HOST};Port=${POSTGRES_DEFAULT_PORT};Database=teamstormdb;Username=${POSTGRES_DB_USER};Password=${POSTGRES_DB_PASSWORD};Pooling=true"
 
 ```
-
-
 
 Системные параметры, оставить без изменений:
 

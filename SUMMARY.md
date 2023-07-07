@@ -8,6 +8,7 @@
 
 * [Руководство администратора TeamStorm по добавлению пользователей](rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md)
 * [Инструкция по установке TeamStorm](rukovodstvo-sistemnogo-administratora-teamstorm/README.md)
+  * [Версия 2.0.0 и более поздние](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.0.0-i-bolee-pozdnie.md)
   * [Версия 1.30.0 и более поздние](rukovodstvo-sistemnogo-administratora-teamstorm/versiya-1.30.0-i-bolee-pozdnie.md)
   * [Версия 1.29.0 и более ранние](rukovodstvo-sistemnogo-administratora-teamstorm/versiya-1.29.0-i-bolee-rannie.md)
 * [Руководство пользователя TeamStorm](rukovodstvo-polzovatelya-teamstorm.md)
