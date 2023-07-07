@@ -6,11 +6,11 @@
 
 ## **Установка программного ПО**
 
-Установка ПО TeamStorm осуществляется только после предварительной установки [ПО TestIT](https://testit.software/versions/).
+Установка ПО TeamStorm осуществляется только после предварительной установки [ПО Test IT](https://testit.software/versions/).
 
-Установка TestIT описана в [документации TestIT](https://docs.testit.software/installation-guide/).
+Установка Test IT описана в [документации Test IT](https://docs.testit.software/installation-guide/).
 
-ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО TestIT.
+ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО Test IT.
 
 ### Установка, перезапуск и удаление в Docker Compose
 
