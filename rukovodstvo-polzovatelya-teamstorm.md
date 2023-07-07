@@ -1300,8 +1300,6 @@ TeamStorm позволяет легко перемещать задачи меж
 
 <figure><img src=".gitbook/assets/изображение (47).png" alt=""><figcaption></figcaption></figure>
 
-##
-
 ## Интеграция с GitLab
 
 ### Настройка интеграции с GitLab
