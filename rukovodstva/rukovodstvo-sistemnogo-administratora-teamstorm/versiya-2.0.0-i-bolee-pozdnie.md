@@ -207,7 +207,7 @@ PG_CONNECTION_STRING="Host=${POSTGRES_DEFAULT_HOST};Port=${POSTGRES_DEFAULT_PORT
 
 Настройте параметры почтового сервера для уведомлений:
 
-`CWMFRONTENDURL="${CWM_FRONTEND_URL}"` — указать хост размещения TeamStorm (при необходимости);
+`CWMFRONTENDURL="${CWM_FRONTEND_URL}"` — указать хост размещения TeamStorm;
 
 `MAILSERVERSETTINGS__HOST="${MAIL_SERVER_HOST}"`  — указать хост почтового сервера. Например, mail.outlook.com;
 
