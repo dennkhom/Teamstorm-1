@@ -241,7 +241,7 @@ FILE_BUCKET_NAME="teamstorm"
 5. [Создайте папку](../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-papki).
 6. [Создайте задачу](../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-zadachi).
 7. [Создайте страницу](../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-novoi-stranicy).
-8. Перейдите в настройки пространства, [добавить в пространство пользователя](../../rukovodstvo-polzovatelya-teamstorm.md#dobavlenie-i-udalenie-polzovatelei-i-grupp-polzovatelei-v-prostranstve) user1.
+8. Перейдите в настройки пространства, [добавьте в пространство пользователя](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm#dobavlenie-i-udalenie-polzovatelei-i-grupp-polzovatelei-v-prostranstve) user1.
 9. Перейдите в созданную задачу и [отредактируйте](../../rukovodstvo-polzovatelya-teamstorm.md#redaktirovanie-zadachi) ее:
    * поменяйте ее статус;
    * выберите ответственным пользователя user1;
