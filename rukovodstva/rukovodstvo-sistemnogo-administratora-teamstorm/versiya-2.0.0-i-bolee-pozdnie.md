@@ -229,3 +229,22 @@ PG_CONNECTION_STRING="Host=${POSTGRES_DEFAULT_HOST};Port=${POSTGRES_DEFAULT_PORT
 ASPNETCORE_ENVIRONMENT="Production"
 FILE_BUCKET_NAME="teamstorm"
 ```
+
+## Проверка корректности установки
+
+Для проверки корректности установки:
+
+1. Убедитесь в том, что в Системе предсоздан пользователь с ролью администратора. Авторизуйтесь под учетной записью администратора.
+2. Убедитесь в том, что лицензии TeamStorm добавлены.&#x20;
+3. Убедитесь в том, что в системе есть другие пользователи, или [добавьте нового пользователя](../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#dobavlenie-polzovatelei) (например, с именем user1).
+4. [Создайте пространство](../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-prostranstva).
+5. [Создайте папку](../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-papki).
+6. [Создайте задачу](../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-zadachi).
+7. [Создайте страницу](../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-novoi-stranicy).
+8. Перейдите в настройки пространства, [добавить в пространство пользователя](../../rukovodstvo-polzovatelya-teamstorm.md#dobavlenie-i-udalenie-polzovatelei-i-grupp-polzovatelei-v-prostranstve) user1.
+9. Перейдите в созданную задачу и [отредактируйте](../../rukovodstvo-polzovatelya-teamstorm.md#redaktirovanie-zadachi) ее:
+   * поменяйте ее статус;
+   * выберите ответственным пользователя user1;
+   * добавьте описание;
+   * добавьте вложение.
+10. Убедитесь в том, что пользователю user1 пришло почтовое уведовление.&#x20;
