@@ -241,12 +241,12 @@ FILE_BUCKET_NAME="teamstorm"
 5. [Создайте папку](../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-papki).
 6. [Создайте задачу](../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-zadachi).
 7. [Создайте страницу](../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-novoi-stranicy).
-8. Перейдите в настройки пространства, [добавьте в пространство пользователя](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm#dobavlenie-i-udalenie-polzovatelei-i-grupp-polzovatelei-v-prostranstve) user1.
+8. Перейдите в настройки пространства, [добавьте в пространство пользователя](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm#dobavlenie-i-udalenie-polzovatelei-i-grupp-polzovatelei-v-prostranstve), созданного на шаге 3.
 9. Перейдите в созданную задачу и [отредактируйте](../../rukovodstvo-polzovatelya-teamstorm.md#redaktirovanie-zadachi) ее:
    * поменяйте ее статус;
-   * выберите ответственным пользователя user1;
+   * выберите ответственным пользователя, созданного на шаге 3.
    * добавьте описание;
    * добавьте вложение.
-10. Убедитесь в том, что пользователю user1 пришло почтовое уведомление.&#x20;
+10. Убедитесь в том, что пользователю, созданному на шаге 3, пришло почтовое уведомление.&#x20;
 
 Установка выполнена корректно, если все шаги проверки выполняются.&#x20;
