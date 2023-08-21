@@ -110,7 +110,7 @@ cd ${PROJECT_HOME}/teamstorm
 docker network create yoonion_network
 docker compose -p teamstorm -f docker-compose.yml up -d
 cd ${PROJECT_HOME}/testit
-docker compose -p testit -d docker-compose.yml up -d
+docker compose -p testit -f docker-compose.yml up -d
 ```
 
 ```bash
