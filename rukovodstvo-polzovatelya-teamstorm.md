@@ -48,7 +48,7 @@
 5. Если по умолчанию открылась система Test IT, то на открывшейся странице нажмите иконку выбора продукта в правом верхнем углу экрана.
 6.  Выберите TeamStorm.
 
-    <figure><img src=".gitbook/assets/изображение (189).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/изображение (191).png" alt=""><figcaption></figcaption></figure>
 
 ## Главная страница
 
