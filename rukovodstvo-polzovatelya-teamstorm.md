@@ -246,7 +246,7 @@
 
 Добавленные группы и их роли будут отображены в списке групп.
 
-Далее можно перейти к [присвоению роли добавленной группе](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/280/rukovodstva/rukovodstvo-polzovatelya-teamstorm#naznachenie-roli-polzovatelyu-ili-gruppe-polzovatelei).
+Далее можно перейти к [присвоению роли добавленной группе](rukovodstvo-polzovatelya-teamstorm.md#naznachenie-roli-polzovatelyu-ili-gruppe-polzovatelei).
 
 <figure><img src=".gitbook/assets/изображение (6) (3).png" alt=""><figcaption></figcaption></figure>
 
