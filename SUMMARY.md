@@ -12,7 +12,7 @@
   * [Версия 2.0.0](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.0.0-i-bolee-pozdnie.md)
   * [Версия 1.30.0 и более поздние](rukovodstvo-sistemnogo-administratora-teamstorm/versiya-1.30.0-i-bolee-pozdnie.md)
   * [Версия 1.29.0 и более ранние](rukovodstvo-sistemnogo-administratora-teamstorm/versiya-1.29.0-i-bolee-rannie.md)
-* [Руководство пользователя TeamStorm](rukovodstva/rukovodstvo-polzovatelya-teamstorm/README.md)
+* [Руководство пользователя TeamStorm](rukovodstvo-polzovatelya-teamstorm.md)
   * [Описание ролей пользователей системы](rukovodstva/rukovodstvo-polzovatelya-teamstorm/opisanie-rolei-polzovatelei-sistemy.md)
   * [Вход в систему](rukovodstva/rukovodstvo-polzovatelya-teamstorm/vkhod-v-sistemu.md)
   * [Главная страница](rukovodstva/rukovodstvo-polzovatelya-teamstorm/glavnaya-stranica/README.md)
