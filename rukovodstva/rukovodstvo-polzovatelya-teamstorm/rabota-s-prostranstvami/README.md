@@ -8,10 +8,10 @@
 
 Работа с пространствами описана в подразделах:
 
-[Роли доступа к пространству](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/roli-dostupa-k-prostranstvu)
+[Роли доступа к пространству](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/roli-dostupa-k-prostranstvu)
 
-[Создание пространства](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/sozdanie-prostranstva)
+[Создание пространства](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/sozdanie-prostranstva)
 
-[Переход к пространству](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/perekhod-k-prostranstvu)
+[Переход к пространству](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/perekhod-k-prostranstvu)
 
-[Настройки пространства](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/nastroiki-prostranstva)
+[Настройки пространства](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/nastroiki-prostranstva)
