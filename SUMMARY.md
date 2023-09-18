@@ -10,7 +10,7 @@
 * [Инструкция по установке TeamStorm](rukovodstvo-sistemnogo-administratora-teamstorm/README.md)
   * [Версия 2.33.0](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.0/README.md)
     * [Чистая установка](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.0/chistaya-ustanovka.md)
-    * [Обновление с версии 2.0.0](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.0/obnovlenie-s-versii-2.0.0.md)
+    * [Обновление с версии 2.0.0](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.0.md)
   * [Версия 2.0.0](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.0.0-i-bolee-pozdnie.md)
   * [Версия 1.30.0 и более поздние](rukovodstvo-sistemnogo-administratora-teamstorm/versiya-1.30.0-i-bolee-pozdnie.md)
   * [Версия 1.29.0 и более ранние](rukovodstvo-sistemnogo-administratora-teamstorm/versiya-1.29.0-i-bolee-rannie.md)
