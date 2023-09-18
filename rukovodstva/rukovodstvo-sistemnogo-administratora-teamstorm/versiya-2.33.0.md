@@ -6,9 +6,9 @@
 
 ## **Сведения об установке**
 
-Установка ПО TeamStorm осуществляется только после предварительной установки [ПО Test IT](https://testit.software/versions/).
+Обновление ПО TeamStorm осуществляется только после предварительного обновления [ПО Test IT](https://testit.software/versions/).
 
-Установка Test IT описана в [документации Test IT](https://docs.testit.software/installation-guide/).
+Обновление Test IT описана в [документации Test IT](https://docs.testit.software/installation-guide/).
 
 ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО Test IT.
 
