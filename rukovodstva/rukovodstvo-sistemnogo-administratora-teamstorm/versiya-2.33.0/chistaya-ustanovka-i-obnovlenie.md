@@ -12,6 +12,12 @@
 Данный вариант установки не подойдет, если на хосте уже установлен Test IT. Возможна потеря данных
 {% endhint %}
 
+{% hint style="info" %}
+Обновление TeamStorm до версии 2.33.0 возможно с версии 2.0.0&#x20;
+
+Если ваша версия ниже, сперва обновитесь до версии 2.0.0
+{% endhint %}
+
 Если у вас уже установлено ПО Test IT, следуйте инструкциям из раздела [Установка на Test IT](https://docs.teamstorm.io/rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.0/ustanovka-na-test-it).
 
 ## **Требования**
