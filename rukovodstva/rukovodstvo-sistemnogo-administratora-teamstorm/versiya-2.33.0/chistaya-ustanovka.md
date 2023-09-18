@@ -28,8 +28,8 @@
    * `images.tar` - архив с образами (только в архиве для автономной установки)**.**
    * `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам TeamStorm;
    * `docker-compose.yml` - конфигурационный файл Docker Compose;
-   * setup.sh - скрипт для упрощенного развертывания TeamStorm и Test IT;
-   * setup\_teamstorm.sh - скрипт для автоматического развертывания TeamStorm
+   * `setup.sh` - скрипт для упрощенного развертывания TeamStorm и Test IT;
+   * `setup_teamstorm.sh` - скрипт для автоматического развертывания TeamStorm
 2. `testit` с соответствующим набором компонентов, необходимых для установки ПО Test IT.
 
 ## **Автономная установка**
@@ -49,7 +49,7 @@
 
 Для проверки корректности установки:
 
-1. Убедитесь в том, что в Системе предсоздан пользователь с ролью администратора. Авторизуйтесь под учетной записью администратора.
+1. Убедитесь в том, что в Системе предсоздан пользователь с ролью администратора. Авторизуйтесь под учетной записью администратора (cwm\_admin).
 2. Убедитесь в том, что [лицензии TeamStorm добавлены](../../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#prosmotr-informacii-o-licenziyakh).&#x20;
 3. Убедитесь в том, что в системе есть другие пользователи, или [добавьте нового пользователя](../../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#dobavlenie-polzovatelei) (например, с именем user1).
 4. [Создайте пространство](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/sozdanie-prostranstva).
