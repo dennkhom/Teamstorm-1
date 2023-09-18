@@ -1,14 +1,20 @@
-# Обновление с версии 2.0.0
+# Установка на Test IT
 
 ## Назначение документа
 
-Документ описывает действия системного администратора по обновлению и настройке ПО TeamStorm v. 2.33.0 и выше.
+Документ описывает действия системного администратора по установке и настройке ПО TeamStorm v. 2.33.0 и выше в случае, если у вас уже установлено ПО Test IT.
 
 ## **Сведения об установке**
 
-Обновление ПО TeamStorm осуществляется только после предварительного обновления [ПО Test IT](https://testit.software/versions/).
+Установка ПО TeamStorm осуществляется только после предварительного обновления [ПО Test IT](https://testit.software/versions/).
 
-Обновление Test IT описана в [документации Test IT](https://docs.testit.software/installation-guide/).
+{% hint style="info" %}
+Для обновления TeamStorm до версии 2.33.0 требуется обновление Test IT до версии 4.4.0 или выше, рекомендуется последняя версия
+
+Для обновления TeamStorm до версии 2.33.0 необходимо предварительно обновить TeamStorm до версии 2.0.0
+{% endhint %}
+
+Обновление Test IT описано в [документации Test IT](https://docs.testit.software/installation-guide/).
 
 ПО TeamStorm необходимо устанавливать на тот же хост, на который установлено ПО Test IT.
 
@@ -22,10 +28,6 @@
 
 [Test IT 4.4.0 и выше, рекомендуется последняя версия](https://testit.software/versions/).
 
-{% hint style="info" %}
-Для обновления до версии 2.33.0 необходимо предварительно обновить TeamStorm до версии 2.0.0
-{% endhint %}
-
 #### **Состав поставки**
 
 * `images.tar` - архив с образами (только в архиве для автономной установки)**.**
@@ -36,7 +38,7 @@
 
 #### **Установка и настройка Test IT**
 
-1. Загрузите и установите ПО Test IT в соответствии с документацией Test IT.
+1. &#x20;**Опционально**: обновите ПО Test IT в соответствии с документацией Test IT.
 2.  Настройте поддержку TeamStorm в Test IT, заменив значение переменной `CWM_ENABLED`:
 
     ```shell
@@ -226,8 +228,8 @@ FILE_BUCKET_NAME="teamstorm"
 Для проверки корректности установки:
 
 1. Убедитесь в том, что в Системе предсоздан пользователь с ролью администратора. Авторизуйтесь под учетной записью администратора ((cwm\_admin).
-2. Убедитесь в том, что [лицензии TeamStorm добавлены](../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#prosmotr-informacii-o-licenziyakh).&#x20;
-3. Убедитесь в том, что в системе есть другие пользователи, или [добавьте нового пользователя](../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#dobavlenie-polzovatelei) (например, с именем user1).
+2. Убедитесь в том, что [лицензии TeamStorm добавлены](../../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#prosmotr-informacii-o-licenziyakh).&#x20;
+3. Убедитесь в том, что в системе есть другие пользователи, или [добавьте нового пользователя](../../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#dobavlenie-polzovatelei) (например, с именем user1).
 4. [Создайте пространство](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/sozdanie-prostranstva).
 5. [Создайте папку](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-papkami/sozdanie-papok).
 6. [Создайте задачу](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/sozdanie-zadachi).
