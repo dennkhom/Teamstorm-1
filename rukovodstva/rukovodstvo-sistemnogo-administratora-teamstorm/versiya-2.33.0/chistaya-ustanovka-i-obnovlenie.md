@@ -8,10 +8,8 @@
 
 Чистая установка и обновление осуществляются совместно с установкой [ПО Test IT](https://testit.software/versions/).
 
-Данный вариант установки не подойдет, если на хосте уже установлен Test IT.
-
 {% hint style="danger" %}
-Если у вас уже установлено ПО Test IT, то ПО TeamStorm по процедуре чистой установки рекомендуется устанавливать на другой хост во избежание потери информации в Test IT
+Данный вариант установки не подойдет, если на хосте уже установлен Test IT. Возможна потеря данных!
 {% endhint %}
 
 Если у вас уже установлено ПО Test IT, следуйте инструкциям из раздела [Установка на Test IT](https://docs.teamstorm.io/rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.0/ustanovka-na-test-it).
