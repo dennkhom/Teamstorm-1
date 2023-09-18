@@ -1,8 +1,8 @@
-# Версия 2.33.0
+# Обновление с версии 2.0.0
 
 ## Назначение документа
 
-Документ описывает действия системного администратора по установке и настройке ПО TeamStorm v. 2.33.0 и выше.
+Документ описывает действия системного администратора по обновлению и настройке ПО TeamStorm v. 2.33.0 и выше.
 
 ## **Установка программного ПО**
 
@@ -28,12 +28,11 @@
 
 #### **Состав поставки**
 
-`images.tar` - архив с образами (только в архиве для автономной установки)**.**
-
-Состав поставки TeamStorm:
-
+* `images.tar` - архив с образами (только в архиве для автономной установки)**.**
 * `.env` - конфигурационный файл, содержащий переменные, используемые для обращения к контейнерам TeamStorm;
-* `docker-compose.yml` - конфигурационный файл Docker Compose.
+* `docker-compose.yml` - конфигурационный файл Docker Compose;
+* setup.sh - скрипт для упрощенного развертывания TeamStorm и Test IT;
+* setup\_teamstorm.sh - скрипт для автоматического развертывания TeamStorm
 
 #### **Установка и настройка Test IT**
 
@@ -93,7 +92,7 @@
 Данный тип установки поможет установить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker-образы с публичных репозиториев.
 
 1. Распакуйте содержимое архива автономной установки, например, в папку `~/teamstorm_v2.33.0`.
-2. Создайте сеть и кластер вручную или воспользуйтесь скриптом автоматического развертывания из поставки:
+2. Создайте сеть и кластер вручную. При этом обязательно использовать ключ `--remove-orphans`:
 
 ```bash
 cd ${PROJECT_HOME}/teamstorm
@@ -103,8 +102,10 @@ cd ${PROJECT_HOME}/testit
 docker compose -p testit -f docker-compose.yml up -d
 ```
 
-```bash
-tar -xzvf teamstorm_v2.33.0.tgz
+или воспользуйтесь скриптом автоматического развертывания из поставки:
+
+```
+tar -xzvf teamstorm_v3.0.0.tgz
 cd ${PROJECT_HOME}/teamstorm
 chmod +x setup.sh
 ./setup_teamstorm.sh
@@ -225,8 +226,8 @@ FILE_BUCKET_NAME="teamstorm"
 Для проверки корректности установки:
 
 1. Убедитесь в том, что в Системе предсоздан пользователь с ролью администратора. Авторизуйтесь под учетной записью администратора.
-2. Убедитесь в том, что [лицензии TeamStorm добавлены](../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#prosmotr-informacii-o-licenziyakh).&#x20;
-3. Убедитесь в том, что в системе есть другие пользователи, или [добавьте нового пользователя](../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#dobavlenie-polzovatelei) (например, с именем user1).
+2. Убедитесь в том, что [лицензии TeamStorm добавлены](../../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#prosmotr-informacii-o-licenziyakh).&#x20;
+3. Убедитесь в том, что в системе есть другие пользователи, или [добавьте нового пользователя](../../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#dobavlenie-polzovatelei) (например, с именем user1).
 4. [Создайте пространство](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/sozdanie-prostranstva).
 5. [Создайте папку](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-papkami/sozdanie-papok).
 6. [Создайте задачу](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/sozdanie-zadachi).
