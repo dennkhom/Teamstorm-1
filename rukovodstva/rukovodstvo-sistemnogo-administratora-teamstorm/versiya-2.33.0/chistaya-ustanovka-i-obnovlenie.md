@@ -14,9 +14,7 @@
 Если у вас уже установлено ПО Test IT, то ПО TeamStorm по процедуре чистой установки рекомендуется устанавливать на другой хост во избежание потери информации в Test IT
 {% endhint %}
 
-
-
-Установка Teamstorm на Test IT описана
+Если у вас уже установлено ПО Test IT, следуйте инструкциям из раздела [Установка на Test IT](https://docs.teamstorm.io/rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.0/ustanovka-na-test-it).
 
 ## **Требования**
 
