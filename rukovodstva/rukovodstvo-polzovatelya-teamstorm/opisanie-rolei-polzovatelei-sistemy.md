@@ -2,9 +2,9 @@
 
 В разделе описаны роли доступа к Системе в целом.&#x20;
 
-Роли доступа к пространству и их настройка описаны в разделе [#roli-dostupa-k-prostranstvu](opisanie-rolei-polzovatelei-sistemy.md#roli-dostupa-k-prostranstvu "mention").
+Роли доступа к пространству и их настройка описаны в разделе [Роли доступа к пространству](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/roli-dostupa-k-prostranstvu).
 
-### Core Admin
+## Core Admin
 
 Роль **Core Admin** предназначена для:
 
@@ -15,8 +15,14 @@
 
 Подробнее работа с разделом **Администрирование** описана в [Руководстве администратора](../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md).
 
-### Пользователь TeamStorm
+## Администратор TS
+
+Роль Администратор TS предназначена для управления настройками рабочих пространств, но при этом не предполагает доступа к содержимому этих пространств.&#x20;
+
+Роль Администратор TS не требует списания лицензии.&#x20;
+
+## Пользователь TeamStorm
 
 Роль **Пользователь TeamStorm** предназначена для работы с основной функциональностью системы.
 
-После входа в систему пользователя с ролью **Пользователь TeamStorm** у него будет автоматически открыта [#glavnaya-stranica](opisanie-rolei-polzovatelei-sistemy.md#glavnaya-stranica "mention").
+После входа в систему пользователя с ролью **Пользователь TeamStorm** у него будет автоматически открыта [Главная страница](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/glavnaya-stranica).
