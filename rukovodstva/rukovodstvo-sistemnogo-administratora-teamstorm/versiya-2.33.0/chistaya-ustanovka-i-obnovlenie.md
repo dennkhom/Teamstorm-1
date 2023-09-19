@@ -40,6 +40,21 @@
 
 Установка TeamStorm при уже установленном Test IT описана в разделе [Установка на Test IT](https://docs.teamstorm.io/rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.0/ustanovka-na-test-it).
 
+## Подготовка к установке
+
+Для обновления TeamStorm до версии 2.33.0 необходимо предварительно обновить TeamStorm до версии 2.0.0.
+
+Перед обновлением рекомендуется создать резервную копию TeamStorm и TestIT и проверить соответствие наименований проектов в `docker-compose`. Возможна потеря данных при неправильном обновлении.
+
+Для проверки выполнить:
+
+```
+$ docker compose ls 
+NAME               STATUS             CONFIG FILES 
+teamstorm          running(20)        ./deploy/offline_build/teamstorm/docker-compose.yml 
+testit             running(20)        ./deploy/offline_build/testit/docker-compose.yml
+```
+
 ## **Автономная установка**
 
 Данный тип установки поможет установить или обновить продукт, если сервер изолирован от сети Internet и нет возможности получить Docker-образы с публичных репозиториев.
