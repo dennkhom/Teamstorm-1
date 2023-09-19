@@ -262,6 +262,8 @@ MAIL_SERVER_USE_CUSTOM_TRUSTED_CA_BUNDLE="true"
 
 Таблица идентификаторов временных зон:  [https://en.wikipedia.org/wiki/List\_of\_tz\_database\_time\_zones#List](https://en.wikipedia.org/wiki/List\_of\_tz\_database\_time\_zones#List)
 
+12. После внесения изменений перезапустите систему.&#x20;
+
 ## Проверка корректности установки
 
 Для проверки корректности установки:
