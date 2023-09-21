@@ -8,8 +8,8 @@
 
 Руководство включает в себя разделы:
 
-{% content-ref url="rukovodstva/rukovodstvo-polzovatelya-teamstorm/opisanie-rolei-polzovatelei-sistemy.md" %}
-[opisanie-rolei-polzovatelei-sistemy.md](rukovodstva/rukovodstvo-polzovatelya-teamstorm/opisanie-rolei-polzovatelei-sistemy.md)
+{% content-ref url="rukovodstva/rukovodstvo-polzovatelya-teamstorm/roli-polzovatelei-i-licenzii.md" %}
+[roli-polzovatelei-i-licenzii.md](rukovodstva/rukovodstvo-polzovatelya-teamstorm/roli-polzovatelei-i-licenzii.md)
 {% endcontent-ref %}
 
 {% content-ref url="rukovodstva/rukovodstvo-polzovatelya-teamstorm/vkhod-v-sistemu.md" %}
