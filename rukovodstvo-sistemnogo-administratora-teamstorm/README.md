@@ -2,8 +2,12 @@
 
 ## Назначение документа
 
-Документ описывает действия системного администратора по установке, обновлению, резевному копированию, восстановлению и настройке программного обеспечения TeamStorm:
+Документ описывает действия системного администратора по установке, обновлению, резервному копированию, восстановлению и настройке программного обеспечения TeamStorm
 
-* [версия 2.33.0](https://docs.teamstorm.io/rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.0);
-* Архивные версии
+{% content-ref url="../rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.3/" %}
+[versiya-2.33.3](../rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.3/)
+{% endcontent-ref %}
 
+{% content-ref url="../rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/arkhivnye-versii/" %}
+[arkhivnye-versii](../rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/arkhivnye-versii/)
+{% endcontent-ref %}
