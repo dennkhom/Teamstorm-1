@@ -1,10 +1,9 @@
-# Инструкция по установке TeamStorm
+# Инструкция по установке, обновлению и резервному копированию TeamStorm
 
 ## Назначение документа
 
-Документ описывает действия системного администратора по установке и настройке ПО TeamStorm:
+Документ описывает действия системного администратора по установке, обновлению, резевному копированию, восстановлению и настройке программного обеспечения TeamStorm:
 
-* [версия 2.0.0 и более поздние](../rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.0.0-i-bolee-pozdnie.md);
-* [версия 1.30.0 и более поздние](versiya-1.30.0-i-bolee-pozdnie.md);
-* [версия 1.29.0 и более ранние](versiya-1.29.0-i-bolee-rannie.md).
+* [версия 2.33.0](https://docs.teamstorm.io/rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.33.0);
+* Архивные версии
 
