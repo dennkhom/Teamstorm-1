@@ -1,6 +1,6 @@
 # Установка и обновление
 
-Раздел содержит подразделы:
+Раздел описывает операции по установке и обновлению TeamStorm и содержит подразделы:
 
 {% content-ref url="podgotovka-k-ustanovke.md" %}
 [podgotovka-k-ustanovke.md](podgotovka-k-ustanovke.md)
