@@ -113,6 +113,7 @@
   * [Интеграции](rukovodstva/rukovodstvo-polzovatelya-teamstorm/integracii/README.md)
     * [Интеграция с GitLab](rukovodstva/rukovodstvo-polzovatelya-teamstorm/integracii/nastroika-integracii-s-gitlab/README.md)
       * [Запросы на слияние](rukovodstva/rukovodstvo-polzovatelya-teamstorm/integracii/nastroika-integracii-s-gitlab/zaprosy-na-sliyanie.md)
+    * [Интеграция с Test IT](rukovodstva/rukovodstvo-polzovatelya-teamstorm/integracii/integraciya-s-test-it.md)
   * [Выгрузка данных](rukovodstva/rukovodstvo-polzovatelya-teamstorm/vygruzka-dannykh/README.md)
     * [Выгрузка данных о задачах](rukovodstva/rukovodstvo-polzovatelya-teamstorm/vygruzka-dannykh/vygruzka-dannykh-o-zadachakh.md)
     * [Выгрузка данных о списании трудозатрат](rukovodstva/rukovodstvo-polzovatelya-teamstorm/vygruzka-dannykh/vygruzka-dannykh-o-spisanii-trudozatrat.md)
