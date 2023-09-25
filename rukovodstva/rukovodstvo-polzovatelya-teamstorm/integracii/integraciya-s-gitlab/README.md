@@ -1,4 +1,4 @@
-# Настройка интеграции с GitLab
+# Интеграция с GitLab
 
 Интеграция с GitLab создается и настраивается на уровне пространства.
 
@@ -6,7 +6,7 @@
 
 Для интеграции пространства с GitLab:
 
-1. Перейдите в [настройки пространства](./#nastroiki-prostranstva) и нажмите **Интеграции** на панели слева .
+1. Перейдите в [настройки пространства](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/nastroiki-prostranstva) и нажмите **Интеграции** на панели слева .
 2. Нажмите кнопку редактирования <img src="../../../../.gitbook/assets/изображение (174).png" alt="" data-size="line"> в левой части строки GitLab в таблице интеграций.
 3. На открывшейся панели нажмите **Сгенерировать токен.**
 4. Следуйте указаниям в [документации GitLab](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html).
@@ -15,7 +15,7 @@
 
 Для удаления интеграции:
 
-1. Перейдите в [настройки пространства](./#nastroiki-prostranstva) и нажмите **Интеграции** на панели слева .
+1. Перейдите в [настройки пространства](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/nastroiki-prostranstva) и нажмите **Интеграции** на панели слева .
 2. Нажмите кнопку удаления <img src="../../../../.gitbook/assets/изображение (172).png" alt="" data-size="line">в левой части строки GitLab в таблице интеграций.
 3. В открывшемся модальном окне нажмите **Да, я хочу удалить интеграцию**.
 
