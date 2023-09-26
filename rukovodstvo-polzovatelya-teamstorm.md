@@ -56,6 +56,10 @@
 [rabota-s-razdelom-stranicy](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/)
 {% endcontent-ref %}
 
+{% content-ref url="rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/oformlenie-opisanii-i-kommentariev-k-zadacham.md" %}
+[oformlenie-opisanii-i-kommentariev-k-zadacham.md](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/oformlenie-opisanii-i-kommentariev-k-zadacham.md)
+{% endcontent-ref %}
+
 {% content-ref url="rukovodstva/rukovodstvo-polzovatelya-teamstorm/uvedomleniya/" %}
 [uvedomleniya](rukovodstva/rukovodstvo-polzovatelya-teamstorm/uvedomleniya/)
 {% endcontent-ref %}

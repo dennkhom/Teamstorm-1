@@ -77,7 +77,7 @@ TeamStorm позволяет создавать подробные, структ
 
 См. также:
 
-{% content-ref url="vstavka-skhem-i-diagramm.md" %}
-[vstavka-skhem-i-diagramm.md](vstavka-skhem-i-diagramm.md)
+{% content-ref url="oformlenie-opisanii-i-kommentariev-k-zadacham/vstavka-skhem-i-diagramm.md" %}
+[vstavka-skhem-i-diagramm.md](oformlenie-opisanii-i-kommentariev-k-zadacham/vstavka-skhem-i-diagramm.md)
 {% endcontent-ref %}
 
