@@ -123,6 +123,7 @@
     * [Связывание страницы и задачи](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/svyazyvanie-stranicy-i-zadachi.md)
     * [Работа с вложениями](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/rabota-s-vlozheniyami.md)
     * [Полнотекстовый поиск](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/polnotekstovyi-poisk.md)
+    * [Комментарии к страницам](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/kommentarii-k-stranicam.md)
     * [Удаление страницы](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/udalenie-stranicy.md)
   * [Оформление текстовых блоков](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/oformlenie-opisanii-i-kommentariev-k-zadacham.md)
     * [Вставка схем и диаграмм](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/oformlenie-opisanii-i-kommentariev-k-zadacham/vstavka-skhem-i-diagramm.md)

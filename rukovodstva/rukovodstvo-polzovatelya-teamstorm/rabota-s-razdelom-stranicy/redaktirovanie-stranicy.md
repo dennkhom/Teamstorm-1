@@ -1,7 +1,7 @@
 # Редактирование страницы
 
 1. Откройте страницу, которую необходимо отредактировать.
-2. Нажмите кнопку <img src="../../../.gitbook/assets/изображение (23).png" alt="" data-size="line"> (**Редактировать**) в правом верхнем углу экрана.
+2. Нажмите кнопку <img src="../../../.gitbook/assets/изображение (23).png" alt="" data-size="line"> (**Редактировать**) в правом верхнем углу страницы.
 3. Отредактируйте название или текст страницы. При необходимости воспользуйтесь [инструментами форматирования.](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/oformlenie-opisanii-i-kommentariev-k-zadacham)
 4. Нажмите **Опубликовать**.
 

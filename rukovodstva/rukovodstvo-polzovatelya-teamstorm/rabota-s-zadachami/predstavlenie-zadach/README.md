@@ -14,7 +14,7 @@
 
 <figure><img src="../../../../.gitbook/assets/изображение (2) (2).png" alt=""><figcaption><p>Представление «Доска»</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/изображение (9).png" alt=""><figcaption><p>Представление «Таблица»</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (9) (2).png" alt=""><figcaption><p>Представление «Таблица»</p></figcaption></figure>
 
 Если задача в представлении «Таблица» содержит подзадачи, то рядом с названием задачи располагается кнопка раскрытия списка подзадач <img src="../../../../.gitbook/assets/изображение (18).png" alt="" data-size="line">.
 
