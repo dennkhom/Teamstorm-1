@@ -4,7 +4,7 @@ TeamStorm позволяет создавать подробные, структ
 
 Инструменты форматирования расположены в верхней части поля ввода текста и отображаются при переводе курсора в это поле.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/изображение (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (90).png" alt=""><figcaption></figcaption></figure>
 
 Инструменты форматирования (в порядке справа налево):
 
@@ -54,7 +54,7 @@ TeamStorm позволяет создавать подробные, структ
 * Изменить цвет ячейки;
 * Объединить ячейки (отображается при выделении нескольких ячеек).
 
-<figure><img src="../../../../.gitbook/assets/изображение (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Упоминание пользователей
 
@@ -63,7 +63,7 @@ TeamStorm позволяет создавать подробные, структ
 1. Введите символ @ в поле ввода.
 2. В отобразившемся списке выберите пользователя, которого хотите упомянуть.
 
-<figure><img src="../../../../.gitbook/assets/изображение (166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (166).png" alt=""><figcaption></figcaption></figure>
 
 Отмеченному пользователю придет уведомление о том, что его упомянули в описании или комментарии к задаче.
 
@@ -75,4 +75,9 @@ TeamStorm позволяет создавать подробные, структ
 В противном случае изменения могут не сохраниться.
 {% endhint %}
 
-###
+См. также:
+
+{% content-ref url="vstavka-skhem-i-diagramm.md" %}
+[vstavka-skhem-i-diagramm.md](vstavka-skhem-i-diagramm.md)
+{% endcontent-ref %}
+
