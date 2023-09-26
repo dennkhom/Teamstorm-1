@@ -97,7 +97,7 @@
     * [Просмотр истории создания и изменения задачи](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/prosmotr-istorii-sozdaniya-i-izmeneniya-zadachi.md)
     * [Добавление вложения](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/dobavlenie-vlozheniya.md)
     * [Ранжирование задач](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/ranzhirovanie-zadach.md)
-    * [Перемещение задач](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/peremeshenie-zadach.md)
+    * [Перемещение задач](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/peremeshenie-zadachi.md)
     * [Создание ссылки на задачу](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/sozdanie-ssylki-na-zadachu.md)
   * [Работа с запросами](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zaprosami/README.md)
     * [Создание запроса](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zaprosami/sozdanie-zaprosa.md)
