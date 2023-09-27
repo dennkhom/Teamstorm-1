@@ -9,7 +9,7 @@
 3. Введите название нового представления и выберите его тип — «Доска» или «Таблица». Тип невозможно будет изменить в дальнейшем.
 4. Нажмите **Добавить**.
 
-Будет создано новое пользовательское представление, далее можно будет перейти к [настройке представлений](sozdanie-redaktirovanie-i-udalenie-polzovatelskogo-predstavleniya.md#nastroika-predstavlenii).
+Будет создано новое пользовательское представление, далее можно будет перейти к [настройке представлений](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/predstavlenie-zadach/nastroika-predstavlenii).
 
 Также новое пользовательское представление можно создать из настроенного существующего представления. Для этого:
 

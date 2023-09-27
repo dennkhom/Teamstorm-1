@@ -81,6 +81,7 @@
       * [Количество задач в папке или очереди](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/predstavlenie-zadach/kolichestvo-zadach-v-papke-ili-ocheredi.md)
       * [Создание, редактирование и удаление пользовательского представления](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/predstavlenie-zadach/sozdanie-redaktirovanie-i-udalenie-polzovatelskogo-predstavleniya.md)
       * [Настройка представлений](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/predstavlenie-zadach/nastroika-predstavlenii.md)
+      * [Отслеживание прогресса в представлении](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/predstavlenie-zadach/otslezhivanie-progressa-v-predstavlenii.md)
     * [Фильтрация и поиск](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/filtraciya-i-poisk/README.md)
       * [Фильтрация задач](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/filtraciya-i-poisk/filtraciya-zadach/README.md)
         * [Фильтрация по пользовательским атрибутам](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/filtraciya-i-poisk/filtraciya-zadach/filtraciya-po-polzovatelskim-atributam.md)
