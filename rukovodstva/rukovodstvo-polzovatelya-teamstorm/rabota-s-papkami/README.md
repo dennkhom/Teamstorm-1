@@ -12,10 +12,18 @@
 
 Работа с папками описана в подразделах:
 
-[Создание папок](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-papkami/sozdanie-papok)
+{% content-ref url="sozdanie-papki.md" %}
+[sozdanie-papki.md](sozdanie-papki.md)
+{% endcontent-ref %}
 
-[Удаление папки](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-papkami/udalenie-papki)
+{% content-ref url="izmenenie-papki.md" %}
+[izmenenie-papki.md](izmenenie-papki.md)
+{% endcontent-ref %}
 
-[Перемещение папки](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-papkami/peremeshenie-papki)
+{% content-ref url="udalenie-papki.md" %}
+[udalenie-papki.md](udalenie-papki.md)
+{% endcontent-ref %}
 
-[Изменение папки](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/303/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-papkami/izmenenie-papki)
+{% content-ref url="peremeshenie-papki.md" %}
+[peremeshenie-papki.md](peremeshenie-papki.md)
+{% endcontent-ref %}
