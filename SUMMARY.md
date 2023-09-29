@@ -101,6 +101,7 @@
     * [Ранжирование задач](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/ranzhirovanie-zadach.md)
     * [Перемещение задач](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/peremeshenie-zadachi.md)
     * [Создание ссылки на задачу](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/sozdanie-ssylki-na-zadachu.md)
+    * [Прогресс выполнения задачи](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/progress-vypolneniya-zadachi.md)
   * [Работа с запросами](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zaprosami/README.md)
     * [Создание запроса](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zaprosami/sozdanie-zaprosa.md)
     * [Редактирование запроса](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zaprosami/redaktirovanie-zaprosa.md)
