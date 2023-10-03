@@ -19,3 +19,15 @@
 * дата и время изменения атрибута или описания.
 
 <figure><img src="../../../.gitbook/assets/изображение (67).png" alt=""><figcaption></figcaption></figure>
+
+Изменения [прогресса выполнения задачи](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/progress-vypolneniya-zadachi) по метрике также отражаются в истории изменений.&#x20;
+
+Для истории изменения прогресса указывается:
+
+* включение расчета по метрике со значениями по умолчанию;
+* ввод первичных значений: старт и цель;
+* изменение прогресса, то есть предыдущее значение и текущее;
+* изменение старта и/или цели;
+* комментарий (при его наличии).
+
+<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>

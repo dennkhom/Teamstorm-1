@@ -71,3 +71,5 @@ TeamStorm позволяет рассчитывать прогресс выпо�
 4.  Нажмите **Обновить**.&#x20;
 
     <figure><img src="../../../.gitbook/assets/изображение (202).png" alt=""><figcaption></figcaption></figure>
+
+Изменение прогресса отражается в [истории изменений](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/prosmotr-istorii-sozdaniya-i-izmeneniya-zadachi) в карточке задачи.
