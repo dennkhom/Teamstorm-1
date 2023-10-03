@@ -36,8 +36,8 @@
 [redaktirovanie-zadachi](redaktirovanie-zadachi/)
 {% endcontent-ref %}
 
-{% content-ref url="dobavlenie-podzadachi.md" %}
-[dobavlenie-podzadachi.md](dobavlenie-podzadachi.md)
+{% content-ref url="dobavlenie-podzadach.md" %}
+[dobavlenie-podzadach.md](dobavlenie-podzadach.md)
 {% endcontent-ref %}
 
 {% content-ref url="dobavlenie-vlozheniya.md" %}
