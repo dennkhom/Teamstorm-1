@@ -5,7 +5,7 @@
 График сгорания реализован в виде отдельного представления (**Отчеты**), доступного только в спринтах и элементах портфолио.
 
 {% hint style="warning" %}
-Для построения графика для элемента портфолио необходимо добавить дату начала и завершения и [перевести статус элемента](https://app.gitbook.com/o/BsAoKBoVeLoSLmNL74IE/s/TNAYMNZOkqs70ZT7p73L/\~/changes/366/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/portfolio/izmenenie-statusa-elementa-portfolio) портфолио в категорию В РАБОТЕ.
+Для построения графика для элемента портфолио необходимо добавить дату начала и завершения и [перевести статус элемента портфолио](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/portfolio/izmenenie-statusa-elementa-portfolio) в категорию В РАБОТЕ.
 {% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>

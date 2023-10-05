@@ -16,3 +16,5 @@
 4. Выберите новый статус.
 
 <figure><img src="../../../../.gitbook/assets/изображение (210).png" alt=""><figcaption></figcaption></figure>
+
+Подробнее о статусах см. [Изменение статуса задачи](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/redaktirovanie-zadachi/izmenenie-statusa-zadachi).
