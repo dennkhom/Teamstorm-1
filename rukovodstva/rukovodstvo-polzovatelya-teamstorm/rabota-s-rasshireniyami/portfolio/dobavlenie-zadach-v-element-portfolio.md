@@ -14,11 +14,11 @@
 Если задача уже связана с какими-либо элементами, то предыдущие связи сохраняются.
 {% endhint %}
 
-Добавление перетаскиванием подробно описано в разделе [Перемещение задачи](dobavlenie-zadach-v-element-portfolio.md#peremeshenie-zadachi).
+Добавление перетаскиванием подробно описано в разделе [Перемещение задач](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/peremeshenie-zadach).
 
 ## Добавление через карточку задачи
 
-1. Откройте [карточку задачи](dobavlenie-zadach-v-element-portfolio.md#kartochka-zadachi), которую нужно добавить в элемент портфолио.
+1. Откройте [карточку задачи](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/kartochka-zadachi), которую нужно добавить в элемент портфолио.
 2. Нажмите **+ Добавить в коллекцию**.
 3.  В открывшемся меню выбрать элемент портфолио, в который требуется добавить задачу.
 
@@ -35,4 +35,4 @@
 5. В меню **Выберите элементы портфолио** отметьте чекбоксами один или несколько элементов портфолио, в которые вы хотите добавить выбранные задачи.
 6. Нажмите **Назначить**. Выбранные задачи будут добавлены в выбранные элементы портфолио.
 
-<figure><img src="../../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
