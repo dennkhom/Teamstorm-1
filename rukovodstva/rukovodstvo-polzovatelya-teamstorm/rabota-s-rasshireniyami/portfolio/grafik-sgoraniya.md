@@ -2,7 +2,7 @@
 
 График сгорания — это вид графического отчета, который  позволяет пользователю наблюдать за ходом проекта и фиксировать оставшееся время для работы над бэклогом.
 
-График сгорания реализован в виде отдельного представления (**Отчеты**), доступного только в спринтах и элементах портфолио.
+График сгорания реализован в виде отдельного [представления](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/predstavlenie-zadach) (**Отчеты**), доступного только в спринтах и элементах портфолио.
 
 {% hint style="warning" %}
 Для построения графика для элемента портфолио необходимо добавить дату начала и завершения и [перевести статус элемента портфолио](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/portfolio/izmenenie-statusa-elementa-portfolio) в категорию В РАБОТЕ.
