@@ -125,6 +125,7 @@
     * [Добавление подзадач](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/dobavlenie-podzadach.md)
     * [Добавление вложения](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/dobavlenie-vlozheniya.md)
     * [Добавление и удаление связей между задачами](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/dobavlenie-i-udalenie-svyazei-mezhdu-zadachami.md)
+    * [Комментарии к задачам](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/kommentarii-k-zadacham.md)
     * [Просмотр истории создания и изменения задачи](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/prosmotr-istorii-sozdaniya-i-izmeneniya-zadachi.md)
     * [Ранжирование задач](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/ranzhirovanie-zadach.md)
     * [Перемещение задач](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/peremeshenie-zadachi.md)
