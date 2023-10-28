@@ -14,8 +14,8 @@
 [sistemnye-trebovaniya.md](sistemnye-trebovaniya.md)
 {% endcontent-ref %}
 
-{% content-ref url="sostav-postavki.md" %}
-[sostav-postavki.md](sostav-postavki.md)
+{% content-ref url="../../versiya-2.33.3/sostav-postavki.md" %}
+[sostav-postavki.md](../../versiya-2.33.3/sostav-postavki.md)
 {% endcontent-ref %}
 
 {% content-ref url="poleznye-komandy.md" %}
