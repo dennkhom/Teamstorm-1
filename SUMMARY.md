@@ -53,6 +53,7 @@
       * [Резервное копирование и восстановление](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/arkhivnye-versii/versiya-2.33.3/rezervnoe-kopirovanie-i-vosstanovlenie/README.md)
         * [Резервное копирование](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/arkhivnye-versii/versiya-2.33.3/rezervnoe-kopirovanie-i-vosstanovlenie/rezervnoe-kopirovanie.md)
         * [Восстановление из резервной копии](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/arkhivnye-versii/versiya-2.33.3/rezervnoe-kopirovanie-i-vosstanovlenie/vosstanovlenie-iz-rezervnoi-kopii.md)
+      * [Page 1](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/arkhivnye-versii/versiya-2.33.3/page-1.md)
 * [Руководство пользователя TeamStorm](rukovodstvo-polzovatelya-teamstorm.md)
   * [Роли пользователей и лицензии](rukovodstva/rukovodstvo-polzovatelya-teamstorm/roli-polzovatelei-i-licenzii.md)
   * [Вход в систему](rukovodstva/rukovodstvo-polzovatelya-teamstorm/vkhod-v-sistemu.md)
