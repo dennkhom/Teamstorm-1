@@ -57,6 +57,7 @@
   * [Вход в систему](rukovodstva/rukovodstvo-polzovatelya-teamstorm/vkhod-v-sistemu.md)
   * [Главная страница](rukovodstva/rukovodstvo-polzovatelya-teamstorm/glavnaya-stranica/README.md)
     * [Меню информации о продукте](rukovodstva/rukovodstvo-polzovatelya-teamstorm/glavnaya-stranica/menyu-informacii-o-produkte.md)
+  * [Мои задачи](rukovodstva/rukovodstvo-polzovatelya-teamstorm/moi-zadachi.md)
   * [Работа с пространствами](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/README.md)
     * [Роли доступа к пространству](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/roli-dostupa-k-prostranstvu/README.md)
       * [Добавление и настройка роли](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/roli-dostupa-k-prostranstvu/dobavlenie-i-nastroika-roli.md)
