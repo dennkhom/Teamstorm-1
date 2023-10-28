@@ -29,7 +29,8 @@ TeamStorm позволяет создавать подробные, структ
 * Вставить объект:
   * список задач (чекбокс);
   * загрузить изображение;
-  * Draw.io
+  * Draw.io;
+  * оглавление
   * блок кода;
   * разделитель;
 * Вставить таблицу.
@@ -40,7 +41,7 @@ TeamStorm позволяет создавать подробные, структ
 
 ## Редактирование таблиц
 
-При вставке таблицы отобразятся дополнительные инструменты форматирования таблицы:
+После вставки таблицы на панели инструментов отобразятся дополнительные инструменты форматирования таблицы:
 
 * Добавить столбец слева;
 * Добавить столбец справа;
@@ -77,7 +78,11 @@ TeamStorm позволяет создавать подробные, структ
 
 См. также:
 
-{% content-ref url="oformlenie-opisanii-i-kommentariev-k-zadacham/vstavka-skhem-i-diagramm.md" %}
-[vstavka-skhem-i-diagramm.md](oformlenie-opisanii-i-kommentariev-k-zadacham/vstavka-skhem-i-diagramm.md)
+{% content-ref url="../oformlenie-tekstovykh-blokov/skhemy-i-diagrammy.md" %}
+[skhemy-i-diagrammy.md](../oformlenie-tekstovykh-blokov/skhemy-i-diagrammy.md)
+{% endcontent-ref %}
+
+{% content-ref url="../oformlenie-tekstovykh-blokov/oglavleniya.md" %}
+[oglavleniya.md](../oformlenie-tekstovykh-blokov/oglavleniya.md)
 {% endcontent-ref %}
 
