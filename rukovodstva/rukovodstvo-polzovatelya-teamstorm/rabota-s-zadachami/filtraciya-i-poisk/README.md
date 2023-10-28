@@ -2,7 +2,7 @@
 
 TeamStorm позволяет находить задачи благодаря встроенным инструментам фильтрации и поиска.
 
-В этом разделе описаны:
+В разделе описаны:
 
 [Фильтрация задач](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/filtraciya-i-poisk/filtraciya-zadach);
 
