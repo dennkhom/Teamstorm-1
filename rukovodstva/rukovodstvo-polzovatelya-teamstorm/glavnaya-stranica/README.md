@@ -14,7 +14,7 @@
 
 * поле ввода для полнотекстового поиска;
 * индикатор уведомлений;
-* иконка [меню информации о продукте](./#menyu-informacii-o-produkte);
+* иконка [меню информации о продукте](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/glavnaya-stranica/menyu-informacii-o-produkte);
 * кнопка перехода к профилю пользователя.
 
 <figure><img src="../../../.gitbook/assets/изображение (167).png" alt=""><figcaption></figcaption></figure>
