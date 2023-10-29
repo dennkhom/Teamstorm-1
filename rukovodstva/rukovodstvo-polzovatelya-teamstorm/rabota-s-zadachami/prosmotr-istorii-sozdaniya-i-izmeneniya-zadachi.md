@@ -20,7 +20,7 @@
 
 <figure><img src="../../../.gitbook/assets/изображение (67).png" alt=""><figcaption></figcaption></figure>
 
-Изменения [прогресса выполнения задачи](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/progress-vypolneniya-zadachi) по метрике также отражаются в истории изменений.&#x20;
+Изменения [прогресса выполнения задачи](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/progress-vypolneniya-zadachi) по метрике и изменение способа оценки задачи также отражаются в истории изменений.&#x20;
 
 Для истории изменения прогресса указывается:
 
@@ -30,4 +30,14 @@
 * изменение старта и/или цели;
 * комментарий (при его наличии).
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+Для изменения способа оценки указывается:
+
+* факты добавления и изменения оценки задачи;
+* единица измерения (для оценки в часах);
+* предыдущее и новое значение оценки;
+* автор и дата/время изменения.
+
+<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+
