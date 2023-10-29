@@ -11,7 +11,7 @@ TeamStorm позволяет вставлять и редактировать с
 
 Объект будет вставлен в описание задачи, а также прикрепится к карточке задаче как вложение.
 
-<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Редактирование объекта draw.io
 
