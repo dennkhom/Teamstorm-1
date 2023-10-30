@@ -5,7 +5,7 @@
 * первом входе в созданное пространство или
 * При помощи меню **Настройки**  после перехода в пространство.
 
-<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 На открывшейся странице вы можете:
 
@@ -23,4 +23,4 @@
 * настройке интеграций;
 * удалению пространства.
 
-<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

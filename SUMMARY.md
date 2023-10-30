@@ -152,6 +152,7 @@
   * [Работа с разделом «Страницы»](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/README.md)
     * [Создание страницы](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/sozdanie-stranicy.md)
     * [Редактирование страницы](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/redaktirovanie-stranicy.md)
+    * [Черновики](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/chernoviki.md)
     * [Работа с версиями страницы](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/rabota-s-versiyami-stranicy.md)
     * [Связывание страницы и задачи](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/svyazyvanie-stranicy-i-zadachi.md)
     * [Работа с вложениями](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/rabota-s-vlozheniyami.md)

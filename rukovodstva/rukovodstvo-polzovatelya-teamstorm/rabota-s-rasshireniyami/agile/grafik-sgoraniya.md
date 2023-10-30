@@ -8,7 +8,7 @@
 Для построения графика необходимо [запустить спринт](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/agile/zapusk-sprinta).
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 График содержит:
 
@@ -29,14 +29,14 @@
 
 ## Настройка графика
 
-1. Нажмите кнопку <img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1).png" alt="" data-size="line"> справа от графика и выберите **Настроить**.
+1. Нажмите кнопку <img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1).png" alt="" data-size="line"> справа от графика и выберите **Настроить**.
 2. В раскрывшейся панели **Настройка**:
    * введите название графика (опционально);
    * выберите метрику оценки (по количеству задач или по часам);
    * выберите и примените фильтры (на данный момент доступна только фильтрация по типу задач);
 3. Нажмите **Сохранить**.
 
-<figure><img src="../../../../.gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
