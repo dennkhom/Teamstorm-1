@@ -33,8 +33,11 @@
 4.  Убедитесь в соответствии выставленных значений параметров `CWM_S3_BUCKET_SECRET_KEY` и `WIKI_S3_BUCKET_SECRET_KEY` в файле конфигурации TeamStorm `./teamstorm/values.yml`:
 
     ```yaml
-    general:
-        CWM_S3_BUCKET_SECRET_KEY: "MySecretKeyHash"
-        WIKI_S3_BUCKET_SECRET_KEY: "MySecretKeyHash"
+        main:
+          ...
+          minio:
+            ...
+            cwm_s3_bucket_secret_key: "MySecretKeyHash"
+            wiki_s3_bucket_secret_key: "MySecretKeyHash"
     ```
 

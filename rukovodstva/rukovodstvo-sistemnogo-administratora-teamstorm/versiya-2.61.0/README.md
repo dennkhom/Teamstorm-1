@@ -22,8 +22,12 @@
 [poleznye-komandy.md](../arkhivnye-versii/versiya-2.33.3/poleznye-komandy.md)
 {% endcontent-ref %}
 
-{% content-ref url="../arkhivnye-versii/versiya-2.33.3/ustanovka-i-obnovlenie/" %}
-[ustanovka-i-obnovlenie](../arkhivnye-versii/versiya-2.33.3/ustanovka-i-obnovlenie/)
+{% content-ref url="ustanovka-i-obnovlenie-v-docker/" %}
+[ustanovka-i-obnovlenie-v-docker](ustanovka-i-obnovlenie-v-docker/)
+{% endcontent-ref %}
+
+{% content-ref url="ustanovka-v-kubernetes/" %}
+[ustanovka-v-kubernetes](ustanovka-v-kubernetes/)
 {% endcontent-ref %}
 
 {% content-ref url="../arkhivnye-versii/versiya-2.33.3/nastroika-pochtovogo-servera-dlya-uvedomlenii.md" %}
