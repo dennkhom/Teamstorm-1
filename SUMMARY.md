@@ -123,6 +123,7 @@
       * [Изменение статуса задачи](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/redaktirovanie-zadachi/izmenenie-statusa-zadachi.md)
       * [Изменение типа задачи](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/redaktirovanie-zadachi/izmenenie-tipa-zadachi.md)
       * [Добавление задачи в очередь и удаление задачи из очереди](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/redaktirovanie-zadachi/dobavlenie-zadachi-v-ochered-i-udalenie-zadachi-iz-ocheredi.md)
+    * [Учет трудозатрат](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/uchet-trudozatrat.md)
     * [Добавление подзадач](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/dobavlenie-podzadach.md)
     * [Добавление вложения](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/dobavlenie-vlozheniya.md)
     * [Добавление и удаление связей между задачами](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/dobavlenie-i-udalenie-svyazei-mezhdu-zadachami.md)
