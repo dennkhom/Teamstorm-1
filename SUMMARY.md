@@ -24,6 +24,7 @@
       * [Подготовка к установке](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0/ustanovka-v-kubernetes/podgotovka-k-ustanovke.md)
       * [Установка](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0/ustanovka-v-kubernetes/ustanovka.md)
     * [Настройка почтового сервера для уведомлений](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0/nastroika-pochtovogo-servera-dlya-uvedomlenii.md)
+    * [Изменение ссылки на видеоролик](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0/izmenenie-ssylki-na-videorolik.md)
     * [Проверка корректности установки](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0/proverka-korrektnosti-ustanovki.md)
     * [Перезапуск и удаление](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0/perezapusk-i-udalenie.md)
     * [Резервное копирование и восстановление](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0/rezervnoe-kopirovanie-i-vosstanovlenie/README.md)
