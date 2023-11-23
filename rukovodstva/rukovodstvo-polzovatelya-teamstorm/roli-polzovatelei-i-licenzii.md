@@ -1,8 +1,8 @@
 # Роли пользователей и лицензии
 
-В разделе описаны роли доступа к Системе в целом.&#x20;
+Ниже описаны роли доступа к Системе в целом.&#x20;
 
-Роли доступа к пространству и их настройка описаны в разделе [Роли доступа к пространству](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/roli-dostupa-k-prostranstvu).
+Роли доступа к пространству и их настройка описаны в Руководстве пользователя в разделе [Роли доступа к пространству](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/roli-dostupa-k-prostranstvu).
 
 ## Администратор Core
 
@@ -13,7 +13,7 @@
 
 После входа в систему пользователя с ролью **Администратор** **Core** у него будет автоматически открыт раздел **Администрирование.**
 
-Подробнее работа с разделом **Администрирование** описана в [Руководстве администратора](../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md).
+Подробнее работа с разделом **Администрирование** описана в [Руководстве администратора](../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/).
 
 Роль **Администратор** **Core** не списывает лицензию.
 

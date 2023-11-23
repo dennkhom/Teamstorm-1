@@ -6,7 +6,12 @@
 
 ## Руководства
 
-* [Руководство администратора TeamStorm по добавлению лицензий и пользователей](rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md)
+* [Руководство администратора TeamStorm по добавлению лицензий и пользователей](rukovodstva/rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/README.md)
+  * [Вход в систему](rukovodstva/rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/vkhod-v-sistemu.md)
+  * [Лицензии](rukovodstva/rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/licenzii.md)
+  * [Настройка подключений через AD/LDAP](rukovodstva/rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/nastroika-podklyuchenii-cherez-ad-ldap.md)
+  * [Системные роли](rukovodstva/rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/sistemnye-roli.md)
+  * [Добавление, редактирование и удаление пользователей](rukovodstva/rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/dobavlenie-redaktirovanie-i-udalenie-polzovatelei.md)
 * [Инструкция по установке, обновлению и резервному копированию TeamStorm](rukovodstvo-sistemnogo-administratora-teamstorm/README.md)
   * [Версия 2.61.0](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0/README.md)
     * [Общие рекомендации](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0/obshie-rekomendacii.md)

@@ -235,8 +235,8 @@ FILE_BUCKET_NAME="teamstorm"
 Для проверки корректности установки:
 
 1. Убедитесь в том, что в Системе предсоздан пользователь с ролью администратора. Авторизуйтесь под учетной записью администратора.
-2. Убедитесь в том, что [лицензии TeamStorm добавлены](../../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#prosmotr-informacii-o-licenziyakh).&#x20;
-3. Убедитесь в том, что в системе есть другие пользователи, или [добавьте нового пользователя](../../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md#dobavlenie-polzovatelei) (например, с именем user1).
+2. Убедитесь в том, что [лицензии TeamStorm добавлены](../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/#prosmotr-informacii-o-licenziyakh).&#x20;
+3. Убедитесь в том, что в системе есть другие пользователи, или [добавьте нового пользователя](../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/#dobavlenie-polzovatelei) (например, с именем user1).
 4. [Создайте пространство](../../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-prostranstva).
 5. [Создайте папку](../../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-papki).
 6. [Создайте задачу](../../../rukovodstvo-polzovatelya-teamstorm.md#sozdanie-zadachi).

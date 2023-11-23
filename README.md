@@ -19,8 +19,8 @@ TeamStorm — это современная система управления 
 
 **Руководства:**
 
-{% content-ref url="rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md" %}
-[rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md](rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md)
+{% content-ref url="rukovodstva/rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/" %}
+[rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei](rukovodstva/rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/)
 {% endcontent-ref %}
 
 {% content-ref url="rukovodstvo-sistemnogo-administratora-teamstorm/" %}

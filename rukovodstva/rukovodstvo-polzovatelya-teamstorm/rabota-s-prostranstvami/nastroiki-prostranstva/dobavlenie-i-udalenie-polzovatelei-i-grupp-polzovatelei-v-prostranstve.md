@@ -3,7 +3,7 @@
 {% hint style="info" %}
 Пользователи и группы создаются администратором на уровне системы.&#x20;
 
-Создание пользователей и групп описано в  [Руководстве администратора](../../../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei.md).
+Создание пользователей и групп описано в  [Руководстве администратора](../../../rukovodstvo-administratora-teamstorm-po-dobavleniyu-polzovatelei/).
 {% endhint %}
 
 ## Добавление пользователей
