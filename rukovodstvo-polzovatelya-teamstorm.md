@@ -8,10 +8,6 @@
 
 Руководство включает в себя разделы:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="rukovodstva/rukovodstvo-polzovatelya-teamstorm/vkhod-v-sistemu.md" %}
 [vkhod-v-sistemu.md](rukovodstva/rukovodstvo-polzovatelya-teamstorm/vkhod-v-sistemu.md)
 {% endcontent-ref %}
