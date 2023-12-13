@@ -4,7 +4,8 @@ description: Изменения продукта за 2023 год
 
 # 2023
 
-* Версия 2.61.0
+* [Версия 2.95.0](https://docs.teamstorm.io/release-notes/2023/versiya-2.95.0)
+* [Версия 2.61.0](https://docs.teamstorm.io/release-notes/2023/versiya-2.61.0)
 * [Версия 2.33.0](https://docs.teamstorm.io/release-notes/2023/versiya-2.33.0)
 * [Версия 2.0.0](https://docs.teamstorm.io/release-notes/2023/versiya-2.0.0)
 * [Версия 1.34.0](versiya-1.34.0.md)
