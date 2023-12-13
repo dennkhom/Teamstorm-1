@@ -12,7 +12,7 @@ TeamStorm позволяет легко перемещать задачи меж
 
 В каждом из этих случаев отобразится соответствующее уведомление.
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Перемещение задачи перетаскиванием
 

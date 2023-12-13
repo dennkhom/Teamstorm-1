@@ -13,7 +13,7 @@
 
 В блоке **СВЯЗАННЫЕ ЗАДАЧИ** отобразятся связанные задачи.
 
-<figure><img src="../../../.gitbook/assets/изображение (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Пользователь может выполнить переход к связанной задаче, нажав на ее название блоке **СВЯЗАННЫЕ ЗАДАЧИ.**
 
