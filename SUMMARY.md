@@ -176,6 +176,7 @@
 ## Release Notes
 
 * [2023](release-notes/2023/README.md)
+  * [Версия 2.95.0](release-notes/2023/versiya-2.95.0.md)
   * [Версия 2.61.0](release-notes/2023/versiya-2.61.0.md)
   * [Версия 2.33.0](release-notes/2023/versiya-2.33.0.md)
   * [Версия 2.0.0](release-notes/2023/versiya-2.0.0.md)
