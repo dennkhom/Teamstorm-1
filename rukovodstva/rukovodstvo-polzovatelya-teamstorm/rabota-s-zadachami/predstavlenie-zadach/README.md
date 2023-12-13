@@ -39,7 +39,7 @@
 
 <figure><img src="../../../../.gitbook/assets/изображение (237).png" alt=""><figcaption></figcaption></figure>
 
-Подробнее о представлении см. Диаграмма Ганта.
+Подробнее о представлении см. [Диаграмма Ганта](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/predstavlenie-zadach/diagramma-ganta).
 
 ## Отчеты
 
@@ -50,3 +50,5 @@
 В представлении **Отчеты** содержится [График сгорания](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/agile/grafik-sgoraniya), а также отчеты по выполнению и изменению состава задач в спринте.&#x20;
 
 <figure><img src="../../../../.gitbook/assets/изображение (239).png" alt=""><figcaption></figcaption></figure>
+
+Подробнее о представлении см. Отчеты.
