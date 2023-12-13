@@ -165,6 +165,7 @@
     * [Работа с вложениями](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/rabota-s-vlozheniyami.md)
     * [Полнотекстовый поиск](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/polnotekstovyi-poisk.md)
     * [Комментарии к страницам](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/kommentarii-k-stranicam.md)
+    * [Создание ссылки на страницу](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/sozdanie-ssylki-na-stranicu.md)
     * [Удаление страницы](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-razdelom-stranicy/udalenie-stranicy.md)
   * [Оформление текстовых блоков](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/oformlenie-opisanii-i-kommentariev-k-zadacham.md)
     * [Схемы и диаграммы](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/oformlenie-opisanii-i-kommentariev-k-zadacham/vstavka-skhem-i-diagramm.md)
