@@ -20,6 +20,10 @@
 [moi-zadachi-i-spisaniya.md](rukovodstva/rukovodstvo-polzovatelya-teamstorm/moi-zadachi-i-spisaniya.md)
 {% endcontent-ref %}
 
+{% content-ref url="rukovodstva/rukovodstvo-polzovatelya-teamstorm/otchety-po-trudozatratam.md" %}
+[otchety-po-trudozatratam.md](rukovodstva/rukovodstvo-polzovatelya-teamstorm/otchety-po-trudozatratam.md)
+{% endcontent-ref %}
+
 {% content-ref url="rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/" %}
 [rabota-s-prostranstvami](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/)
 {% endcontent-ref %}

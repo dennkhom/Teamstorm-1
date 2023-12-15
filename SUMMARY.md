@@ -65,7 +65,7 @@
   * [Главная страница](rukovodstva/rukovodstvo-polzovatelya-teamstorm/glavnaya-stranica/README.md)
     * [Меню информации о продукте](rukovodstva/rukovodstvo-polzovatelya-teamstorm/glavnaya-stranica/menyu-informacii-o-produkte.md)
   * [Мои задачи и списания](rukovodstva/rukovodstvo-polzovatelya-teamstorm/moi-zadachi-i-spisaniya.md)
-  * [Отчеты](rukovodstva/rukovodstvo-polzovatelya-teamstorm/otchety.md)
+  * [Отчеты по трудозатратам](rukovodstva/rukovodstvo-polzovatelya-teamstorm/otchety-po-trudozatratam.md)
   * [Панель навигации](rukovodstva/rukovodstvo-polzovatelya-teamstorm/panel-navigacii.md)
   * [Работа с пространствами](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/README.md)
     * [Роли доступа к пространству](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/roli-dostupa-k-prostranstvu/README.md)
