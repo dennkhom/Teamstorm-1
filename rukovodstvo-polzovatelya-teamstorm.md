@@ -16,6 +16,10 @@
 [glavnaya-stranica](rukovodstva/rukovodstvo-polzovatelya-teamstorm/glavnaya-stranica/)
 {% endcontent-ref %}
 
+{% content-ref url="rukovodstva/rukovodstvo-polzovatelya-teamstorm/moi-zadachi-i-spisaniya.md" %}
+[moi-zadachi-i-spisaniya.md](rukovodstva/rukovodstvo-polzovatelya-teamstorm/moi-zadachi-i-spisaniya.md)
+{% endcontent-ref %}
+
 {% content-ref url="rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/" %}
 [rabota-s-prostranstvami](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/)
 {% endcontent-ref %}
