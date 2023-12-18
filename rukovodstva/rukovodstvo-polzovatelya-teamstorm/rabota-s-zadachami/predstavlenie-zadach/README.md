@@ -51,4 +51,4 @@
 
 <figure><img src="../../../../.gitbook/assets/изображение (239).png" alt=""><figcaption></figcaption></figure>
 
-Подробнее о представлении см. Отчеты.
+Подробнее о представлении см. [Отчеты по спринту](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/agile/grafik-sgoraniya-i-otchety/otchety-po-sprintu).
