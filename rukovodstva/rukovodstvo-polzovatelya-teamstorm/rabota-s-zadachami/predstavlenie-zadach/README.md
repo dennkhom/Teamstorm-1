@@ -37,7 +37,7 @@
 
 Представление **Гант** отображает в графическом виде то, как выполняется запланированная работа с течением времени.
 
-<figure><img src="../../../../.gitbook/assets/изображение (237).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (237) (1).png" alt=""><figcaption></figcaption></figure>
 
 Подробнее о представлении см. [Диаграмма Ганта](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-zadachami/predstavlenie-zadach/diagramma-ganta).
 
