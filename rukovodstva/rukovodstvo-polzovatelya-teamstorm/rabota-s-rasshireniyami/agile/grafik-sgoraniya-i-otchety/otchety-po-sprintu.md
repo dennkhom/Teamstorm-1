@@ -25,7 +25,7 @@
 
 По нажатию на строку с задачей открывается полноэкранная карточка задачи в отдельном окне.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Выполненные задачи
 

@@ -16,7 +16,7 @@
    * отображать или нет виджет списания времени.
 5. Нажмите **Сохранить**.
 
-<figure><img src="../../../../.gitbook/assets/изображение (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Новый тип задачи будет отображен в списке типов на экране **Типы задач**.
 
