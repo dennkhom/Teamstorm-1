@@ -152,6 +152,7 @@
     * [Создание нового статуса](rukovodstva/rukovodstvo-polzovatelya-teamstorm/nastroika-rabochikh-processov/sozdanie-novogo-statusa.md)
     * [Настройка процесса](rukovodstva/rukovodstvo-polzovatelya-teamstorm/nastroika-rabochikh-processov/nastroika-processa.md)
     * [Удаление статуса из процесса](rukovodstva/rukovodstvo-polzovatelya-teamstorm/nastroika-rabochikh-processov/udalenie-statusa-iz-processa.md)
+    * [Удаление процесса](rukovodstva/rukovodstvo-polzovatelya-teamstorm/nastroika-rabochikh-processov/udalenie-processa.md)
   * [Интеграции](rukovodstva/rukovodstvo-polzovatelya-teamstorm/integracii/README.md)
     * [Интеграция с GitLab](rukovodstva/rukovodstvo-polzovatelya-teamstorm/integracii/nastroika-integracii-s-gitlab/README.md)
       * [Запросы на слияние](rukovodstva/rukovodstvo-polzovatelya-teamstorm/integracii/nastroika-integracii-s-gitlab/zaprosy-na-sliyanie.md)
