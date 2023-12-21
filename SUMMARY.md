@@ -21,7 +21,6 @@
       * [Состав поставки](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0-i-vyshe/ustanovka-i-obnovlenie-v-docker/sostav-postavki.md)
       * [Подготовка к установке](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0-i-vyshe/ustanovka-i-obnovlenie-v-docker/podgotovka-k-ustanovke.md)
       * [Чистая установка](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0-i-vyshe/ustanovka-i-obnovlenie-v-docker/chistaya-ustanovka.md)
-      * [Установка на Test IT](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0-i-vyshe/ustanovka-i-obnovlenie-v-docker/ustanovka-na-test-it.md)
       * [Обновление](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0-i-vyshe/ustanovka-i-obnovlenie-v-docker/obnovlenie.md)
     * [Установка в Kubernetes](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0-i-vyshe/ustanovka-v-kubernetes/README.md)
       * [Требования](rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0-i-vyshe/ustanovka-v-kubernetes/trebovaniya.md)
