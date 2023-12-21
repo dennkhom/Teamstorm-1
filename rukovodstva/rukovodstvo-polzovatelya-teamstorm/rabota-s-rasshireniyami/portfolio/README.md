@@ -4,7 +4,7 @@
 
 Переход в существующее портфолио выполняется из навигационной панели в левой части экрана.
 
-При открытии портфолио отображается информационная панель в виде таблицы со следующими данными:
+При открытии портфолио отображается агрегированная информация в виде таблицы со следующими данными:
 
 * `Имя` — имя элемента портфолио;
 * `Ответственный` — ответственный(-ые) (если были добавлены в элемент расширения);
@@ -19,3 +19,37 @@
 * `Всего` — количество всех задач элемента.
 
 <figure><img src="../../../../.gitbook/assets/изображение (180).png" alt=""><figcaption></figcaption></figure>
+
+Подробнее работа с расширением описана в подразделах:
+
+{% content-ref url="dobavlenie-portfolio.md" %}
+[dobavlenie-portfolio.md](dobavlenie-portfolio.md)
+{% endcontent-ref %}
+
+{% content-ref url="sozdanie-elementa-portfolio.md" %}
+[sozdanie-elementa-portfolio.md](sozdanie-elementa-portfolio.md)
+{% endcontent-ref %}
+
+{% content-ref url="sozdanie-elementa-portfolio.md" %}
+[sozdanie-elementa-portfolio.md](sozdanie-elementa-portfolio.md)
+{% endcontent-ref %}
+
+{% content-ref url="dobavlenie-zadach-v-element-portfolio.md" %}
+[dobavlenie-zadach-v-element-portfolio.md](dobavlenie-zadach-v-element-portfolio.md)
+{% endcontent-ref %}
+
+{% content-ref url="izmenenie-statusa-elementa-portfolio.md" %}
+[izmenenie-statusa-elementa-portfolio.md](izmenenie-statusa-elementa-portfolio.md)
+{% endcontent-ref %}
+
+{% content-ref url="grafik-sgoraniya.md" %}
+[grafik-sgoraniya.md](grafik-sgoraniya.md)
+{% endcontent-ref %}
+
+{% content-ref url="redaktirovanie-portfolio-i-elementa-portfolio.md" %}
+[redaktirovanie-portfolio-i-elementa-portfolio.md](redaktirovanie-portfolio-i-elementa-portfolio.md)
+{% endcontent-ref %}
+
+{% content-ref url="udalenie-portfolio-i-ego-elementov.md" %}
+[udalenie-portfolio-i-ego-elementov.md](udalenie-portfolio-i-ego-elementov.md)
+{% endcontent-ref %}

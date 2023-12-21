@@ -12,8 +12,8 @@
 [sozdanie-sprinta.md](sozdanie-sprinta.md)
 {% endcontent-ref %}
 
-{% content-ref url="zapusk-i-zavershenie-sprinta.md" %}
-[zapusk-i-zavershenie-sprinta.md](zapusk-i-zavershenie-sprinta.md)
+{% content-ref url="zapusk-sprinta.md" %}
+[zapusk-sprinta.md](zapusk-sprinta.md)
 {% endcontent-ref %}
 
 {% content-ref url="redaktirovanie-sprinta.md" %}
@@ -36,16 +36,12 @@
 [grafik-sgoraniya-i-otchety](grafik-sgoraniya-i-otchety/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="udalenie-sprinta.md" %}
 [udalenie-sprinta.md](udalenie-sprinta.md)
 {% endcontent-ref %}
 
-{% content-ref url="agregirovannaya-statistika-sprintov.md" %}
-[agregirovannaya-statistika-sprintov.md](agregirovannaya-statistika-sprintov.md)
+{% content-ref url="agregirovannaya-statistika-po-sprintam.md" %}
+[agregirovannaya-statistika-po-sprintam.md](agregirovannaya-statistika-po-sprintam.md)
 {% endcontent-ref %}
 
 {% content-ref url="otklyuchenie-rasshireniya-agile.md" %}
