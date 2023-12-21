@@ -103,6 +103,7 @@
         * [Отчеты по спринту](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/agile/grafik-sgoraniya-i-otchety/otchety-po-sprintu.md)
       * [Завершение спринта](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/agile/zavershenie-sprinta.md)
       * [Удаление спринта](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/agile/udalenie-sprinta.md)
+      * [Агрегированная статистика спринтов](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/agile/agregirovannaya-statistika-sprintov.md)
       * [Отключение расширения Agile](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/agile/otklyuchenie-rasshireniya-agile.md)
     * [Портфолио](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/portfolio/README.md)
       * [Добавление портфолио](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-rasshireniyami/portfolio/dobavlenie-portfolio.md)
