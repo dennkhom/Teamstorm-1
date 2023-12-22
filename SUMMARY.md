@@ -74,6 +74,7 @@
       * [Назначение роли пользователю или группе пользователей](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/roli-dostupa-k-prostranstvu/naznachenie-roli-polzovatelyu-ili-gruppe-polzovatelei.md)
     * [Создание пространства](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/sozdanie-prostranstva.md)
       * [Копирование настроек пространства](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/sozdanie-prostranstva/kopirovanie-nastroek-prostranstva.md)
+      * [Создание пространства по шаблону](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/sozdanie-prostranstva/sozdanie-prostranstva-po-shablonu.md)
     * [Переход к пространству](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/perekhod-k-prostranstvu/README.md)
       * [Первый вход в созданное пространство](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/perekhod-k-prostranstvu/pervyi-vkhod-v-sozdannoe-prostranstvo.md)
     * [Настройки пространства](rukovodstva/rukovodstvo-polzovatelya-teamstorm/rabota-s-prostranstvami/nastroiki-prostranstva/README.md)

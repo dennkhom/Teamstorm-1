@@ -6,6 +6,6 @@
 4. Выберите категорию статуса. При необходимости, отредактируйте его название.
 5.  Нажмите **Добавить**.
 
-    <figure><img src="../../../.gitbook/assets/изображение (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
 
     Статус будет создан и отобразится на доске создания процесса.&#x20;

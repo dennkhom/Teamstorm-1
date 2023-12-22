@@ -6,4 +6,4 @@
 
 На открывшейся странице будет отображен список процессов, созданных для данного пространства.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

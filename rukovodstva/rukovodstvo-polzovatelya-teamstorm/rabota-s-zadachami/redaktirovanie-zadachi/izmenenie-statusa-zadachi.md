@@ -9,7 +9,7 @@
 * ВЫПОЛНЕНО — завершенные задачи, выделяются зеленым цветом;
 *   ОТМЕНЕНО — отмененные задачи, выделяются красным цветом.
 
-    <figure><img src="../../../../.gitbook/assets/изображение (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/изображение (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Пользователь с правами редактирования пространства может создавать пользовательские статусы в рамках [настройки рабочего процесса](https://docs.teamstorm.io/rukovodstva/rukovodstvo-polzovatelya-teamstorm/nastroika-rabochikh-processov), тем не менее, созданные статусы будут относиться к описанным выше категориям.
 
