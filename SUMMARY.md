@@ -192,3 +192,22 @@
   * [Версия 1.27.0](release-notes/2023/versiya-1.27.0.md)
 * [2022](release-notes/2022/README.md)
   * [Версия 1.23.0](release-notes/2022/versiya-1.23.0.md)
+
+## API
+
+* [Введение](api/vvedenie.md)
+* [Аутентификация](api/autentifikaciya.md)
+* [Пагинация](api/paginaciya.md)
+* [Обработка ошибок](api/obrabotka-oshibok.md)
+* [Формат даты и времени](api/format-daty-i-vremeni.md)
+* [Функции API](api/funkcii-api/README.md)
+  * [Задачи](api/funkcii-api/zadachi/README.md)
+    * [Получение списка задач в пространстве с фильтрацией и пагинацией](api/funkcii-api/zadachi/poluchenie-spiska-zadach-v-prostranstve-s-filtraciei-i-paginaciei.md)
+    * [Получение задачи](api/funkcii-api/zadachi/poluchenie-zadachi.md)
+    * [Создание задачи](api/funkcii-api/zadachi/sozdanie-zadachi.md)
+    * [Изменение задачи](api/funkcii-api/zadachi/izmenenie-zadachi.md)
+    * [Удаление задачи](api/funkcii-api/zadachi/udalenie-zadachi.md)
+  * [Атрибуты задачи](api/funkcii-api/atributy-zadachi/README.md)
+    * [Получение атрибутов задачи](api/funkcii-api/atributy-zadachi/poluchenie-atributov-zadachi.md)
+    * [Добавление значения атрибута задачи](api/funkcii-api/atributy-zadachi/dobavlenie-znacheniya-atributa-zadachi.md)
+    * [Изменение значения атрибута задачи](api/funkcii-api/atributy-zadachi/izmenenie-znacheniya-atributa-zadachi.md)
