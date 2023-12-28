@@ -4,6 +4,6 @@
 [zadachi](zadachi/)
 {% endcontent-ref %}
 
-{% content-ref url="atributy-zadachi/" %}
-[atributy-zadachi](atributy-zadachi/)
+{% content-ref url="znacheniya-atributov-zadachi/" %}
+[znacheniya-atributov-zadachi](znacheniya-atributov-zadachi/)
 {% endcontent-ref %}

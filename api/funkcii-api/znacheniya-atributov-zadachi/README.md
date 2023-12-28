@@ -1,6 +1,6 @@
-# Изменение значения атрибута задачи
+# Значения атрибутов задачи
 
-**Изменение значения атрибута задачи**
+**Изменение значений атрибутов задачи**
 
 `PUT /cwm/public/api/v1/workspaces/{workspace}/workitems/{workitem}/attributes/{attributeId}`
 
