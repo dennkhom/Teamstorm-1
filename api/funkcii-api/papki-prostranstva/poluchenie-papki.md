@@ -1,0 +1,30 @@
+# Получение папки
+
+Возвращает папку.
+
+`GET /cwm/public/api/v1/workspaces/{workspace}/folders/{folderId}`
+
+Параметры запроса:
+
+| Параметр  | Обязательность | Описание                                                                                                                                                                                                  |
+| --------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| workspace | обязательный   | <p>Ключ или идентификатор пространства</p><p><code>/cwm/public/api/v1/workspaces/KEY/workitems</code></p><p><code>/cwm/public/api/v1/workspaces/f5ce1753-ced5-4992-beb9-7408c1a56cf8/workitems</code></p> |
+| folderId  | обязательный   | <p>Идентификатор папки</p><p><code>f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                                                                                        |
+
+Тело успешного ответа 200:
+
+```json
+{
+  "fromToken": "string",
+  "maxItemsCount": 0,
+  "nextToken": "string",
+  "items": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "string",
+      "description": "string",
+      "parentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  ]
+}
+```

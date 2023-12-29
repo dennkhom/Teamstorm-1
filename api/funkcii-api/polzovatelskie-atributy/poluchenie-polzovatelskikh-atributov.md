@@ -1,0 +1,39 @@
+# Получение пользовательских атрибутов
+
+Возвращает все пользовательские атрибуты пространства с фильтрацией и пагинацией
+
+`GET /cwm/public/api/v1/workspaces/{workspace}/attributes`
+
+Параметры запроса (возможно комбинирование параметров фильтрации):
+
+| Параметр      | Обязательность | Описание                                                                                                                                                                                                  |
+| ------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| workspace     | обязательный   | <p>Ключ или идентификатор пространства</p><p><code>/cwm/public/api/v1/workspaces/KEY/workitems</code></p><p><code>/cwm/public/api/v1/workspaces/f5ce1753-ced5-4992-beb9-7408c1a56cf8/workitems</code></p> |
+| name          |                | <p>Название типа для фильтрации (вхождение подстроки)</p><p><code>?name=Деф</code></p>                                                                                                                    |
+| type          |                | <p>Тип атрибута для фильтрации. Значение из справочника:</p><ul><li>UniString</li><li>Number</li><li>Date</li><li>UniSelect</li><li>Tag</li><li>User</li><li>TimeDuration</li></ul>                       |
+| fromToken     |                | <p>Токен запрашиваемой страницы</p><p><code>?fromToken=f5ce1753</code></p>                                                                                                                                |
+| maxItemsCount |                | <p>Максимальное кол-во задач на странице (по умолчанию: 50)</p><p><code>?maxItemsCount=200</code></p>                                                                                                     |
+
+Тело успешного ответа 200:
+
+```json
+{
+  "fromToken": "string",
+  "maxItemsCount": 0,
+  "nextToken": "string",
+  "items": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "string",
+      "description": "string",
+      "type": "UniString",
+      "options": [
+        {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "name": "string"
+        }
+      ]
+    }
+  ]
+}
+```
