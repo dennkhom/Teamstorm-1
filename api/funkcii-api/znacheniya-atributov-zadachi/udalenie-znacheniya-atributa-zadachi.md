@@ -1,6 +1,6 @@
 # Удаление значения атрибута задачи
 
-Удаляет значение атрибута в задаче.
+Удаляет значение атрибута задачи.
 
 `DELETE /cwm/public/api/v1/workspaces/{workspace}/workitems/{workitem}/attributes/{attributeId}`
 

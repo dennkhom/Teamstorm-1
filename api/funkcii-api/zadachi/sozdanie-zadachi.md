@@ -1,6 +1,6 @@
 # Создание задачи
 
-## **Создание задачи**
+Создает новую задачу.
 
 `POST /cwm/public/api/v1/workspaces/{workspace}/workitems`
 
