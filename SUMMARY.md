@@ -200,6 +200,7 @@
 * [Пагинация](api/paginaciya.md)
 * [Обработка ошибок](api/obrabotka-oshibok.md)
 * [Формат даты и времени](api/format-daty-i-vremeni.md)
+* [Форматирование текста](api/formatirovanie-teksta.md)
 * [Функции API](api/funkcii-api/README.md)
   * [Задачи](api/funkcii-api/zadachi/README.md)
     * [Получение списка задач в пространстве с фильтрацией и пагинацией](api/funkcii-api/zadachi/poluchenie-spiska-zadach-v-prostranstve-s-filtraciei-i-paginaciei.md)
