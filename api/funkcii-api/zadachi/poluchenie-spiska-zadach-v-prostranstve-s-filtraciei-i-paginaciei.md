@@ -6,20 +6,20 @@
 
 ### Параметры запроса:
 
-| Параметр           | Обязательность | Описание                                                                                                                                                                                                  |
-| ------------------ | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| workspace          | обязательный   | <p>Ключ или идентификатор пространства</p><p><code>/cwm/public/api/v1/workspaces/KEY/workitems</code></p><p><code>/cwm/public/api/v1/workspaces/f5ce1753-ced5-4992-beb9-7408c1a56cf8/workitems</code></p> |
-| type               |                | <p>Название или идентификатор типа (точное соответствие)</p><p><code>?type=User%20Story</code></p><p><code>?type=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                          |
-| parent             |                | <p>Ключ или идентификатор родительского элемента (задача или папка)</p><p><code>?parent=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p><p><code>?parent=TS-15</code></p>                                  |
-| sprintId           |                | <p>Идентификатор спринта</p><p><code>?sprintId=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                                                                            |
-| portfolioElementId |                | <p>Идентификатор элемента портфолио</p><p><code>?portfolioElementId=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                                                       |
-| name               |                | <p>Имя задачи (поиск по вхождению подстроки)</p><p><code>?name={string:255}</code></p>                                                                                                                    |
-| assignee           |                | <p>Логин или идентификатор ответственного</p><p><code>?assignee=ivan.ivanov</code></p><p><code>?assignee=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                  |
-| author             |                | <p>Логин или идентификатор создателя</p><p><code>?author=ivan.ivanov</code></p><p><code>?author=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                           |
-| status             |                | <p>Название или идентификатор статуса</p><p><code>?status=REQ%20TEST</code></p><p><code>?status=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                           |
-| statusCategory     |                | <p><code>?statusCategory=В работе</code></p><p><code>?statusCategory=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                                                      |
-| fromToken          |                | <p>Токен запрашиваемой страницы</p><p><code>?fromToken=f5ce1753</code></p>                                                                                                                                |
-| maxItemsCount      |                | <p>Максимальное кол-во задач на странице (по умолчанию: 50)</p><p><code>?maxItemsCount=200</code></p>                                                                                                     |
+| **Параметр**       | **Обязательность** | **Описание**                                                                                                                                                                                              |
+| ------------------ | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| workspace          | обязательный       | <p>Ключ или идентификатор пространства</p><p><code>/cwm/public/api/v1/workspaces/KEY/workitems</code></p><p><code>/cwm/public/api/v1/workspaces/f5ce1753-ced5-4992-beb9-7408c1a56cf8/workitems</code></p> |
+| type               |                    | <p>Название или идентификатор типа (точное соответствие)</p><p><code>?type=User%20Story</code></p><p><code>?type=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                          |
+| parent             |                    | <p>Ключ или идентификатор родительского элемента (задача или папка)</p><p><code>?parent=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p><p><code>?parent=TS-15</code></p>                                  |
+| sprintId           |                    | <p>Идентификатор спринта</p><p><code>?sprintId=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                                                                            |
+| portfolioElementId |                    | <p>Идентификатор элемента портфолио</p><p><code>?portfolioElementId=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                                                       |
+| name               |                    | <p>Имя задачи (поиск по вхождению подстроки)</p><p><code>?name={string:255}</code></p>                                                                                                                    |
+| assignee           |                    | <p>Логин или идентификатор ответственного</p><p><code>?assignee=ivan.ivanov</code></p><p><code>?assignee=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                  |
+| author             |                    | <p>Логин или идентификатор создателя</p><p><code>?author=ivan.ivanov</code></p><p><code>?author=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                           |
+| status             |                    | <p>Название или идентификатор статуса</p><p><code>?status=REQ%20TEST</code></p><p><code>?status=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                           |
+| statusCategory     |                    | <p><code>?statusCategory=В работе</code></p><p><code>?statusCategory=f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                                                      |
+| fromToken          |                    | <p>Токен запрашиваемой страницы</p><p><code>?fromToken=f5ce1753</code></p>                                                                                                                                |
+| maxItemsCount      |                    | <p>Максимальное кол-во задач на странице (по умолчанию: 50)</p><p><code>?maxItemsCount=200</code></p>                                                                                                     |
 
 Возможно комбинирование нескольких параметров фильтрации.
 
@@ -191,7 +191,7 @@
 
 ### Описание возвращаемой модели:
 
-| Параметр      | Описание                                                                                                            |
+| **Параметр**  | **Описание**                                                                                                        |
 | ------------- | ------------------------------------------------------------------------------------------------------------------- |
 | fromToken     | Токен текущей страницы результатов                                                                                  |
 | maxItemsCount | Кол-во запрошенных элементов на странице результатов                                                                |
