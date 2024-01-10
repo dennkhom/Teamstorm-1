@@ -81,3 +81,14 @@
   ]
 }
 ```
+
+Описание возвращаемой модели списка атрибутов:
+
+<table data-header-hidden><thead><tr><th width="214"></th><th></th></tr></thead><tbody><tr><td>Параметр</td><td>Описание</td></tr><tr><td>items</td><td><p>Список заполненных атрибутов задачи. Тип атрибута, идентификатор, название атрибута, описание атрибута, значение атрибута (формат данных описан в разделе Описание моделей значений атрибутов)</p><pre class="language-json"><code class="lang-json">[{
+      "type": "UniString",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "string",
+      "description": "string",
+      "value": "string"
+}]
+</code></pre></td></tr></tbody></table>

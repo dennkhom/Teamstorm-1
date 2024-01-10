@@ -40,3 +40,13 @@
   "createdAt": "2023-12-27T14:06:04.915Z"
 }
 ```
+
+Описание возвращаемой модели комментария:
+
+<table data-header-hidden><thead><tr><th width="220"></th><th></th></tr></thead><tbody><tr><td>Параметр</td><td>Описание</td></tr><tr><td>id</td><td>Идентификатор комментария</td></tr><tr><td>text</td><td>Секс комментария. Формат разметки комментария описан в разделе Форматирование текста</td></tr><tr><td>author</td><td><p>Автор комментария. Идентификатор, отображаемое имя, логин и почта пользователя.</p><pre class="language-json"><code class="lang-json">{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "displayName": "string",
+    "username": "string",
+    "email": "string"
+}
+</code></pre></td></tr><tr><td>createdAt</td><td>Время создания комментария</td></tr></tbody></table>

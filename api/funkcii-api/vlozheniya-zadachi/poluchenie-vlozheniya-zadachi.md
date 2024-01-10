@@ -29,3 +29,13 @@
   "createdAt": "2023-12-27T14:21:46.574Z"
 }
 ```
+
+Описание возвращаемой модели вложения:
+
+<table data-header-hidden><thead><tr><th width="260"></th><th></th></tr></thead><tbody><tr><td>Параметр</td><td>Описание</td></tr><tr><td>attachmentId</td><td>Идентификатор вложения</td></tr><tr><td>workspaceId</td><td>Идентификатор пространства, в которое добавлено вложение</td></tr><tr><td>createdBy</td><td><p>Автор вложения. Идентификатор, отображаемое имя, логин и почта пользователя.</p><pre class="language-json"><code class="lang-json">{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "displayName": "string",
+    "username": "string",
+    "email": "string"
+}
+</code></pre></td></tr><tr><td>fileId</td><td>Идентификатор файла вложения</td></tr><tr><td>name</td><td>Название файла вложения</td></tr><tr><td>type</td><td>MIME-тип файла вложения</td></tr><tr><td>size</td><td>Размер файла вложения в байтах</td></tr><tr><td>createdAt</td><td>Время создания вложения</td></tr></tbody></table>
