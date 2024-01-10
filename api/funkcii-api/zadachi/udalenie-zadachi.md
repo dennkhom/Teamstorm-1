@@ -1,6 +1,6 @@
 # Удаление задачи
 
-## **Удаление задачи**
+Удаляет задачу.
 
 `DELETE /cwm/public/api/v1/workspaces/{workspace}/workitems/{workitem}`
 
