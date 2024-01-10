@@ -34,3 +34,19 @@
   }
 }
 ```
+
+Описание возвращаемой модели портфолио:
+
+<table data-header-hidden><thead><tr><th width="264"></th><th></th></tr></thead><tbody><tr><td>Параметр</td><td>Описание</td></tr><tr><td>id</td><td>Идентификатор портфолио</td></tr><tr><td>name</td><td>Название портфолио</td></tr><tr><td>description</td><td>Описание портфолио</td></tr><tr><td>folder</td><td><p>Папка, в которую добавлено портфолио. Идентификатор и название папки.</p><pre class="language-json"><code class="lang-json">{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "name": "string"
+}
+</code></pre></td></tr><tr><td>elements</td><td><p>Список элементов портфолио. Название и идентификатор элемента.</p><pre class="language-json"><code class="lang-json">{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "name": "string"
+}
+</code></pre></td></tr><tr><td>workflow</td><td><p>Процесс, определяющий статусную модель портфолио. Название и идентификатор процесса.</p><pre class="language-json"><code class="lang-json">{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "name": "string"
+}
+</code></pre></td></tr></tbody></table>

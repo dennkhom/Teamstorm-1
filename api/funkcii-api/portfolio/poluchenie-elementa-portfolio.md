@@ -42,3 +42,25 @@
   }
 }
 ```
+
+Описание возвращаемой модели элемента портфолио:
+
+<table data-header-hidden><thead><tr><th width="195"></th><th></th></tr></thead><tbody><tr><td>Параметр</td><td>Описание</td></tr><tr><td>id</td><td>Идентификатор элемента</td></tr><tr><td>name</td><td>Название элемента</td></tr><tr><td>description</td><td>Описание элемента</td></tr><tr><td>startDate</td><td>Плановая дата начала</td></tr><tr><td>endDate</td><td>Плановая дата завершения</td></tr><tr><td>status</td><td><p>Статус элемента. Идентификатор статуса, название статуса, категория статуса.</p><pre class="language-json"><code class="lang-json">{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "name": "string",
+    "category": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "string"
+    }   
+}
+</code></pre></td></tr><tr><td>responsibles</td><td><p>Список ответственных по элементу. Идентификаторы, отображаемое имя, логин и почта пользователей.</p><pre class="language-json"><code class="lang-json">[{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "displayName": "string",
+    "username": "string",
+    "email": "string"
+}]
+</code></pre></td></tr><tr><td>portfolio</td><td><p>Портфолио, в которое добавлен элемент. Идентификатор и название портфолио.</p><pre class="language-json"><code class="lang-json">{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "name": "string"
+}
+</code></pre></td></tr></tbody></table>
