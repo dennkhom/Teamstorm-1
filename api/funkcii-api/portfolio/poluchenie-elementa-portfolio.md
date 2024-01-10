@@ -6,10 +6,10 @@
 
 ### Параметры запроса:
 
-| Параметр           | Обязательность | Описание                                                                                                                                                                                                  |
-| ------------------ | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| workspace          | обязательный   | <p>Ключ или идентификатор пространства</p><p><code>/cwm/public/api/v1/workspaces/KEY/workitems</code></p><p><code>/cwm/public/api/v1/workspaces/f5ce1753-ced5-4992-beb9-7408c1a56cf8/workitems</code></p> |
-| portfolioElementId |                | <p>Идентификатор элемента портфолио</p><p><code>f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                                                                           |
+| **Параметр**       | **Обязательность** | **Описание**                                                                                                                                                                                              |
+| ------------------ | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| workspace          | обязательный       | <p>Ключ или идентификатор пространства</p><p><code>/cwm/public/api/v1/workspaces/KEY/workitems</code></p><p><code>/cwm/public/api/v1/workspaces/f5ce1753-ced5-4992-beb9-7408c1a56cf8/workitems</code></p> |
+| portfolioElementId |                    | <p>Идентификатор элемента портфолио</p><p><code>f5ce1753-ced5-4992-beb9-7408c1a56cf8</code></p>                                                                                                           |
 
 Возможно комбинирование параметров фильтрации.
 
@@ -47,7 +47,7 @@
 
 ### Описание возвращаемой модели элемента портфолио:
 
-<table data-header-hidden><thead><tr><th width="195"></th><th></th></tr></thead><tbody><tr><td>Параметр</td><td>Описание</td></tr><tr><td>id</td><td>Идентификатор элемента</td></tr><tr><td>name</td><td>Название элемента</td></tr><tr><td>description</td><td>Описание элемента</td></tr><tr><td>startDate</td><td>Плановая дата начала</td></tr><tr><td>endDate</td><td>Плановая дата завершения</td></tr><tr><td>status</td><td><p>Статус элемента. Идентификатор статуса, название статуса, категория статуса.</p><pre class="language-json"><code class="lang-json">{
+<table data-header-hidden><thead><tr><th width="195"></th><th></th></tr></thead><tbody><tr><td><strong>Параметр</strong></td><td><strong>Описание</strong></td></tr><tr><td>id</td><td>Идентификатор элемента</td></tr><tr><td>name</td><td>Название элемента</td></tr><tr><td>description</td><td>Описание элемента</td></tr><tr><td>startDate</td><td>Плановая дата начала</td></tr><tr><td>endDate</td><td>Плановая дата завершения</td></tr><tr><td>status</td><td><p>Статус элемента. Идентификатор статуса, название статуса, категория статуса.</p><pre class="language-json"><code class="lang-json">{
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
     "name": "string",
     "category": {
