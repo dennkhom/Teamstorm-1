@@ -41,3 +41,9 @@ TeamStorm — это современная система управления 
 [2022](release-notes/2022/)
 {% endcontent-ref %}
 
+**API:**
+
+{% content-ref url="api/funkcii-api/" %}
+[funkcii-api](api/funkcii-api/)
+{% endcontent-ref %}
+
