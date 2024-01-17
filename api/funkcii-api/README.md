@@ -28,3 +28,31 @@
 [portfolio](portfolio/)
 {% endcontent-ref %}
 
+{% content-ref url="sprinty/" %}
+[sprinty](sprinty/)
+{% endcontent-ref %}
+
+{% content-ref url="statusy/" %}
+[statusy](statusy/)
+{% endcontent-ref %}
+
+{% content-ref url="tipy-zadach/" %}
+[tipy-zadach](tipy-zadach/)
+{% endcontent-ref %}
+
+{% content-ref url="polzovateli/" %}
+[polzovateli](polzovateli/)
+{% endcontent-ref %}
+
+{% content-ref url="gruppy/" %}
+[gruppy](gruppy/)
+{% endcontent-ref %}
+
+{% content-ref url="rabochie-processy/" %}
+[rabochie-processy](rabochie-processy/)
+{% endcontent-ref %}
+
+{% content-ref url="prostranstva/" %}
+[prostranstva](prostranstva/)
+{% endcontent-ref %}
+
