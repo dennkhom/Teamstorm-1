@@ -6,6 +6,9 @@ TeamStorm REST API использует аутентификацию на осн
 
 При аутентификации с использованием токена действует набор привилегий пользователя, выписавшего токен.
 
-`curl -X POST https://TEAMSTORM_URI/cwm/public/api/v1/... \`
+```
+curl -X POST https://TEAMSTORM_URI/cwm/public/api/v1/... \
+ -H 'Authorization: PrivateToken YOUR_TOKEN'
+```
 
-&#x20; `-H 'Authorization: PrivateToken YOUR_TOKEN'`
+&#x20;
