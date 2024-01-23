@@ -2,8 +2,8 @@
 
 Раздел содержит описание установки архивных версий TeamStorm:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="versiya-2.33.3/" %}
+[versiya-2.33.3](versiya-2.33.3/)
 {% endcontent-ref %}
 
 {% content-ref url="versiya-2.0.0-i-bolee-pozdnie.md" %}
