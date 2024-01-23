@@ -4,8 +4,8 @@
 
 Документ описывает действия системного администратора по установке, обновлению, резервному копированию, восстановлению и настройке программного обеспечения TeamStorm
 
-{% content-ref url="../rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/arkhivnye-versii/versiya-2.33.3/" %}
-[versiya-2.33.3](../rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/arkhivnye-versii/versiya-2.33.3/)
+{% content-ref url="../rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0-i-vyshe/" %}
+[versiya-2.61.0-i-vyshe](../rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/versiya-2.61.0-i-vyshe/)
 {% endcontent-ref %}
 
 {% content-ref url="../rukovodstva/rukovodstvo-sistemnogo-administratora-teamstorm/arkhivnye-versii/" %}
