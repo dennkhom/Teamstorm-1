@@ -2,5 +2,11 @@
 
 Существует два способа добавления команды в спринт:
 
-* добавление участников в команду;
-* копирование команды из другого спринта.
+{% content-ref url="dobavlenie-uchastnikov-v-komandu.md" %}
+[dobavlenie-uchastnikov-v-komandu.md](dobavlenie-uchastnikov-v-komandu.md)
+{% endcontent-ref %}
+
+{% content-ref url="kopirovanie-komandy-v-sprint.md" %}
+[kopirovanie-komandy-v-sprint.md](kopirovanie-komandy-v-sprint.md)
+{% endcontent-ref %}
+

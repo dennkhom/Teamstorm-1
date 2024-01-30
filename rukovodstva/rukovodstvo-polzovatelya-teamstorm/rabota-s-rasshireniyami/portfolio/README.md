@@ -30,10 +30,6 @@
 [sozdanie-elementa-portfolio.md](sozdanie-elementa-portfolio.md)
 {% endcontent-ref %}
 
-{% content-ref url="sozdanie-elementa-portfolio.md" %}
-[sozdanie-elementa-portfolio.md](sozdanie-elementa-portfolio.md)
-{% endcontent-ref %}
-
 {% content-ref url="dobavlenie-zadach-v-element-portfolio.md" %}
 [dobavlenie-zadach-v-element-portfolio.md](dobavlenie-zadach-v-element-portfolio.md)
 {% endcontent-ref %}
