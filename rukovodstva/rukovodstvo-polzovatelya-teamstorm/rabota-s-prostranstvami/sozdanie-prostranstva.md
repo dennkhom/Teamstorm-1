@@ -20,4 +20,6 @@
 [kopirovanie-nastroek-prostranstva.md](sozdanie-prostranstva/kopirovanie-nastroek-prostranstva.md)
 {% endcontent-ref %}
 
-Создание пространства по шаблону
+{% content-ref url="sozdanie-prostranstva/sozdanie-prostranstva-po-shablonu.md" %}
+[sozdanie-prostranstva-po-shablonu.md](sozdanie-prostranstva/sozdanie-prostranstva-po-shablonu.md)
+{% endcontent-ref %}
