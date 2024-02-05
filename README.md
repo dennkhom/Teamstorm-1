@@ -33,6 +33,10 @@ TeamStorm — это современная система управления 
 
 **Release Notes:**
 
+{% content-ref url="release-notes/2024/" %}
+[2024](release-notes/2024/)
+{% endcontent-ref %}
+
 {% content-ref url="release-notes/2023/" %}
 [2023](release-notes/2023/)
 {% endcontent-ref %}
